@@ -1,0 +1,1201 @@
+number,title,created_at,closed_at
+1,image for readme,2016-01-20T17:51:35Z,2016-01-20T17:51:38Z
+3,Setup `init.d` for starting/stopping service,2016-01-22T17:43:52Z,2016-02-09T01:07:35Z
+4,Spectre testing,2016-01-22T17:44:32Z,2016-01-26T13:24:02Z
+5,Session class,2016-01-22T17:45:34Z,2016-01-26T13:23:50Z
+6,Use node HTTP-parser,2016-01-26T03:55:09Z,2016-02-04T05:32:12Z
+7,Stencil/Mustache parsing,2016-01-27T01:11:21Z,2016-02-09T01:07:21Z
+10,Unable to build,2016-01-28T19:27:06Z,2016-01-29T04:24:07Z
+11,"compile fail, ubuntu 14.04",2016-01-29T09:15:58Z,2016-02-01T16:14:07Z
+12,Asynchronous,2016-01-29T17:10:21Z,2016-02-01T23:06:52Z
+18,Error while deploying to Heroku,2016-02-05T20:43:43Z,2016-02-05T23:03:04Z
+20,Xcode project missing files that have been added to .gitignore,2016-02-07T19:51:22Z,2016-02-09T01:07:05Z
+21,create documentation wiki,2016-02-12T15:18:24Z,2016-02-15T15:16:15Z
+22,post request body,2016-02-13T01:00:06Z,2016-02-15T14:47:06Z
+23,Unable to properly infer complex Json,2016-02-13T05:49:32Z,2016-02-22T06:34:30Z
+24,Needs a License,2016-02-13T23:37:13Z,2016-02-14T06:09:19Z
+27,Vapor installer,2016-02-14T07:12:37Z,2016-02-15T22:56:10Z
+28,JSON encoded requests,2016-02-15T14:46:45Z,2016-02-22T06:34:21Z
+32,Decode URL-encoded parameters in request.parameters,2016-02-18T18:49:23Z,2016-02-18T22:22:45Z
+37,JSONSerializer not working with Array<String: Any>.,2016-02-20T08:17:09Z,2016-02-20T19:08:32Z
+41,Logger wip,2016-02-21T05:27:54Z,2016-02-23T03:29:37Z
+42,Cryptography best practices,2016-02-21T06:54:57Z,2016-02-22T06:34:03Z
+43,Benchmark require,2016-02-21T07:40:25Z,2016-02-22T06:32:09Z
+44,License violation,2016-02-21T08:52:48Z,2016-02-21T16:10:19Z
+51,Improper JSON serialization leads to user-controlled JSON contents,2016-02-22T06:15:41Z,2016-02-22T06:21:26Z
+59,Controller Refactor Proposal,2016-02-23T06:50:56Z,2016-02-25T05:29:19Z
+70,Query data is being handled improperly ,2016-02-25T07:30:29Z,2016-03-01T15:59:04Z
+84,"Compile failure on OSX 10.10.5 , Xcode 7.1",2016-02-27T09:42:12Z,2016-02-28T08:46:04Z
+85,DDoS risk,2016-02-27T13:31:43Z,2016-02-28T08:43:33Z
+87,"Unable to build on OS X 10.11, Xcode 7.3 Beta",2016-02-27T21:02:13Z,2016-02-28T08:39:34Z
+93,Problem with swiftpm,2016-03-01T06:49:40Z,2016-03-01T19:22:32Z
+96,"""no such module 'Jay'"" when running `swift build`",2016-03-01T19:38:58Z,2016-03-02T09:18:30Z
+105,On stage @ Try!Swift Conf,2016-03-04T01:58:17Z,2016-03-07T16:35:56Z
+106,Server Side Requirements,2016-03-04T11:07:21Z,2016-03-07T16:35:24Z
+108,iOS app with a backend using Vapor,2016-03-05T22:26:22Z,2016-03-18T20:33:58Z
+109,Hello world not working,2016-03-06T19:30:36Z,2016-03-07T18:19:34Z
+110,Response status No Content,2016-03-06T20:07:07Z,2016-03-07T17:10:27Z
+111,Json cannot be initialized using Int,2016-03-06T20:39:42Z,2016-03-20T17:40:54Z
+112,Injecting dependencies into ResourceControllers,2016-03-06T21:06:29Z,2016-03-22T13:51:01Z
+113,Curassow driver for Vapor,2016-03-07T10:18:16Z,2016-03-18T20:33:50Z
+115,Can't deploy to heroku -> Vapor was not compiled for testing,2016-03-07T14:34:46Z,2016-03-07T19:01:15Z
+121,Question: is it (in the near future) possible to run this on the Raspberry Pi,2016-03-09T20:55:17Z,2016-05-05T20:18:12Z
+126,Default response text,2016-03-11T13:12:04Z,2016-03-29T00:07:00Z
+127,Use of `self`,2016-03-11T13:36:41Z,2016-03-29T00:03:16Z
+128,Placement of `inout`,2016-03-11T13:40:58Z,2016-03-29T00:03:10Z
+129,"Is there a plan to make vapor a fast cgi server ,like web.py?",2016-03-12T05:36:07Z,2016-03-15T15:02:46Z
+144,Routers accepting variadic handlers,2016-03-22T08:23:53Z,2016-03-29T00:07:23Z
+157,Dangerous `rm -rf` in CLI,2016-03-26T05:31:44Z,2016-03-28T23:00:29Z
+158,Build Errors when building with Vapor 0.3.5,2016-03-27T18:44:23Z,2016-03-29T00:03:02Z
+166,Erro on link libStrand.so,2016-04-01T15:11:16Z,2016-04-06T04:47:48Z
+168,Slack channel not working,2016-04-05T13:32:18Z,2016-04-06T04:47:04Z
+169,main.swift:2:8: error: no such module 'VaporZewoMustache',2016-04-05T13:51:21Z,2016-04-05T16:30:18Z
+170,Error compiler depedency,2016-04-05T22:21:41Z,2016-04-06T04:46:43Z
+173,main.swift:2:8: error: no such module 'VaporZewoMustache',2016-04-08T14:53:51Z,2016-04-09T02:45:34Z
+177,<unknown>:0: error: unable to load standard library for target 'x86_64-apple-macosx10.9',2016-04-11T22:03:37Z,2016-05-05T20:17:43Z
+178,swift 3.0 package error,2016-04-12T02:05:29Z,2016-04-13T04:20:31Z
+181,🛠 Roadmap / To Do,2016-04-15T00:29:44Z,2016-05-16T19:19:41Z
+183,CircleCI in progress,2016-04-16T22:10:29Z,2016-04-25T21:23:32Z
+184,Unable to build project,2016-04-18T17:40:53Z,2016-04-19T09:19:37Z
+185,Build fails for swift-DEVELOPMENT-SNAPSHOT-2016-04-12-a ,2016-04-19T05:37:18Z,2016-04-22T02:07:08Z
+188,Vapor.Json is not initializable with [Vapor.Json],2016-04-20T13:12:23Z,2016-04-26T11:01:11Z
+190,Error receiving request: InvalidRequestLine,2016-04-20T21:43:29Z,2016-04-21T17:50:44Z
+192,"""Response had no 'Content-Type' header"" warning when sending CSS",2016-04-22T12:53:21Z,2016-05-06T01:52:17Z
+193,Session token not generating when one already exists,2016-04-22T14:18:07Z,2016-05-06T19:06:40Z
+194,The JSON API doesn't accept itself,2016-04-22T14:20:05Z,2016-05-11T03:38:07Z
+195,`Hash` isn't publically initializable,2016-04-22T14:21:11Z,2016-07-04T15:51:21Z
+198,WebSocket middelwares can't work,2016-04-25T09:05:24Z,2016-04-26T10:58:54Z
+203,Suggestion for addition features to roadmap,2016-05-02T09:37:12Z,2016-05-05T20:15:42Z
+204,Fix project-wide spacing rules,2016-05-02T15:07:30Z,2016-05-05T23:54:24Z
+212,Hot reload on code change,2016-05-06T12:19:45Z,2016-05-06T19:07:17Z
+213,Update Version,2016-05-06T17:07:29Z,2016-05-06T23:34:10Z
+214,`vapor new` should automatically initialize an empty Git repository,2016-05-06T20:58:56Z,2016-05-07T17:57:39Z
+215,`vapor new` should create a barebone project without boilerplate code,2016-05-06T21:32:28Z,2016-05-07T17:24:49Z
+216,improve git functionality for `vapor new`,2016-05-06T21:44:41Z,2016-07-04T15:50:11Z
+217,add `vapor self-update` command,2016-05-07T02:36:55Z,2016-05-07T19:31:51Z
+219,Suggestion for roadmap,2016-05-07T02:59:50Z,2016-05-11T00:40:08Z
+220,get rid of extraneous `?` with `Node`,2016-05-07T08:03:45Z,2016-05-07T22:08:13Z
+224,update to CK 0.7,2016-05-08T19:59:51Z,2016-05-08T20:54:23Z
+225,Example not building on Linux,2016-05-09T16:30:19Z,2016-05-10T00:10:10Z
+226,`app.any` needs label,2016-05-09T18:20:26Z,2016-05-10T00:43:52Z
+227,complex json not compiling,2016-05-09T18:21:16Z,2016-05-10T00:22:36Z
+228,vapor zewo mustache 05-03,2016-05-09T18:22:07Z,2016-05-12T01:04:46Z
+230,validation failing emails via POST,2016-05-10T03:45:23Z,2016-05-11T01:36:18Z
+231,build git bug,2016-05-10T22:14:36Z,2016-05-11T00:05:28Z
+234,empty POST closing connection,2016-05-11T00:38:32Z,2016-05-11T02:23:21Z
+240,Better cli build error message,2016-05-11T03:29:14Z,2016-05-11T03:39:48Z
+242,pull request approval process,2016-05-11T19:51:24Z,2016-05-16T19:24:38Z
+243,Nice work!,2016-05-11T20:21:09Z,2016-05-17T19:18:20Z
+244,refactor `Valid` rules initialization,2016-05-12T00:43:00Z,2016-05-12T23:26:56Z
+245,Some useful alogrithm testing in Vapor suite,2016-05-12T15:54:47Z,2016-05-27T21:35:22Z
+246,rename `And` and `Or` validators to `Both` and `Either`,2016-05-12T23:20:20Z,2016-05-25T19:45:45Z
+247,allow validators to transform the input,2016-05-13T00:07:33Z,2016-05-27T21:23:27Z
+248,Unable to deploy Heroku -- Resolution steps in thread,2016-05-14T04:00:12Z,2016-05-15T03:27:54Z
+249,`passes()` vs `passed()` in the docs,2016-05-14T11:03:23Z,2016-05-17T00:55:00Z
+250,scoped middleware not there,2016-05-14T14:26:14Z,2016-05-16T14:55:20Z
+251,localization,2016-05-14T15:55:37Z,2016-05-26T21:26:32Z
+254,mustache character encoding,2016-05-15T02:58:08Z,2016-05-26T16:35:54Z
+255,OPTIONS support on controllers,2016-05-15T15:27:06Z,2016-06-07T17:34:56Z
+256,pure JSON 05-09,2016-05-15T23:54:05Z,2016-05-16T11:15:16Z
+257,Error compiling with latest snapshot,2016-05-16T09:00:28Z,2016-05-16T10:17:58Z
+259,cache,2016-05-16T18:05:27Z,2016-08-17T00:18:28Z
+260,file uploads,2016-05-16T18:14:23Z,2016-05-24T17:20:43Z
+261,finish web framework benchmarks,2016-05-16T18:16:00Z,2017-01-13T20:11:27Z
+262,client,2016-05-16T18:24:49Z,2016-06-28T03:11:14Z
+263,scheduled tasks,2016-05-16T18:33:49Z,2017-01-13T20:18:54Z
+264,queue ,2016-05-16T18:38:52Z,2016-08-25T23:14:01Z
+265,front end example projects,2016-05-16T18:41:49Z,2016-10-28T17:15:46Z
+266,kitura server,2016-05-16T18:48:30Z,2016-10-28T17:17:00Z
+267,deployment documentation,2016-05-16T18:57:35Z,2017-01-13T20:20:16Z
+268,websockets,2016-05-16T19:01:51Z,2016-06-09T15:22:11Z
+269,query & form-encoded parsing to spec,2016-05-16T19:03:49Z,2016-05-24T17:21:21Z
+270,request initializable,2016-05-16T19:15:07Z,2016-08-29T19:40:55Z
+271,auth,2016-05-16T19:16:05Z,2016-08-25T23:15:48Z
+272,faker,2016-05-16T19:18:00Z,2017-01-13T20:20:53Z
+273,StringInitializable in `add` on Application,2016-05-17T09:59:29Z,2016-07-29T22:12:01Z
+274,Better way to handle large groupings of routes,2016-05-17T17:52:43Z,2016-05-25T20:13:58Z
+275,Email regex does not fail with æøå,2016-05-17T17:56:51Z,2016-05-25T20:53:02Z
+276,form encoded arrays,2016-05-17T17:57:51Z,2016-05-24T17:21:13Z
+277,Send Email,2016-05-17T18:00:45Z,2016-07-13T00:20:40Z
+278,NSDate,2016-05-17T18:05:24Z,2016-06-14T14:26:06Z
+279,config / .env documentation,2016-05-17T18:29:36Z,2016-05-24T15:05:47Z
+280,fluent foundation,2016-05-17T21:18:20Z,2016-05-24T16:28:23Z
+283,robust cookie support,2016-05-18T15:25:30Z,2016-07-04T15:51:01Z
+284,remove extra schemes with cli,2016-05-18T20:46:47Z,2016-05-20T15:20:02Z
+286,Add Heroku Instance to Build Pushes,2016-05-19T00:00:44Z,2016-07-01T01:40:14Z
+290,log levels enum,2016-05-19T23:52:12Z,2016-05-20T15:47:52Z
+291,build not success,2016-05-20T06:27:56Z,2016-05-27T21:11:47Z
+292,Need interactive overview on Vapor,2016-05-20T09:32:55Z,2016-08-25T23:16:22Z
+293,fuzzy JSON string <-> int,2016-05-20T14:18:57Z,2016-05-25T20:13:58Z
+295,messages on `Abort`,2016-05-20T18:26:17Z,2016-05-26T16:15:55Z
+297,Guideline for plugins,2016-05-21T16:54:05Z,2016-08-25T23:16:54Z
+299,VM image for running Swift 3 and Vapor,2016-05-22T13:28:12Z,2016-05-23T19:37:41Z
+301,Testing Framework,2016-05-23T09:10:37Z,2016-10-28T17:19:15Z
+302,app.group is not thread-safe,2016-05-23T18:56:37Z,2016-05-25T20:13:58Z
+305,Schemabuilder,2016-05-24T18:55:09Z,2016-06-23T22:21:27Z
+306,Capistrano like update system,2016-05-24T22:43:52Z,2017-01-13T20:22:54Z
+308,"""$ swift build"" now returns error",2016-05-25T08:32:34Z,2016-05-25T10:40:16Z
+309,providers in init,2016-05-25T15:41:29Z,2016-06-06T14:10:55Z
+311,Document Hot Reload w/ Gulp-Vapor,2016-05-25T16:03:50Z,2017-01-13T20:22:45Z
+313,Build / compile error,2016-05-25T20:20:17Z,2016-05-25T20:58:36Z
+315,StringInitializable Fluent Models,2016-05-25T23:11:41Z,2016-08-25T23:39:51Z
+318,Handling 500/502/503/504 error request,2016-05-26T01:39:39Z,2016-05-26T15:19:16Z
+319,Discuss possibility of all CLI Args added to Config as `app`,2016-05-26T02:32:45Z,2016-05-26T21:33:53Z
+321,Crash on MultiPart Forms,2016-05-26T03:02:05Z,2016-05-26T21:03:04Z
+325,Change router syntax a tiny bit for more clarity,2016-05-26T21:14:19Z,2016-05-27T21:10:55Z
+326,Launch messaging,2016-05-27T05:53:27Z,2016-06-14T14:25:34Z
+327,Vapor example won't build on Linux Mint,2016-05-27T07:28:49Z,2016-05-30T17:58:05Z
+335,Binding for Argon2,2016-05-29T01:24:54Z,2016-06-25T18:02:42Z
+339,Route hosts the same as groups,2016-05-30T05:51:59Z,2016-05-30T20:31:34Z
+341,Routing in JSON,2016-05-31T03:20:52Z,2016-06-25T18:04:08Z
+343,Couldn't start server on Xcode ,2016-06-01T08:12:49Z,2016-06-10T04:13:17Z
+345,console printing,2016-06-01T20:47:19Z,2016-06-07T17:34:42Z
+350,See Vapor CLI version,2016-06-03T08:10:31Z,2016-06-03T14:42:41Z
+351,Lower case on --workDir command,2016-06-03T08:14:19Z,2016-06-14T14:25:16Z
+355,Vapor auto exit after benchmark,2016-06-04T14:07:37Z,2016-06-14T14:24:47Z
+356,Error: could not build Objective-C module 'SwiftGlibc',2016-06-05T05:25:48Z,2016-06-05T05:30:46Z
+360,middleware based request content,2016-06-07T14:04:01Z,2016-06-14T14:25:00Z
+364,organize constants,2016-06-07T22:43:07Z,2016-06-14T14:24:30Z
+367,enhance nullability of endpoints,2016-06-08T20:29:32Z,2016-08-25T23:39:35Z
+371,new app's mustache is broken,2016-06-09T11:43:06Z,2016-06-14T14:24:07Z
+375,support environment variables,2016-06-09T18:32:20Z,2016-07-13T15:09:23Z
+376,I'm wondering if the current validation system is overly complicated,2016-06-09T21:54:39Z,2016-08-25T23:39:23Z
+380,"Users, roles, authentication, authorization and sessions",2016-06-10T22:58:29Z,2016-08-25T23:38:40Z
+384,`readBytesFromFile` does not fail for missing files,2016-06-12T20:09:49Z,2016-07-04T15:48:14Z
+389,hot code reload,2016-06-14T08:09:11Z,2016-08-25T23:38:22Z
+390,fix request parsing issues,2016-06-14T14:04:10Z,2016-06-14T14:04:14Z
+398,Error: Could not determine Swift version (check your .swift-version file),2016-06-21T18:47:54Z,2016-08-25T23:38:13Z
+408,Can't install vapor on macOS Sierra,2016-06-27T22:38:56Z,2016-06-28T12:01:40Z
+409,Overflow when casting UInt32.max to Int...,2016-06-28T16:49:09Z,2016-06-30T19:31:56Z
+413,The slack url is break,2016-06-30T09:15:57Z,2016-07-01T01:59:21Z
+418,Default view templates for aborted requests,2016-07-01T01:43:12Z,2016-09-20T04:07:29Z
+419,Some sort of session edge case?,2016-07-01T07:48:45Z,2016-09-10T19:31:43Z
+420,Provider configuration should wait until after Application has initialized,2016-07-01T07:58:43Z,2016-08-25T23:36:06Z
+421,Subscripting JSON doesn't work,2016-07-02T18:36:36Z,2016-07-20T14:46:35Z
+424,06-20a build error,2016-07-03T12:10:32Z,2016-07-04T07:14:01Z
+425,Help needed in deployment,2016-07-03T13:42:13Z,2016-08-25T23:34:42Z
+428,Redirects should 302 by default,2016-07-03T21:31:58Z,2016-07-04T17:01:14Z
+430,How to route to the controller action?,2016-07-04T11:03:06Z,2016-08-25T23:48:34Z
+431,"""vapor docker build"" error on Docker Version 1.12.0-rc3-beta18 (build: 9996)",2016-07-04T15:18:08Z,2016-08-07T01:31:35Z
+439,Dokku Support,2016-07-09T22:56:32Z,2017-01-13T20:22:18Z
+440,Problems compiling a fresh project,2016-07-10T12:52:27Z,2016-07-11T06:46:51Z
+442,IoC container & Automatic resolution,2016-07-11T15:57:28Z,2016-08-25T23:33:35Z
+444,Controllers not being displayed : Page not found error.,2016-07-11T22:43:08Z,2016-07-13T16:24:25Z
+445,Middleware not always called,2016-07-12T11:44:41Z,2016-07-29T20:53:45Z
+447,Vapor couldn't make database table  preparations unlike in mysql,2016-07-12T18:23:45Z,2016-08-25T23:33:11Z
+452,Unable to create resource in grouped route,2016-07-13T06:13:36Z,2016-07-29T20:54:18Z
+454,Getting socket errors with middleware trying to access headers,2016-07-14T00:53:26Z,2016-08-25T23:31:13Z
+455,infinite route grouping,2016-07-14T17:35:32Z,2016-07-29T20:53:56Z
+456,qutheory/core,2016-07-14T17:36:19Z,2016-07-25T15:01:25Z
+457,joins and relationships in Fluent,2016-07-14T17:36:48Z,2016-07-27T23:16:13Z
+458,NotFound to be part of the Vapor core?,2016-07-16T03:36:26Z,2016-07-18T20:07:10Z
+460,encryption support,2016-07-18T20:17:51Z,2016-09-11T23:31:12Z
+461,support type safe routing with `drop.any`,2016-07-18T20:18:33Z,2017-01-13T20:22:01Z
+462,no preparations warning,2016-07-18T20:19:23Z,2016-07-29T21:56:18Z
+463,Windows development with Vagrant,2016-07-18T20:19:51Z,2016-10-12T19:26:41Z
+464,update `--port` in docs,2016-07-18T20:20:29Z,2016-08-25T23:26:17Z
+465,update Xcode version in the docs,2016-07-18T20:21:22Z,2016-08-25T23:25:50Z
+466,static View renderers,2016-07-18T20:22:06Z,2016-08-26T20:51:27Z
+467,Droplet storage,2016-07-18T20:22:43Z,2016-07-25T15:01:17Z
+468,add `ConfigInitializable` protocol,2016-07-18T20:29:10Z,2016-07-29T20:54:02Z
+469,SQL error when appending filters,2016-07-18T21:05:36Z,2016-07-19T16:43:19Z
+472,Support overriding request method,2016-07-20T22:34:25Z,2016-09-14T19:23:02Z
+474,Found invalid inferred toolchain error when installing toolbox in ubuntu.,2016-07-21T18:38:46Z,2016-08-25T23:26:09Z
+479,Smart upgrade with notification and impact,2016-07-26T10:11:08Z,2016-08-25T23:25:31Z
+483,The command `--port` seems  don't work,2016-07-27T15:09:48Z,2016-07-27T16:01:44Z
+484,ValidationErrorProtocol should be CustomStringConvertible,2016-07-27T19:49:05Z,2016-08-30T21:44:52Z
+485,CSRF Support,2016-07-27T19:57:26Z,2017-04-27T11:18:21Z
+492,Server error appears after application sits idle,2016-07-29T20:25:59Z,2016-08-25T23:23:39Z
+495,Add a default path of / for cookies,2016-07-29T23:32:35Z,2016-08-25T23:23:20Z
+496,JSONRepresentable in Vapor,2016-07-30T00:02:35Z,2016-08-25T23:22:53Z
+497,Improve API for cookies,2016-07-30T00:24:35Z,2016-08-25T23:23:06Z
+499,Throw specific error when missing linker flag,2016-07-30T20:55:50Z,2016-09-09T00:43:46Z
+500,Security features and changes in Vapor,2016-07-30T21:09:04Z,2016-10-28T17:20:32Z
+502,Sessions,2016-08-01T20:29:40Z,2016-09-10T19:28:46Z
+503,Layouting Engine,2016-08-01T20:40:09Z,2016-08-26T18:21:43Z
+504,RequestParameterInitializable,2016-08-02T07:50:35Z,2017-01-13T20:23:39Z
+505,Add support for Gzip (Server and Client),2016-08-02T13:58:02Z,2017-04-27T11:20:14Z
+506,JSON initialization with array,2016-08-02T20:28:55Z,2016-08-25T23:21:26Z
+507,"can't install vapor, while I use xCode 8 beta 4",2016-08-03T13:37:29Z,2016-08-25T23:20:36Z
+511,Final Middleware,2016-08-04T06:41:27Z,2016-08-25T23:20:19Z
+513,Validator `test()` method,2016-08-05T23:26:23Z,2017-01-13T20:23:43Z
+515,Strip JSON comments before parsing,2016-08-06T10:12:00Z,2016-08-31T03:33:30Z
+516,Can't send emoji in plain text,2016-08-06T10:13:29Z,2016-08-25T23:21:09Z
+518,Vapor - How to access FluentValue?,2016-08-07T15:20:23Z,2016-08-07T20:50:59Z
+520,use of undeclared type 'Never',2016-08-08T10:09:23Z,2016-08-10T00:53:19Z
+521,More Flexible View Lookup,2016-08-08T19:58:43Z,2016-08-26T18:12:26Z
+522,"When trying to save an entry to the database, my app crashes.",2016-08-10T08:02:13Z,2016-10-28T17:13:18Z
+523,Server error: dispatch(HTTP.ParserError.streamEmpty),2016-08-10T14:53:26Z,2016-08-27T09:55:22Z
+524,Type of expression is ambiguous without more context,2016-08-12T11:02:22Z,2016-08-25T23:18:03Z
+525,could not compile mysql-provier,2016-08-13T08:56:22Z,2016-08-15T21:44:04Z
+526,Integrate with XCode 8 beta 5,2016-08-15T18:20:23Z,2016-08-25T23:17:51Z
+528,Make code coverage only run tests once?,2016-08-15T21:53:13Z,2016-08-25T23:17:33Z
+529,Integrate Turnstile,2016-08-16T01:11:27Z,2016-08-30T21:44:31Z
+531,Default parameter values,2016-08-17T08:12:29Z,2016-10-28T17:14:52Z
+532,create custom `Config` objects easier,2016-08-18T21:49:26Z,2016-08-30T20:10:39Z
+534,Allow disabling View.cache in development,2016-08-21T09:39:38Z,2016-08-26T20:49:24Z
+538,Get IP address from Request,2016-08-23T11:35:19Z,2016-08-23T20:18:58Z
+539,Caching and Conditional Requests,2016-08-23T14:36:41Z,2017-01-13T20:41:09Z
+540,REST driver for Fluent,2016-08-23T16:11:26Z,2017-05-05T18:54:25Z
+541,How to allow calls to an insecure URL?,2016-08-25T14:32:50Z,2016-09-09T00:53:55Z
+543,"Source code interactive, mouse over hotspots",2016-08-26T02:07:43Z,2016-09-10T17:17:36Z
+545,Leaf Syntax Proposal,2016-08-26T06:37:10Z,2016-10-28T17:11:14Z
+546,localization middleware,2016-08-26T18:40:42Z,2017-01-13T20:35:34Z
+549,add middleware to a single route ?  ,2016-08-27T16:37:12Z,2016-08-27T19:06:31Z
+550,Add tests ensuring there are no file/socket leaks,2016-08-28T12:47:53Z,2016-09-09T22:24:43Z
+551,Resource path in Development module needs to be fixed.,2016-08-29T23:21:11Z,2016-08-30T19:35:11Z
+557,servers.json for improved tls config,2016-08-30T20:25:06Z,2016-09-12T22:39:32Z
+559,Session data not available in Request,2016-08-31T19:32:09Z,2016-09-10T19:31:40Z
+560,Asynchronous response reporting ambiguous use of close - 0.17,2016-09-01T03:02:58Z,2016-09-09T01:07:23Z
+562,error: invalid inferred toolchain,2016-09-01T09:18:36Z,2016-09-09T00:30:13Z
+564,Swift version issue,2016-09-01T15:58:47Z,2016-09-08T03:14:24Z
+565,Retrieving data from fluent (MySQL) in a command is empty most of the time,2016-09-01T19:56:25Z,2016-09-18T10:41:22Z
+566,$ENVIRONMENT syntax in a config object doesn't work,2016-09-02T21:36:36Z,2016-09-03T01:08:17Z
+568,Tool box issue in Ubuntu 16.04,2016-09-03T16:06:37Z,2016-09-08T03:14:06Z
+569,Vapor not closing down properly,2016-09-04T14:47:12Z,2016-09-05T14:47:01Z
+570,Vapor Toolbox Issues,2016-09-04T16:44:11Z,2016-09-09T06:42:06Z
+571,Memory usage in Performance vs App,2016-09-04T17:03:13Z,2016-10-28T17:12:07Z
+572,No docker image available for tag DEVELOPMENT-SNAPSHOT-2016-08-18-a,2016-09-05T20:45:35Z,2016-09-28T04:21:12Z
+575,Xml parser,2016-09-06T15:14:44Z,2017-01-13T20:35:20Z
+576,Can not genearate .xcodeproj,2016-09-07T07:38:25Z,2016-09-08T02:23:34Z
+577,App crashes when sending multipart/form-data POSTs,2016-09-07T10:56:13Z,2016-10-28T17:21:56Z
+578,Vapor Toolbox issue linking MySQL,2016-09-08T14:38:37Z,2016-09-08T14:55:50Z
+579,middleware.json,2016-09-09T00:47:32Z,2016-09-10T19:31:45Z
+582,"""vapor fetch"" is not downloading any packages",2016-09-09T05:52:23Z,2016-09-09T06:07:52Z
+583,Toolbox v0.10.2 installation failure in Ubuntu 16.04,2016-09-10T13:55:14Z,2016-09-13T01:14:45Z
+585,views dir,2016-09-10T19:24:52Z,2016-10-28T17:09:18Z
+586,empty example,2016-09-10T22:38:13Z,2016-10-28T17:08:56Z
+589,Localization suggestion,2016-09-11T15:36:25Z,2017-05-06T13:50:05Z
+590,Storage feature,2016-09-11T17:03:16Z,2017-01-13T20:24:57Z
+595,Abort exceptions are always returned as JSON,2016-09-12T14:27:34Z,2016-11-18T11:27:34Z
+596,client.json,2016-09-12T22:39:59Z,2016-10-28T17:08:26Z
+598,Remove .swift-version files,2016-09-13T16:47:58Z,2016-09-19T23:46:05Z
+605,Laravel,2016-09-15T07:16:21Z,2016-09-15T15:17:02Z
+606,Push Notification for iOS and Web,2016-09-15T08:07:55Z,2017-01-13T20:24:36Z
+611,Slow compilation,2016-09-17T17:33:32Z,2016-10-28T17:21:25Z
+612,improved of resources routing,2016-09-18T02:33:54Z,2017-05-05T18:43:41Z
+613,GD2/ImageMagick support for HTTP based manipulations ,2016-09-19T09:38:02Z,2017-01-13T20:35:11Z
+614,"log ""something went wrong"" in production",2016-09-19T17:15:30Z,2016-11-01T15:47:02Z
+615,Server Crash When Calling A Date On A Route,2016-09-19T18:21:01Z,2016-09-20T20:53:08Z
+617,[Discussion] Rename main.swift to Follow File Naming Convention,2016-09-19T21:34:34Z,2016-09-19T22:34:20Z
+618,NodeRepresentable in context,2016-09-19T22:54:48Z,2016-10-28T17:34:11Z
+619,Update contributing guide,2016-09-20T15:11:59Z,2017-01-13T20:39:34Z
+620,configurable / provider updates,2016-09-22T17:15:37Z,2016-10-04T17:41:29Z
+621,Auth support multiple User types,2016-09-22T18:01:48Z,2016-12-27T19:03:42Z
+622,Can't compile MySQL on Heroku.,2016-09-23T07:34:25Z,2016-09-24T20:50:40Z
+624,Cannot build vapour example project in a newly created DigitalOcean droplet (Ubuntu 14.04 x64),2016-09-27T02:53:55Z,2016-09-27T16:24:11Z
+625,"need driver for Oracle and MSSQLSERVER, any Python expert  out there to convert python codes to swift ?",2016-09-27T18:19:09Z,2017-05-05T18:41:39Z
+627,todo series,2016-09-28T04:23:36Z,2016-10-28T15:21:12Z
+629,Default Middleware non-deterministic,2016-09-29T10:26:56Z,2016-10-28T17:07:17Z
+630,"Socket failed with code 54 (""Exchange full"") [readFailed]",2016-10-01T07:34:34Z,2016-10-28T15:23:08Z
+631,No middleware fare lower performance?,2016-10-01T16:04:52Z,2016-11-02T17:24:42Z
+634,Client Request https,2016-10-04T17:56:40Z,2016-10-31T14:58:30Z
+635,Middleware and exchange full errors,2016-10-05T07:50:20Z,2017-05-05T18:44:31Z
+637,Default generator does not create subgroups for controllers and models,2016-10-08T15:56:48Z,2016-10-17T16:36:03Z
+638,https://vapor.github.io/ 404s,2016-10-09T06:30:00Z,2016-10-17T16:38:29Z
+640,Generate static webpage method ,2016-10-10T04:56:05Z,2016-10-27T22:33:00Z
+641,Running async code in provider,2016-10-10T08:18:42Z,2016-10-18T10:30:56Z
+643,"No Content-Type set, when retrieving jpg or jpeg files from FileMiddleware ",2016-10-10T21:03:16Z,2016-10-27T22:33:25Z
+644,update vapor university to Vapor 1.1,2016-10-12T08:19:53Z,2016-10-25T16:26:44Z
+645,Fluent testing package,2016-10-12T19:25:56Z,2017-02-03T14:34:56Z
+647,automatically disable leaf view cache in `--env=development`,2016-10-13T20:42:51Z,2016-11-01T15:39:25Z
+648,Client file uploads,2016-10-14T04:25:50Z,2016-10-28T15:21:39Z
+652,Controller destroy resource func ain't working,2016-10-17T00:26:58Z,2016-10-20T17:21:56Z
+653,Add SwiftLint support,2016-10-17T09:09:21Z,2017-01-13T20:36:05Z
+654,Integrate external Routing module,2016-10-17T16:00:49Z,2016-10-28T17:03:51Z
+655,Localization: language header with relative quality factor is not handled,2016-10-17T21:38:24Z,2017-05-12T10:18:34Z
+656,Xcode proj created with weird file names like Controllers/PostController.swift,2016-10-19T17:08:32Z,2016-10-20T15:12:11Z
+658,Project cannot be opened because the project file cannot be parsed.,2016-10-20T16:21:12Z,2016-11-07T21:59:03Z
+661,Question on build and serve,2016-10-23T16:10:59Z,2016-10-26T17:08:53Z
+662,Crashing Swift compiler when using grouped method,2016-10-24T06:36:04Z,2017-01-13T20:34:11Z
+665,Share prefix for route and resource not works,2016-10-25T21:55:57Z,2017-05-05T18:41:57Z
+667,Unable to test application code with basic template,2016-10-27T02:50:46Z,2016-11-04T19:05:44Z
+669,When initializing a Droplet the default resources are not availably anymore,2016-10-27T15:16:47Z,2016-10-27T22:02:18Z
+670,Vapor self update never finishes,2016-10-27T21:19:11Z,2016-10-28T15:17:48Z
+671,Serialization,2016-10-28T10:09:58Z,2016-11-02T11:46:27Z
+672,Can't init Multipart.File,2016-10-28T13:31:30Z,2016-10-28T15:17:22Z
+675,"""backgroundExecute(127, [], [])"" Error when running with sudo",2016-10-28T18:09:14Z,2016-11-02T06:10:49Z
+676,Support type safe routing with groups,2016-10-31T03:15:45Z,2017-02-03T14:49:07Z
+678,Resource Deadlock Avoided,2016-11-02T03:21:42Z,2016-11-03T22:48:49Z
+679,Doc needs lots of update - e.g. the Model section refers to deprecated methods,2016-11-02T07:40:30Z,2016-11-02T16:44:55Z
+680,Leaf: negating statements,2016-11-02T10:49:28Z,2017-04-27T11:17:35Z
+681,Leaf: nesting templates,2016-11-02T11:16:56Z,2017-04-27T11:17:02Z
+682,"Leaf: evaluating expressions inside if, then, else statements",2016-11-02T12:14:01Z,2017-05-05T18:53:54Z
+683,Ensure Content-Type is Empty on notModified,2016-11-02T14:19:08Z,2016-11-04T12:59:08Z
+684,Make stream timeout configurable,2016-11-03T15:10:54Z,2016-11-03T19:51:40Z
+689,Resource temporarily unavailable after 30 seconds,2016-11-04T10:19:32Z,2016-12-19T18:25:11Z
+691,Allow overwriting of slug name chosen for resources,2016-11-06T20:07:25Z,2017-02-03T22:54:20Z
+692,Vapor Fluent MemoryDB with all RESTful methods,2016-11-07T01:20:44Z,2017-05-05T18:44:15Z
+694,nested import tags,2016-11-07T15:34:55Z,2016-11-07T16:05:58Z
+695,Testing documentation,2016-11-09T04:40:41Z,2016-11-12T03:41:07Z
+697,Vapor Docker run / compile problem,2016-11-10T11:49:04Z,2017-05-05T18:43:00Z
+699,Outgoing HTTPS calls fail on Heroku,2016-11-12T22:12:30Z,2016-11-23T11:39:47Z
+700,Vapor server usage memory is growing day by day,2016-11-13T08:34:10Z,2016-11-20T01:40:18Z
+701,Toolbox fails to install on Ubuntu 16.04,2016-11-13T09:21:47Z,2016-12-27T01:02:45Z
+702,Toolbox fails to install on MacOS10.12.1 Xcode8.1,2016-11-13T09:31:22Z,2016-11-18T03:47:43Z
+703,Syntax error in 1 config file will fail silent and all configs will be nil,2016-11-13T18:40:08Z,2016-12-27T01:02:01Z
+704,Documentation -> Config,2016-11-14T16:38:11Z,2017-01-13T20:10:16Z
+705,Add support for GZIP,2016-11-14T16:56:45Z,2016-11-19T12:38:58Z
+706,Wrong request.uri value in https requests,2016-11-15T15:49:17Z,2017-05-05T18:57:05Z
+707,Using a pre-packaged Vagrant box for Vapor?,2016-11-19T06:01:43Z,2016-11-19T12:41:12Z
+708,JSON patching,2016-11-19T06:15:40Z,2016-11-19T12:41:02Z
+709,Compilation issue on Heroku,2016-11-19T14:10:02Z,2016-11-29T15:30:54Z
+710,Bump to swift 3.0.1 when deploying to Heroku?,2016-11-21T11:15:50Z,2016-12-15T16:11:12Z
+711,Guide to install on Fedora and other linux distros,2016-11-21T18:10:00Z,2017-01-13T20:50:38Z
+712,Some questtions about the documentation,2016-11-21T23:50:28Z,2016-11-29T15:34:50Z
+713,JSON parser fails on array parsing,2016-11-22T01:25:09Z,2016-11-29T15:37:21Z
+714,Xcode - no such module Vapor,2016-11-22T19:31:46Z,2016-11-29T15:38:54Z
+715,Can't Install MySql,2016-11-22T21:38:31Z,2016-11-29T15:38:20Z
+716,makeNode compile times doesn't scale,2016-11-23T20:20:25Z,2017-01-13T20:13:07Z
+717,Building Docker image hangs,2016-11-25T02:53:42Z,2017-04-27T09:28:44Z
+718,"Vapor Installation fails with XCode Version 8.1 (8B62), with swift 3.0.1",2016-11-25T09:52:35Z,2016-11-27T06:25:55Z
+723,Homebrew based Toolbox installation fails,2016-11-27T06:28:40Z,2017-01-13T20:51:14Z
+725,Sample route from docs does not compile,2016-11-28T19:34:33Z,2017-01-13T20:53:32Z
+726,Invalid app.json doesn't give understandable crash log,2016-11-28T20:33:12Z,2016-12-07T08:34:00Z
+728,tests failing with socket error on linux,2016-11-29T15:56:39Z,2016-12-16T21:43:11Z
+729,Vapor how To Query Many MySql Databases,2016-11-29T18:08:06Z,2017-01-13T20:08:12Z
+730,Saving uploaded file,2016-11-29T19:30:09Z,2016-11-30T20:05:19Z
+732,duplicate symbol __TMRbBp on build Vapor 1.2,2016-11-30T19:52:13Z,2016-12-06T22:05:41Z
+734,High CPU utilization when uploading a file,2016-12-02T07:20:52Z,2017-01-13T20:52:45Z
+735,Commands never finish running,2016-12-02T08:44:35Z,2016-12-07T08:12:38Z
+736,write failed: Broken pipe,2016-12-02T11:07:19Z,2016-12-15T16:47:37Z
+738,WebSockets - error immediately after connect in 1.2,2016-12-02T14:10:29Z,2016-12-16T21:42:03Z
+740,Add a default 'GET [resource]/new' route for ResourceRepresentable Controllers,2016-12-03T00:27:14Z,2017-04-27T09:28:06Z
+742,Heroku buildpack compile error: unresolved identifier 'DispatchQueue',2016-12-03T10:09:59Z,2016-12-07T09:13:01Z
+743,Plugin for AppCode,2016-12-04T18:39:54Z,2017-01-13T20:49:14Z
+744,Files are not coming through in 1.2,2016-12-05T11:42:02Z,2016-12-16T21:41:57Z
+745,Fork in CodePen feature is broken,2016-12-06T18:54:54Z,2016-12-12T19:10:55Z
+746,Missing information about how to implement Vapor outside of coveo-styleguide environment,2016-12-06T19:09:40Z,2016-12-12T19:05:09Z
+747,Add regex support for URIs,2016-12-07T02:04:06Z,2016-12-27T00:58:47Z
+750,Inconsistencies when request data is an array,2016-12-10T03:35:54Z,2017-02-03T14:34:22Z
+751,Errors not working after 1.2 upgrade,2016-12-11T21:05:52Z,2016-12-16T21:41:48Z
+754,Linking to page element using href with # will result in parsing error ,2016-12-14T19:58:23Z,2016-12-14T20:01:49Z
+755,Fix syntax in documentation,2016-12-14T20:19:48Z,2016-12-14T21:22:30Z
+756,Could not open Xcode project.,2016-12-15T05:35:07Z,2016-12-27T01:00:14Z
+757,Caching of compiled dependencies on Linux,2016-12-15T21:48:59Z,2016-12-15T23:13:40Z
+758,Query values with = or + are not parsed correctly,2016-12-16T10:36:56Z,2017-02-03T14:45:26Z
+760,"""multipart/form-data"" bug",2016-12-17T12:03:07Z,2017-01-13T20:19:37Z
+761,Accessing multipart files takes too much time,2016-12-17T21:31:26Z,2017-01-20T00:12:43Z
+762,vapor xcode generates project that shows external packages in sources section,2016-12-18T16:02:34Z,2017-01-13T20:47:14Z
+766,duplicate symbol __TMRbBp,2016-12-22T03:42:36Z,2016-12-27T00:54:36Z
+767,"Getting ""noDatabase"" error when retrieving database content from command",2016-12-22T14:11:23Z,2017-04-27T09:27:46Z
+769,app.json add name and url,2016-12-27T19:15:50Z,2017-02-03T14:40:50Z
+770,_method support,2016-12-27T19:30:11Z,2017-05-05T18:40:49Z
+775,Docker: Vapor application hangs without a pseudoTTY,2016-12-30T19:12:37Z,2017-05-06T13:57:30Z
+776,`willCreate` and `willUpdate` methods,2016-12-30T19:25:44Z,2017-01-10T22:07:04Z
+781,A first-class backend for sending transactional emails,2017-01-08T02:24:15Z,2017-02-13T22:50:56Z
+782,duplicate symbol __TMRbBp (Xcode 8.1),2017-01-08T05:05:00Z,2017-01-13T20:44:58Z
+783,"Docker build failed, running vapor docker build",2017-01-08T06:29:34Z,2017-05-05T18:45:16Z
+785,Make CommandLine.environment public,2017-01-09T15:39:47Z,2017-01-11T18:19:41Z
+787,Install Vapor On Raspberry Pi?,2017-01-10T03:59:00Z,2017-01-13T20:46:29Z
+788,Is there any method in vapor that is used to convert a  json to a object ?,2017-01-10T11:25:34Z,2017-01-13T20:44:04Z
+792,Hey how about shipping vapor with laravel mix?,2017-01-13T01:12:39Z,2017-02-03T13:47:15Z
+796,Support for real-time logging on Heroku,2017-01-14T03:16:57Z,2017-02-06T12:49:23Z
+797,Empty Response Body in HTTP Client Request,2017-01-16T00:40:31Z,2017-01-16T05:11:27Z
+798,Vapor serve ignores the --port argument,2017-01-20T14:49:26Z,2017-04-27T09:27:11Z
+799,workDir SPM 3.1,2017-01-20T23:52:01Z,2017-05-05T18:42:12Z
+804,Deploy on Heroku doesn't work,2017-01-25T18:41:20Z,2017-01-27T21:42:53Z
+805,Documentation tweak for a code example with adding HTTP headers,2017-01-27T17:35:39Z,2017-02-02T13:17:57Z
+808,Vapor and Heroku Issue,2017-01-29T18:57:37Z,2017-01-29T20:24:18Z
+809,Bug: Unable to use models inherited from parent class with type safe routing,2017-02-01T01:58:30Z,2017-04-27T11:34:12Z
+810,Best practice for managing the makeNode function,2017-02-01T08:21:36Z,2017-02-02T10:59:54Z
+811,`Node.NodeError 0` is vague,2017-02-02T08:59:44Z,2017-02-07T12:53:32Z
+812,"Clarify documentation regarding ""arguments"" passed into Droplet initializer",2017-02-02T11:07:32Z,2017-02-02T11:32:02Z
+813,Struggling with Droplet client,2017-02-02T17:15:06Z,2017-02-02T18:12:35Z
+815,Can't build project on ubuntu 14.04,2017-02-03T13:19:25Z,2017-02-03T13:45:43Z
+819,Feature: Add `sum` to Fluent to sum the values of a column,2017-02-04T03:22:40Z,2017-05-06T14:03:11Z
+821,"""malloc: *** error for object 0x103814368: incorrect checksum for freed object"" crash",2017-02-04T14:48:50Z,2017-02-06T11:41:51Z
+822,Compilation on linux very slowly,2017-02-05T11:33:24Z,2017-02-09T20:05:13Z
+824,Bug: cookie name not used in factory?,2017-02-08T00:06:33Z,2017-02-09T20:08:38Z
+825,Drop Client Bug?!,2017-02-08T00:34:25Z,2017-02-08T21:44:36Z
+830,Re: Issue #747 (regex support),2017-02-09T01:03:24Z,2017-04-27T11:31:57Z
+835,"Error: ""could not bind to""",2017-02-10T16:57:27Z,2017-04-27T09:23:02Z
+836,Support for Xcode-beta (Swift 3.1)?,2017-02-10T20:14:30Z,2017-02-13T13:45:20Z
+839,environment arguments,2017-02-13T10:04:11Z,2017-05-05T18:56:27Z
+840,Compilation issues,2017-02-13T15:27:41Z,2017-02-14T15:12:26Z
+841,Confusing Children method,2017-02-14T10:39:09Z,2017-02-14T17:33:58Z
+847,Why does Auth presume a backend login?,2017-02-15T01:43:54Z,2017-04-27T09:22:14Z
+851,include internal arg in Provider protocol,2017-02-16T13:46:00Z,2017-04-03T17:00:16Z
+852,more thorough error pattern,2017-02-17T10:34:07Z,2017-05-05T18:54:43Z
+853,Ambiguous reference to member 'get(_:_:_:handler:)',2017-02-17T18:12:57Z,2017-02-22T18:14:30Z
+854,Simple project takes always over 5 mins to build,2017-02-19T20:20:11Z,2017-04-27T08:34:43Z
+855,feature request: `vapor new` should include at least a single base test,2017-02-19T20:34:37Z,2017-04-27T09:03:01Z
+856,Add Vapor to Techempowers Web Framework Benchmark,2017-02-20T19:55:49Z,2017-05-11T21:29:51Z
+859,Ensure adding duplicate providers causes no issues,2017-02-22T16:35:46Z,2017-05-05T18:46:31Z
+861,Store leaf template code in model,2017-02-23T21:22:22Z,2017-04-27T09:14:46Z
+862,Bug: Int.makeNode() and Double.makeNode() crash on linux,2017-02-24T03:05:50Z,2017-03-04T19:27:02Z
+863,Bug: relations don't seem to be working on linux,2017-02-24T03:10:00Z,2017-03-05T01:11:14Z
+865,How to import Vapor in REPL ?,2017-02-26T05:30:50Z,2017-04-27T08:20:22Z
+866,Bug trying to revert with 2 model ,2017-02-28T10:33:11Z,2017-04-27T09:23:47Z
+870,Some methods i'm not able to compile on linux,2017-03-01T06:49:27Z,2017-03-03T23:45:30Z
+871,Is there any easy way to remote debug a vapor application running on an (develpoment) server?,2017-03-02T01:46:20Z,2017-04-27T08:38:49Z
+876,Initial routine with access to models from DB,2017-03-03T08:59:49Z,2017-04-28T09:00:54Z
+881,Middleware to validate request body,2017-03-06T12:26:00Z,2017-04-28T08:58:52Z
+887,"Usage of ""Bytes"" which is deprecated",2017-03-08T09:31:38Z,2017-04-27T08:04:48Z
+891,'uuid/uuid.h' file not found,2017-03-08T17:30:38Z,2017-03-09T02:23:55Z
+894,Poor documentation,2017-03-09T16:11:26Z,2017-04-27T08:16:57Z
+895,error running: curl -sL toolbox.vapor.sh | bash,2017-03-09T16:55:06Z,2017-03-09T17:05:12Z
+896,print host and port,2017-03-10T09:34:57Z,2017-03-27T06:11:07Z
+898,Link model object to existing MySQL table,2017-03-13T07:20:00Z,2017-03-13T10:02:41Z
+899,Vapor does not handle URL encoded paths correctly,2017-03-13T10:50:21Z,2017-05-04T22:22:36Z
+900,Is there anyway JSON(node: ) can be called with [String: Any] type,2017-03-13T10:53:45Z,2017-03-21T08:51:28Z
+903,Vapor build link MySQL failing on Xcode,2017-03-14T06:18:39Z,2017-04-27T08:01:28Z
+907,Proposal: expiration time support for CacheProtocol and Sessions,2017-03-15T22:42:44Z,2017-03-28T14:03:18Z
+918,How to use routing parameter?,2017-03-20T03:25:19Z,2017-03-21T01:29:27Z
+924,"error: use of undeclared type 'SSL',   ubuntu ",2017-03-22T01:35:32Z,2017-03-22T05:01:24Z
+928,Determine AJAX requests,2017-03-23T18:20:19Z,2017-04-27T08:29:47Z
+929,request.uri.port is nil on ubuntu ,2017-03-25T22:53:50Z,2017-05-11T21:04:02Z
+930,IncorrectCredentialsError and AccountTakenError don't go through in .production mode,2017-03-26T11:57:29Z,2017-03-27T06:15:15Z
+931,uploading files in debug build mode is slow,2017-03-26T16:01:52Z,2017-04-28T08:56:37Z
+932,🐛 - filter .notEquals null fails with VaporMemory,2017-03-26T16:56:53Z,2017-04-27T07:56:18Z
+933,mediaTypes can't be accessed from App,2017-03-26T16:58:26Z,2017-05-06T13:58:03Z
+937,Can't build with latest beta,2017-03-28T22:36:49Z,2017-03-29T18:21:10Z
+938,Reqeust.formData is nil for specific content,2017-03-29T07:05:46Z,2017-04-17T18:59:30Z
+939,Vapor Docs v2,2017-03-29T09:54:47Z,2017-04-27T08:21:16Z
+941,Caching Dependencies,2017-03-30T05:41:01Z,2017-03-30T10:22:17Z
+943,feature request,2017-03-30T10:21:01Z,2017-05-06T13:44:29Z
+944,Vapor Documentation in Chinese can not open.,2017-03-31T05:51:58Z,2017-04-28T08:55:03Z
+945,"Error: Command ""self"" not found.",2017-03-31T09:07:26Z,2017-03-31T17:24:34Z
+946,Unable to push to Heroku with Toolbox v1.0.7,2017-03-31T18:44:01Z,2017-03-31T20:08:30Z
+947,Failing to deploy with Heroku,2017-03-31T18:47:56Z,2017-03-31T18:50:56Z
+949,openssl not found in Vapor beta,2017-04-01T14:00:27Z,2017-04-03T11:53:40Z
+951,ConsoleProtocol needs to accept scheme in init,2017-04-03T20:42:32Z,2017-05-08T13:40:34Z
+952,No error message on wrong cipher / hash key size in production mode,2017-04-04T21:47:21Z,2017-05-01T10:43:47Z
+954,Unable to deploy Vapor 2.0 beta in Heroku,2017-04-05T22:44:52Z,2017-04-27T16:33:56Z
+955,Parse dictionary from request query parameters,2017-04-06T02:55:26Z,2017-05-09T16:22:52Z
+956,Error: Could not open Xcode project,2017-04-06T06:07:34Z,2017-04-08T02:39:21Z
+957,Leaf requires an #ifnot(),2017-04-06T18:23:46Z,2017-04-07T12:25:33Z
+958,Vapor on Ubuntu 16.04 armhf doesn't install,2017-04-06T20:43:48Z,2017-04-06T21:11:50Z
+961,Project Dependencies updates,2017-04-07T16:14:49Z,2017-04-08T18:10:36Z
+962,swift.vapor.sh/ubuntu installs old Swift toolchain,2017-04-08T22:56:21Z,2017-05-06T13:57:01Z
+963,Need help with saving image to mysql database,2017-04-09T05:43:05Z,2017-04-09T17:12:23Z
+964,"Bumping heroku buildpack to Swift 3.1 causes ""unauthorized"" Mongo Fluent error",2017-04-09T10:54:47Z,2017-04-27T09:03:56Z
+969,Droplet workDir is relative to build location not the actual working directory.,2017-04-10T22:42:31Z,2017-04-11T19:59:26Z
+970,Crash on new websocket connection - Ubuntu,2017-04-11T04:49:28Z,2017-04-17T22:07:54Z
+971,Improved Config,2017-04-11T11:28:12Z,2017-05-05T18:45:33Z
+978,How to setup Vapor for iOS projects?,2017-04-19T11:58:17Z,2017-04-19T12:53:19Z
+981,logs disabled in production,2017-04-28T10:54:44Z,2017-04-28T11:23:38Z
+984,Rethrows on `group` methods,2017-04-29T20:41:19Z,2017-05-08T13:13:13Z
+985,"500Error:  fileLoad(""./Resources/Views/welcome.leaf"")",2017-04-30T16:29:52Z,2017-05-01T10:47:20Z
+986,v2.0.0-beta22 has growing memory consumption and lower throughput than v1.5.15,2017-05-01T11:20:07Z,2017-05-01T17:42:18Z
+988,Problem with pushing to Heroku,2017-05-04T06:38:34Z,2017-05-04T08:48:27Z
+989,[DISCUSSION] Sessions Middleware doesn't allow Cookie options to be specified,2017-05-04T23:52:54Z,2017-05-11T21:42:12Z
+990,"Reading traditional Chinese (正體中文), page not found",2017-05-07T08:36:27Z,2017-05-08T13:15:28Z
+992,Bootstrap Navbar,2017-05-09T01:23:10Z,2017-05-09T11:01:09Z
+993,stringinit in resource stuff,2017-05-09T16:55:14Z,2017-05-10T19:05:06Z
+994,request query params not being set ,2017-05-10T13:50:37Z,2017-05-11T14:01:32Z
+995,add mailgun,2017-05-10T17:29:57Z,2017-05-10T19:07:34Z
+999,Add support for proxy in drop.client,2017-05-11T12:16:41Z,2017-05-12T10:18:24Z
+1000,test response should set hostname,2017-05-11T14:59:04Z,2017-05-11T16:25:19Z
+1004,OSX vapor build  vapor xcode error,2017-05-12T10:15:01Z,2017-05-12T10:18:10Z
+1006,WebSocket Connect Convenience,2017-05-12T14:52:21Z,2017-05-15T20:46:17Z
+1008,clients.json vs. client.json,2017-05-15T13:26:14Z,2017-05-15T21:45:25Z
+1014,Why is there no maintenance in the vapor / documentation issue?The question was submitted for a long time ?,2017-05-18T08:00:00Z,2017-05-18T10:32:31Z
+1016,https://apt.vapor.sh: 404: Not Found,2017-05-18T15:44:03Z,2017-05-18T15:54:31Z
+1017,Use of unresolved identifier in 'Droplet' and 'Config',2017-05-18T23:17:41Z,2017-05-22T10:29:23Z
+1018,Response redirect via POST request instead GET,2017-05-19T09:02:41Z,2017-05-19T10:43:04Z
+1019,auth template,2017-05-19T17:21:51Z,2017-07-06T16:37:02Z
+1020,EngineClient.factory.post might be appending ? to URI if query dict is empty,2017-05-19T20:55:37Z,2017-05-25T15:33:10Z
+1021,2.0 mysql,2017-05-20T17:21:10Z,2017-05-22T10:30:14Z
+1022,Can't migrate to Vapor 2 from beta: swift-package: error: unsatisfiable,2017-05-21T08:16:45Z,2017-05-21T14:27:27Z
+1023,vapor xcode -y asks for Github username,2017-05-21T13:35:32Z,2017-05-21T14:26:14Z
+1024,PersistMiddleware persists on every request,2017-05-22T15:42:10Z,2017-05-23T11:33:37Z
+1026,Setting Cookie Name,2017-05-23T13:27:35Z,2017-05-26T14:55:18Z
+1027,MYSQL_TYPE_JSON  error when building with mysqlProvider on Ubuntu 16.04 with MariaDB 10.1 ,2017-05-23T14:11:16Z,2017-05-23T14:51:56Z
+1028,Using RedisProvider for less than the value,2017-05-23T14:12:40Z,2017-05-23T14:53:49Z
+1029,Using RedisProvider for less than the value ,2017-05-24T03:24:55Z,2017-05-26T11:18:59Z
+1031,URI init default port added twice,2017-05-25T16:35:15Z,2017-05-26T11:13:29Z
+1032,Fluent select specific columns from table,2017-05-25T21:51:10Z,2017-05-26T11:15:10Z
+1034,Make FileMiddleware's file serving logic reusable,2017-05-26T13:53:58Z,2017-06-06T12:03:43Z
+1036,structured data wrapper for view data,2017-05-26T14:50:55Z,2017-06-13T18:52:54Z
+1037,Vapor University returns 502 Bad Gateway error,2017-05-27T00:14:21Z,2017-06-02T10:46:57Z
+1038,Can't Run Hello Vapor Project on Xcode,2017-05-27T03:29:30Z,2017-05-30T11:15:16Z
+1040,"MariaDB 10.2 - cannot restart app, exits with tableExistsError",2017-05-28T12:44:47Z,2017-06-02T15:59:47Z
+1041,Problem with query with points (.),2017-05-29T06:44:05Z,2017-05-30T11:21:59Z
+1042,support `text/javascript` header for JSON,2017-05-29T09:08:40Z,2017-06-06T12:03:44Z
+1043,Clarity around email client implementations,2017-05-31T04:31:43Z,2019-11-17T11:34:09Z
+1044,Change default Primary Keys to bigint for MySQL and PostgreSQL,2017-05-31T17:00:20Z,2018-03-22T01:20:01Z
+1045,vapor new project --template=api hangs when trying to initialize git repository,2017-06-01T03:38:11Z,2017-06-02T13:39:46Z
+1046,vapor xcode Fails,2017-06-01T03:52:20Z,2017-06-01T07:47:38Z
+1047,HTTP Client is resetting the query,2017-06-01T07:46:15Z,2017-06-01T19:19:11Z
+1049,Slack Archive Bot,2017-06-01T16:55:47Z,2017-06-07T10:42:12Z
+1050,Fix Proxy Issue,2017-06-01T17:00:13Z,2017-06-01T19:19:03Z
+1051,[BUG] query params and percent encoding,2017-06-03T06:40:54Z,2017-06-06T11:12:16Z
+1055,[Bug] Query string parameters encoding [],2017-06-05T14:40:47Z,2017-06-13T20:51:02Z
+1056,remove `version` command,2017-06-06T14:16:01Z,2017-06-13T19:56:36Z
+1058,brew formula is outdated :(,2017-06-07T03:21:23Z,2017-06-07T07:59:59Z
+1062,BUG: testResponse always uses .get,2017-06-08T18:12:08Z,2017-06-08T20:04:27Z
+1065,Vapor xcode fail,2017-06-10T17:25:40Z,2017-06-10T17:29:06Z
+1067,'vapor run prepare --revert' misleading console output ,2017-06-13T08:49:09Z,2017-06-14T14:04:43Z
+1068,post form bug,2017-06-15T13:02:09Z,2017-07-03T16:49:53Z
+1069,Passing a config file path dynamically,2017-06-17T21:38:12Z,2017-06-29T19:14:13Z
+1070,debug client requests ,2017-06-19T13:02:58Z,2018-03-22T23:25:40Z
+1072,localhost:8080 loads jenkins instead of vapor page,2017-06-23T05:31:09Z,2017-06-23T08:17:22Z
+1076,URI init default port added twice,2017-07-03T14:36:18Z,2017-07-03T16:03:20Z
+1077,Plus sign is not encoded by formURLEncoded() function,2017-07-05T13:37:02Z,2017-07-05T20:11:18Z
+1080,1.5 mysql,2017-07-08T05:14:49Z,2017-07-08T11:54:24Z
+1084,Unable to push to Heroku,2017-07-11T10:17:22Z,2017-07-12T03:34:39Z
+1086,EngineClient fails to resolve localhost,2017-07-14T22:42:44Z,2017-08-08T00:06:27Z
+1087,Ubuntu Compilation Issue,2017-07-17T19:30:24Z,2017-07-17T20:19:08Z
+1088,support Swift 4,2017-07-17T20:18:50Z,2017-08-10T23:35:53Z
+1091,Apache2 Configuration,2017-07-20T16:19:12Z,2017-08-07T18:52:56Z
+1092,CORS configuration reads `exposedHeaders` field incorrectly from JSON file,2017-07-23T02:53:16Z,2017-08-07T19:33:55Z
+1094,commands as xcode schemes,2017-07-28T20:54:00Z,2019-11-17T11:34:50Z
+1095,a Client generated via droplet ClientFactoryProtocol close stream after some requests,2017-07-29T01:26:39Z,2017-08-07T23:46:49Z
+1096,Postgresql Index names on fields with the same name in different tables,2017-07-31T09:27:56Z,2017-08-07T23:51:31Z
+1097,don't omit parameter labels,2017-08-01T03:34:48Z,2018-01-24T17:13:22Z
+1098, error: missing required module 'CTLS',2017-08-02T09:07:13Z,2017-08-03T02:05:37Z
+1100,Use of undeclared type 'Model',2017-08-04T03:15:56Z,2017-08-05T04:33:37Z
+1101,Performance regression on Linux in vapor 2.x,2017-08-04T12:25:06Z,2017-08-07T20:15:39Z
+1102,Request.json Cannot read,2017-08-07T03:05:47Z,2017-08-07T23:52:44Z
+1103,extend siblings() method for fetching siblings from current Category and its children,2017-08-07T09:22:18Z,2017-08-07T23:55:09Z
+1105,localization,2017-08-07T21:36:57Z,2019-02-16T13:52:57Z
+1108,SMTP GMail client bug,2017-08-10T13:51:35Z,2017-08-10T19:04:06Z
+1113,How to use PostgreSQL transaction in vapor,2017-08-11T02:50:04Z,2017-08-11T13:53:59Z
+1114,Status code 200 == not found?,2017-08-11T13:59:45Z,2017-08-14T21:26:16Z
+1116,The model uses the difference between database and drop using database,2017-08-14T01:57:43Z,2017-08-15T04:22:46Z
+1117,How to use vapor upload files,2017-08-16T06:31:53Z,2017-08-16T17:57:42Z
+1118,Cannot use Vapor swift undex xcode 8.3.3,2017-08-16T15:33:28Z,2017-08-23T19:46:08Z
+1119,Stream Error: The stream is closed,2017-08-18T02:44:56Z,2018-03-23T00:16:30Z
+1120,Using Vapor with High Sierra ,2017-08-18T20:12:18Z,2017-10-06T22:59:49Z
+1128,Can't compile executable depending on Vapor on Ubuntu 16.04 with Swift 4 compiler,2017-08-27T12:04:52Z,2017-08-27T13:23:11Z
+1129,Packages not reloading,2017-08-30T04:49:26Z,2017-09-19T21:27:57Z
+1132,websockets tests failing,2017-08-30T20:09:31Z,2017-10-25T14:46:19Z
+1133,convert fluent to async/nonblocking ,2017-08-30T20:10:43Z,2017-11-23T11:57:58Z
+1134,integrate ctls w/ swift 4 and vapor 3,2017-08-30T20:11:54Z,2017-10-25T14:42:28Z
+1135,async tls module,2017-08-30T20:11:59Z,2017-10-17T08:55:31Z
+1137,"Vapor 3 ""Route"" objects",2017-08-30T22:52:04Z,2017-10-25T14:42:49Z
+1138,Vapor 3,2017-08-31T18:31:53Z,2018-03-23T00:16:47Z
+1139,ensure proper `errno` usage,2017-09-01T17:35:40Z,2018-03-23T00:15:58Z
+1140,vapor.codes/vapor.sh cert expired,2017-09-03T14:52:57Z,2017-09-04T19:35:19Z
+1143,Vapor 3 - Crash on TCPTests,2017-09-05T13:32:40Z,2017-10-25T14:43:28Z
+1145,Vapor 3 - Base64 as closable stream,2017-09-06T14:17:13Z,2017-10-04T18:21:28Z
+1148,vapor socket,2017-09-07T08:47:50Z,2018-03-22T23:25:13Z
+1154,"[question] Is there a distributed ""Actor"" model framework to make distributed server cluster on top of vapor?",2017-09-13T18:20:38Z,2018-03-23T00:16:59Z
+1156,Extend makeResponse() to support statuses other than Status.ok,2017-09-16T05:03:37Z,2018-04-27T01:29:28Z
+1160,Can not install Vapor via APT,2017-09-20T18:22:43Z,2017-09-21T17:50:53Z
+1163,vapor (Toolbox) hanging / not ending,2017-09-21T15:50:52Z,2017-09-21T17:49:01Z
+1165,Can't build Vapor project on Ubuntu 16.04 with Swift 4.0 compiler,2017-09-21T20:05:50Z,2017-09-22T17:36:16Z
+1166,Can't send email via SMTP,2017-09-22T15:12:35Z,2017-09-22T15:14:57Z
+1167,Update for Xcode 9 - check.vapor.sh,2017-09-22T16:00:27Z,2017-09-29T17:06:12Z
+1168,Unable to push to heroku,2017-09-25T06:06:05Z,2017-09-25T16:33:14Z
+1172,cli command to create new migrations,2017-09-27T18:57:29Z,2018-01-23T09:37:26Z
+1173,fluent identifier as protocol instead of concrete type,2017-09-27T21:02:58Z,2017-11-23T11:58:20Z
+1175,sessions parity,2017-09-28T18:21:38Z,2017-11-01T10:55:10Z
+1176,async redis,2017-09-28T18:22:23Z,2017-10-25T14:44:00Z
+1177,auth beta,2017-09-28T18:26:17Z,2017-12-08T21:12:21Z
+1178,store value in fluent relation,2017-09-28T23:58:35Z,2017-11-23T11:58:23Z
+1181,get rid of warnings,2017-10-04T20:30:56Z,2018-01-24T17:33:55Z
+1183,vapor toolbox won't install through Homebrew,2017-10-06T09:57:06Z,2017-10-06T22:58:59Z
+1184,integrate with appcode/intellij sdk,2017-10-07T01:28:54Z,2019-11-17T11:35:29Z
+1185,TLS improvements,2017-10-08T12:20:43Z,2017-12-08T21:42:26Z
+1187,Chunked requests/responses,2017-10-08T13:55:52Z,2017-11-30T08:17:05Z
+1190,Xcode integration,2017-10-10T00:20:49Z,2018-03-23T00:21:15Z
+1191,Change the way  ENV variable values are specified in config files,2017-10-11T03:10:49Z,2018-01-04T16:20:22Z
+1192,dash docs integration,2017-10-11T12:15:19Z,2018-04-27T01:29:49Z
+1194,SessionsMiddleware and CacheSessions with PostgreSQL,2017-10-12T04:53:21Z,2018-04-27T01:32:03Z
+1196,Routes and Parameters are case-sensitive,2017-10-13T08:45:04Z,2018-02-19T08:50:10Z
+1199,tls server,2017-10-16T06:13:34Z,2019-01-31T07:39:10Z
+1200,jwt claims,2017-10-16T23:07:57Z,2017-12-08T21:13:09Z
+1201,middleware config conveniences,2017-10-16T23:08:38Z,2017-12-09T00:20:21Z
+1202,More remade status codes in HTTP,2017-10-17T08:48:55Z,2017-11-01T10:55:31Z
+1207,Fluent cleanup,2017-10-18T18:02:30Z,2017-11-01T11:10:19Z
+1208,ErrorStream and ClosableStream subscription,2017-10-18T18:08:25Z,2017-11-01T11:11:04Z
+1210,trie based file middleware,2017-10-20T13:25:26Z,2017-12-08T21:13:53Z
+1211,Error after installing Vapor using custom location of `Homebrew` on macOS,2017-10-21T20:01:09Z,2019-01-31T07:42:41Z
+1212,Fluent Entities can give their id as int,2017-10-22T13:08:27Z,2017-10-26T06:49:09Z
+1215,MongoDB + Fluent for Vapor 3,2017-10-25T14:38:24Z,2017-12-23T01:08:54Z
+1216,MySQL + Fluent for vapor 3,2017-10-25T14:38:39Z,2017-12-06T23:52:02Z
+1217,Vapor 3's Fluent Auth rework ,2017-10-25T14:39:16Z,2017-12-08T21:12:10Z
+1218,Swift (Vapor 3) Async PostgreSQL driver implementation,2017-10-25T14:39:44Z,2018-01-24T07:49:26Z
+1219,"Vapor 3 MySQL better data binding, binary protocol support",2017-10-25T14:40:39Z,2017-12-08T21:13:21Z
+1220,More and better JWT signing methods,2017-10-25T14:41:44Z,2018-04-27T01:30:25Z
+1221,Redis (vapor 3) features,2017-10-25T14:45:04Z,2017-11-06T08:56:37Z
+1223,transactions for each migration,2017-10-26T23:21:56Z,2017-11-29T17:26:45Z
+1228,Infinite sockets.SocketsError.socketIsClosed error after first https request,2017-10-29T14:36:23Z,2018-03-22T23:24:22Z
+1229,"SPM4: After ""vapor update"", still getting ""No such module""",2017-10-29T19:53:44Z,2018-03-28T14:18:32Z
+1230,Disable client cache,2017-10-29T20:49:29Z,2017-10-30T17:32:55Z
+1231,Xcode cannot open generated project file after running `vapor xcode -y`,2017-10-30T04:18:01Z,2017-10-30T08:53:08Z
+1232,Change Abort let to var,2017-10-30T09:09:48Z,2017-10-30T10:42:28Z
+1233,HTTP/1 GZIP compression support,2017-10-30T11:31:41Z,2018-04-27T01:30:39Z
+1236,Fix vapor 3's websocket tests on linux,2017-11-01T10:56:55Z,2017-11-23T11:56:39Z
+1238,Vapor 3 async changes before alpha,2017-11-02T10:06:08Z,2017-11-23T11:56:33Z
+1239,Vapor 3 TCP sockets do not always connect correctly,2017-11-06T12:08:13Z,2017-11-23T11:57:02Z
+1241,What is going on with Vapor SMTP?,2017-11-07T22:05:12Z,2018-04-27T01:31:26Z
+1242,Vapor 3 UDP support,2017-11-08T18:44:27Z,2018-02-26T21:46:25Z
+1243,asfsd,2017-11-09T22:24:37Z,2017-11-09T22:24:54Z
+1244,Vapor 2 peerHostname returning 0.0.0.0,2017-11-10T01:40:49Z,2018-01-23T08:50:42Z
+1245,"Make Float,Double as Parameterizable",2017-11-11T22:53:47Z,2018-04-20T23:05:54Z
+1246,SessionsMiddleware and CacheSessions with MySQL,2017-11-12T20:38:40Z,2018-04-27T01:31:52Z
+1247,vapor build failed!,2017-11-14T08:10:52Z,2017-11-14T08:43:54Z
+1250,thread safe service cache,2017-11-15T19:37:29Z,2017-12-03T13:09:37Z
+1254,Throwing vs returning an error response (Vapor 3),2017-11-16T21:01:07Z,2018-04-27T01:33:38Z
+1255,Form URL decoder,2017-11-16T22:10:11Z,2017-12-03T13:10:24Z
+1256,Extra Fluent lifecycle method (Vapor 3),2017-11-16T22:18:46Z,2018-04-27T01:34:36Z
+1258,SQLite Concurrency Crash,2017-11-16T23:54:52Z,2017-12-08T21:14:36Z
+1261,String is used as an Error in the Vapor 3 alpha,2017-11-18T18:56:50Z,2017-12-08T21:42:31Z
+1265,BodyEncoder protocol,2017-11-20T15:50:13Z,2017-12-08T21:10:23Z
+1266,fix `WebSocketTests`,2017-11-20T17:02:06Z,2017-11-23T11:54:48Z
+1267,fix `SSLTests`,2017-11-20T17:02:31Z,2017-12-23T01:05:28Z
+1268,MainThread is Blocking - change to non-blocking,2017-11-20T17:43:02Z,2017-12-07T22:21:59Z
+1269,ensure all targets are being exported as products,2017-11-20T18:41:45Z,2017-12-08T21:15:01Z
+1270,terminal `Env` access from `Environment`,2017-11-20T18:44:02Z,2017-12-06T20:18:50Z
+1271,Vapor 3 Models don't conform to `Parameter`,2017-11-20T18:47:31Z,2017-12-11T11:11:28Z
+1281,Vapor 2 created Date on makeRow() wrapped in string,2017-11-23T14:16:53Z,2018-02-11T14:12:27Z
+1288,There appears to be no way to read individual query parameters in 3.0 alpha 4,2017-11-28T19:06:10Z,2017-12-06T20:19:34Z
+1289,Verify Vapor 3 websockets against Autobahn,2017-11-28T19:23:31Z,2018-04-27T01:35:08Z
+1291,Improve Vapor 3 HTTP/2 support,2017-11-29T08:33:02Z,2018-04-27T01:30:57Z
+1294,Docker not restarting after vapor crash,2017-11-30T09:40:31Z,2018-04-27T01:35:26Z
+1295,MySQL internal housholding,2017-11-30T21:35:30Z,2017-12-19T18:58:12Z
+1299,bcrypt instance methods,2017-12-01T21:40:02Z,2018-04-27T01:35:46Z
+1301,httpheaders readable description,2017-12-02T06:21:03Z,2017-12-08T21:42:35Z
+1303,Improve HTTP bodies,2017-12-02T12:19:13Z,2017-12-08T22:55:34Z
+1305,Toolbox applications,2017-12-03T08:56:48Z,2018-04-27T01:37:20Z
+1308,Vapor 3 Server-Side SSL,2017-12-04T22:21:19Z,2018-04-27T01:36:31Z
+1311,[vapor 3] Get Request Parameters on a WebSocket Route.,2017-12-05T03:00:33Z,2017-12-06T21:43:41Z
+1312,ON UPDATE and ON DELETE foreign key constraint referential actions,2017-12-05T11:58:58Z,2018-04-27T01:37:03Z
+1313,Vapor 3 environments cannot be passed via the CLI,2017-12-05T13:35:54Z,2017-12-06T21:44:13Z
+1322,checklist,2017-12-07T13:52:35Z,2018-03-22T01:19:04Z
+1323,Vapor 3 Stream encoder,2017-12-07T15:52:01Z,2017-12-27T12:36:32Z
+1328,HTTP client improvements,2017-12-08T21:41:15Z,2018-01-24T17:19:14Z
+1329,fluent unique fields,2017-12-08T23:40:03Z,2018-04-27T01:37:30Z
+1331,Certificate and signatures,2017-12-09T13:55:30Z,2018-03-23T00:23:49Z
+1334,Vapor 3 - MySQL Int ID database column not set to auto-incrementing ID,2017-12-10T17:58:05Z,2017-12-30T12:29:37Z
+1335,Vapor 3 Response Hanging Issue,2017-12-10T18:22:00Z,2018-01-24T17:28:46Z
+1336,Vapor 3 codable forms needs to support date (and data?) coding strategies,2017-12-10T18:26:40Z,2018-03-23T00:23:38Z
+1337,Vapor 3 crash after waking from sleep,2017-12-11T10:36:36Z,2017-12-23T01:07:58Z
+1338,MySQL single value row decoding,2017-12-11T10:43:20Z,2017-12-19T18:57:13Z
+1339,unable to build template project,2017-12-11T18:05:07Z,2017-12-11T19:35:18Z
+1340,Identifier: Sockets.SocketsError.bindFailed,2017-12-11T21:57:57Z,2018-03-22T01:20:11Z
+1341,Vapor 3 type inference issues with Fluent,2017-12-11T22:27:57Z,2018-01-23T09:25:11Z
+1342,Vapor 3: Please allow Future<Double> to be returned from routes,2017-12-11T22:29:45Z,2018-01-24T17:33:11Z
+1344,Vapor 3: Fluent ranges should behave like the rest of Swift,2017-12-11T23:26:20Z,2018-10-15T21:03:24Z
+1345,refactor consolestyle,2017-12-11T23:29:46Z,2018-03-23T00:23:10Z
+1346,cache module,2017-12-12T01:03:43Z,2018-03-03T08:54:08Z
+1352,MySQL single item parsing - 3.0 feature req,2017-12-13T14:45:08Z,2017-12-19T18:47:13Z
+1353,Announce when server is ready to serve requests - 3.0 feature req,2017-12-13T18:31:38Z,2017-12-26T19:00:39Z
+1354,updateablekey,2017-12-13T19:02:21Z,2018-04-27T01:38:49Z
+1355,static validation,2017-12-13T19:03:06Z,2018-04-27T01:39:32Z
+1356,MySQL doesn't parse NULL column onto optional variable,2017-12-14T12:47:46Z,2018-03-03T08:54:42Z
+1361,Redis in Vapor 3 doesn't handle Null Array response,2017-12-16T17:19:48Z,2017-12-21T00:32:50Z
+1362,"""Stream Error: The stream is closed"" from reusable connection",2017-12-16T20:30:35Z,2018-03-22T23:23:24Z
+1363,IsEmail validation validates anything that contains an email address somewhere,2017-12-16T21:44:59Z,2018-04-27T01:39:51Z
+1364,IsASCII validator fails to validate strings with line breaks,2017-12-16T22:11:37Z,2018-04-27T01:39:10Z
+1368,Websocket error after receiving text message at 3.0.0-alpha.12,2017-12-17T22:07:53Z,2017-12-23T01:05:43Z
+1371,Vapor 3 Middleware not Configurable,2017-12-18T16:51:26Z,2018-02-11T15:15:44Z
+1372,Vapor 3 alpha 12 doesn't build in release mode,2017-12-19T06:48:10Z,2017-12-22T13:24:55Z
+1373,Compiler error when trying to use parameters in router at 3.0.0-alpha.12,2017-12-19T11:01:26Z,2017-12-19T19:14:39Z
+1374,vapor 3 sessions,2017-12-19T22:05:09Z,2018-03-03T08:51:05Z
+1376,services.register(SomeMiddleware()) no longer works in beta 1,2017-12-20T12:41:52Z,2017-12-20T20:04:51Z
+1378,databasekit,2017-12-21T00:30:49Z,2018-01-24T17:11:24Z
+1382,Please add a `String` initializer for `URI`,2017-12-21T22:07:53Z,2017-12-28T22:01:48Z
+1383,Why is it impossible to deploy a supervisor in Ubuntu,2017-12-22T13:49:31Z,2017-12-22T15:01:30Z
+1385,Resources/Views  - Not Found ,2017-12-23T10:12:06Z,2018-01-13T15:01:58Z
+1386,Vapor can use plist / userdefault such a lightweight storage?,2017-12-23T15:16:52Z,2017-12-26T05:42:43Z
+1389,Fallback routes in V3 ,2017-12-24T13:32:04Z,2018-01-23T09:27:31Z
+1390,Unit Test helpers,2017-12-27T12:44:33Z,2019-11-17T11:36:23Z
+1391,Application helpers,2017-12-27T12:48:38Z,2018-03-23T00:24:16Z
+1395,media type serialization,2017-12-29T00:08:14Z,2017-12-29T00:43:42Z
+1396,cookie parsing,2017-12-29T00:44:32Z,2018-02-17T10:05:28Z
+1397,`AbortError` headers and `RedirectError`,2017-12-30T00:42:34Z,2018-04-27T01:46:46Z
+1398,Routing Groups,2017-12-30T15:13:34Z,2018-02-20T05:16:38Z
+1399,How do I determine in the vapor project is the current system is mac os or Ubuntu?,2018-01-01T06:45:42Z,2018-01-01T19:54:21Z
+1400,Vapor 3 only receives first request from a websocket,2018-01-01T23:45:28Z,2018-01-23T05:12:24Z
+1402,Do or Catch block not called when accessing database from deep nested closure,2018-01-03T11:30:39Z,2018-01-03T18:12:55Z
+1404,Vapor 3 Providers and `services.use`,2018-01-05T17:17:04Z,2018-01-12T09:35:53Z
+1405,Auto-Conformance to ResponseEncodable for Encodable Types,2018-01-05T18:19:36Z,2018-01-23T09:05:43Z
+1406,environment release mode,2018-01-05T19:22:43Z,2018-03-03T08:53:54Z
+1407,[Vapor 3] Heroku never successfully binds to $PORT,2018-01-05T19:40:54Z,2018-01-05T20:21:27Z
+1409,Vapor 3 Build Error: Could not build Objective-C Module 'Foundation',2018-01-06T15:59:01Z,2018-01-23T09:07:47Z
+1410,Client mishandles some HTTP headers,2018-01-07T05:22:01Z,2018-03-03T08:51:39Z
+1411,`request.content.decode()` can not disambiguate `MediaType`s,2018-01-07T12:56:48Z,2018-01-23T09:20:47Z
+1412,Vapor 3 Stuck on 'Migrating DB',2018-01-08T13:30:05Z,2018-01-09T01:44:51Z
+1413,`swift package update ` command stops updating !,2018-01-08T15:38:33Z,2018-01-10T15:10:49Z
+1416,If I can develop vapor project(deploy on Ubuntu) using Xcode without writing cross platform code?,2018-01-10T14:45:29Z,2018-01-23T09:05:56Z
+1417,"How to inherit from the Model class, custom MySQL table table name.",2018-01-10T14:59:40Z,2018-01-12T13:43:22Z
+1418,Can you provide detailed advanced instructions on how to use MySQLProvider?,2018-01-10T15:59:14Z,2018-01-10T23:28:45Z
+1419,uri query update infinite loop,2018-01-11T01:57:40Z,2018-02-27T13:57:43Z
+1421,How to parse this data for json?,2018-01-11T15:48:42Z,2018-01-13T15:56:31Z
+1422,does it make sense to implement thread-safety to MemoryCache?,2018-01-11T19:58:01Z,2018-02-26T21:41:41Z
+1423,How to configure vapor project .gitignore file?,2018-01-12T13:36:44Z,2018-01-12T13:42:17Z
+1424,"Why add a JSON Extension, but when prompted to use Type 'JSON' has no member 'result' ？",2018-01-12T15:48:09Z,2018-01-13T15:00:51Z
+1425,file middleware ,2018-01-12T17:30:51Z,2018-02-22T08:38:24Z
+1427,[Vapor 2] Routes can interfere with the serving of public files,2018-01-12T22:43:18Z,2018-01-23T07:58:29Z
+1428,Sessions Middleware,2018-01-12T22:51:23Z,2018-03-03T08:53:34Z
+1429,exclude file middleware by default,2018-01-15T00:51:50Z,2018-02-26T21:41:11Z
+1431,[V3] finally block not called when WebSocket connection is closed,2018-01-15T13:53:40Z,2018-01-19T13:57:04Z
+1434,[Vapor 3] Memory leak when serving static files.,2018-01-16T17:21:05Z,2018-02-26T21:42:53Z
+1436,Restore `Extendable` conformance in `Request`,2018-01-17T17:47:51Z,2019-01-31T21:58:51Z
+1438,[Vapor 3] WebSockets only send once in some use cases,2018-01-18T04:38:55Z,2018-01-23T09:52:25Z
+1440,`DatabaseConnectable` allow throwing,2018-01-21T23:58:47Z,2018-03-03T08:52:28Z
+1441,share singleton service cache,2018-01-22T00:10:11Z,2018-02-22T08:38:03Z
+1442,Add overloads for Client to accept HTTPRequest as well as Request types,2018-01-22T02:58:08Z,2018-04-27T01:48:36Z
+1443,`Request` -> `RequestContext`,2018-01-22T03:08:37Z,2018-02-22T08:37:32Z
+1445,integers in routing URL,2018-01-23T07:41:58Z,2018-02-27T14:57:06Z
+1447,direct client return results in infinite wait,2018-01-23T07:49:05Z,2018-02-15T05:22:01Z
+1450,HTTP Client doesn't return on connection close,2018-01-24T17:28:10Z,2018-02-22T08:37:55Z
+1451,TCPError.accept upon launch,2018-01-24T19:32:09Z,2018-03-03T08:58:17Z
+1452,[Vapor 3] Heroku fails on migration step with `TCP.TCPError.connect: Bad file descriptor`,2018-01-25T00:32:18Z,2018-03-22T01:18:26Z
+1453,[Vapor 3] WebSockets do not send in some use cases,2018-01-25T00:34:26Z,2018-02-11T06:46:04Z
+1454,Vapor + Linux + GraphQL + RethinkDB,2018-01-25T19:55:03Z,2018-02-26T21:48:14Z
+1455,"Production should bind to port 8080, not 80",2018-01-26T01:38:08Z,2018-04-27T01:49:08Z
+1456,Error import AppKit,2018-01-26T14:08:30Z,2018-01-26T17:09:09Z
+1457,Redis Pooling,2018-01-26T18:17:03Z,2018-02-26T21:45:36Z
+1460,Vapor 3's Client needs support for HTTP proxy configuration,2018-01-27T12:41:02Z,2018-03-03T08:57:50Z
+1461,Vapor 3's Client does not handle redirects,2018-01-27T13:13:01Z,2018-02-24T11:49:39Z
+1464,Memory leak in PeerValidator,2018-01-28T12:56:39Z,2018-02-15T05:21:34Z
+1465,Vapor cloud deploy failed: Sockets Error: Failed trying to connect to http://redis.eu.vapor.cloud:6379,2018-01-29T03:08:19Z,2018-01-31T06:48:18Z
+1467,rename `DirectoryConfig` default -> detect,2018-01-30T03:28:24Z,2018-02-12T19:58:08Z
+1469,lazy middleware config router,2018-01-30T04:42:44Z,2018-02-22T08:34:50Z
+1471,Updating apt.sh to Support Linux Mint,2018-01-31T08:41:53Z,2018-09-11T20:15:39Z
+1472,Server crashed on about 300 websocket connections,2018-01-31T15:31:04Z,2018-03-22T01:20:57Z
+1473,Vapor build fails: error: missing argument for parameter 'capacity' in call,2018-01-31T17:31:56Z,2018-01-31T18:24:52Z
+1478,Vapor 3 ambiguous module naming,2018-02-01T13:30:34Z,2019-11-17T11:37:51Z
+1479,middleware per event loop,2018-02-01T17:09:15Z,2018-02-22T08:30:41Z
+1481,Client Post Request has a content length of 0,2018-02-03T02:24:52Z,2018-02-15T21:32:23Z
+1482,Misleading Error on Unsuccessful MultipartForm Decode,2018-02-05T03:41:39Z,2018-02-22T08:31:43Z
+1483,Can not install Vapor on Ubuntu 16.10,2018-02-06T19:35:57Z,2018-02-22T08:30:21Z
+1485,Vapor 3: downloading any static asset from within Public crashes vapor server process,2018-02-07T07:22:44Z,2018-02-20T23:09:13Z
+1486,Vapor 3 Beta - Most used link in README.md points to a blog post,2018-02-07T09:58:25Z,2018-02-20T23:08:09Z
+1488,Vapor 3 beta: Server crashing under heavy load ,2018-02-07T23:17:20Z,2018-02-20T23:04:51Z
+1490,Websockets neither receive nor send,2018-02-11T06:53:22Z,2018-02-17T10:00:41Z
+1491,VAPOR 3: completely broken file serving from Public directory,2018-02-11T09:00:21Z,2018-02-20T19:38:25Z
+1492,VAPOR 3: chopped off view serving (chopping starts at 1929 chars of content),2018-02-11T12:46:23Z,2018-02-20T20:19:31Z
+1495,VAPOR 3: Compilation errors on new project,2018-02-12T11:09:51Z,2018-02-12T12:25:14Z
+1496,techempower benchmark,2018-02-12T21:25:04Z,2019-11-17T15:25:19Z
+1500,conform `Dictionary` and `Array` to `Content`,2018-02-15T05:05:36Z,2018-02-20T19:21:48Z
+1504,Can't have an HTTP and Websocket route with the same path,2018-02-18T17:23:47Z,2018-02-18T19:08:58Z
+1505,Websockets can't send from within `.map()`,2018-02-18T18:53:18Z,2018-02-28T07:46:48Z
+1508,#loop without new lines,2018-02-20T11:03:36Z,2018-02-20T11:09:30Z
+1513,Client request hang with tls,2018-02-22T23:39:05Z,2018-02-28T07:14:39Z
+1514,Different syntax for specifying params should work too,2018-02-23T12:04:49Z,2018-02-26T21:59:27Z
+1515,Request timed out,2018-02-24T09:05:29Z,2018-02-24T09:24:22Z
+1516,Beta branch doesn't build,2018-02-24T18:33:01Z,2018-02-24T18:56:39Z
+1518,JSON Response Hangs infinitely,2018-02-26T18:58:58Z,2018-02-26T20:24:44Z
+1520,ErrorMiddleware JSON Response,2018-02-26T20:52:27Z,2018-03-03T08:52:42Z
+1521,404 for any requests in RC1,2018-02-26T21:00:56Z,2018-02-26T21:40:39Z
+1522,export `multipart` module,2018-02-27T00:50:39Z,2018-03-03T08:52:07Z
+1523,OpenSSL errors with Vapor 3 on Ubuntu 16.04,2018-02-27T10:58:19Z,2018-02-28T16:45:16Z
+1524,Check script out of date,2018-02-27T11:06:55Z,2018-02-27T16:20:33Z
+1527,"While waiting on breakpoint, TLSSocketSink.swift falls on try! socket.handshake() ",2018-02-27T19:43:24Z,2018-02-28T06:21:54Z
+1530,Websockets can't receive over a certain length,2018-03-01T04:48:10Z,2018-03-22T01:20:24Z
+1531,3.0 RC: String parameter type does not work,2018-03-01T13:36:25Z,2018-03-01T14:02:12Z
+1533,3.0-RC: Command line arguments don't work,2018-03-02T09:04:32Z,2018-03-03T08:56:35Z
+1534,Decoding Errors should return 400 Bad Request,2018-03-03T09:43:08Z,2018-03-22T23:22:44Z
+1536,lazy route group,2018-03-06T21:45:44Z,2018-03-23T00:14:27Z
+1537,"On `nio` branch, adding `?` or anything after it to a url, causes  `404` response.",2018-03-07T12:09:27Z,2018-03-22T01:17:21Z
+1541,Need to do migration at a later stage,2018-03-11T21:16:36Z,2018-03-22T01:18:06Z
+1544,"Docs for Hello, World > Routing are ambiguous",2018-03-14T01:05:14Z,2018-03-22T00:54:10Z
+1545,dyld: Symbol not found: __TMSS,2018-03-14T15:45:59Z,2018-03-22T00:49:44Z
+1546,Date middleware promise leaking,2018-03-15T13:14:00Z,2018-03-22T00:50:01Z
+1547,My error middleware never gets a chance to handle the error on NIO,2018-03-15T13:19:56Z,2018-03-22T00:50:48Z
+1549,Is there any documentation about Facebook and Google login?,2018-03-15T20:45:53Z,2018-09-11T20:10:36Z
+1550,How to create new swift file by Xcode ?,2018-03-16T00:40:53Z,2018-03-16T00:48:47Z
+1551,No such module Found,2018-03-16T04:46:37Z,2018-03-16T16:23:17Z
+1553,Pivot tables -  add Unique protocol for a Pivot table to only contain unique rows,2018-03-16T17:07:54Z,2018-04-27T01:50:01Z
+1555,PostgreSQL withConnection issue (3.0.0-rc),2018-03-18T01:27:07Z,2018-03-22T00:53:38Z
+1559,RC2 - FileMiddleware intercepting root requests,2018-03-22T14:25:32Z,2018-03-22T20:02:50Z
+1561,create body coders (encoder/decoder) for multipart form,2018-03-22T16:18:41Z,2018-04-27T01:16:31Z
+1562,Cannot build latest Vapor RC2 'openssl/conf.h' file not found,2018-03-22T17:26:13Z,2018-03-22T20:32:26Z
+1564,Vapor 3.1.2 cannot get value from request,2018-03-23T04:48:53Z,2018-03-23T07:49:12Z
+1565,gzip compression handler,2018-03-23T06:50:13Z,2018-04-27T01:52:21Z
+1566,HTTP Client returns custom error code on 401,2018-03-23T14:46:09Z,2018-03-28T03:05:41Z
+1567,Query container should not have .wait() on it's decoder,2018-03-23T15:39:36Z,2018-03-24T22:44:20Z
+1569,MySQLError.prepareStatus: Prepare response has invalid status,2018-03-24T11:25:51Z,2018-04-20T23:04:39Z
+1571,Fetching of https://github.com/apple/swift-nio-ssl-support.git never ends,2018-03-25T00:13:43Z,2018-03-27T00:34:14Z
+1572,Can't Install vapor,2018-03-25T09:14:36Z,2018-03-25T11:21:26Z
+1573,Client overrides content type header,2018-03-25T21:59:34Z,2018-03-28T04:10:43Z
+1574,move default router to Singleton ,2018-03-26T05:34:12Z,2018-04-27T01:15:03Z
+1575,Can't build vapor project,2018-03-26T12:26:33Z,2018-03-26T13:39:02Z
+1576,Run release with environment,2018-03-26T19:09:30Z,2018-03-28T04:34:46Z
+1577,documentation: benchmarks for network IO?,2018-03-26T21:11:57Z,2019-11-17T15:25:53Z
+1578,Websocket: Event Loop Error,2018-03-27T04:39:19Z,2018-04-11T19:45:42Z
+1580,characters is deprecated: Please use String or Substring directly,2018-03-27T06:43:18Z,2018-03-29T16:23:13Z
+1581,MySQL migration error,2018-03-27T11:44:10Z,2018-03-28T03:10:04Z
+1582,plaintext encoder handle arrays,2018-03-27T14:23:46Z,2018-05-02T20:24:30Z
+1583,add `as mediaType: MediaType` option to client conveniences,2018-03-27T14:24:20Z,2018-04-27T01:15:47Z
+1584,add boot command,2018-03-27T19:22:54Z,2018-04-26T02:39:01Z
+1585,Working with the Swift REPL importing Vapor frameworks,2018-03-27T19:43:05Z,2019-01-31T09:46:02Z
+1586,File Middleware Optimization,2018-03-27T21:35:22Z,2018-04-27T01:53:20Z
+1587,Convenience method for making responses.,2018-03-27T23:17:41Z,2018-04-27T01:54:02Z
+1588,Run error: FluentError.reflectProperty ,2018-03-29T06:43:45Z,2018-03-29T08:19:33Z
+1590,`vapor update -y` fails Error: ,2018-03-29T19:15:40Z,2018-03-29T19:44:01Z
+1591,Procfile example for Vapor 3?,2018-03-29T22:01:35Z,2018-04-05T01:01:30Z
+1592,How to change mysql Collation with vapor code,2018-03-30T01:29:15Z,2018-04-20T23:05:20Z
+1593,vapor build in ubuntu 16.04 error: use of undeclared type 'SSL',2018-03-30T15:47:59Z,2018-03-31T10:07:16Z
+1594,FoundationClient not working in Linux,2018-03-30T19:45:22Z,2018-04-27T01:14:38Z
+1595,API Providers should not have to rely on the applications content configs,2018-03-30T19:58:43Z,2018-04-27T01:55:31Z
+1596,FoundationClient Not Using URL Correctly,2018-03-30T20:23:48Z,2018-04-20T18:24:11Z
+1597,Archive Vapor in favour of PHP,2018-04-01T13:25:46Z,2018-04-02T12:53:02Z
+1599,Interleaving in console logging,2018-04-03T15:50:42Z,2018-04-03T15:51:46Z
+1601,Get IP address from request,2018-04-03T23:30:00Z,2018-04-17T19:27:51Z
+1602,"ubuntu 16.04 install vapor success,but ....",2018-04-04T02:31:02Z,2018-04-05T10:26:54Z
+1603,[Vapor 3] No way to define database column size,2018-04-04T15:11:31Z,2018-04-05T15:28:55Z
+1605,"Typo in ""Streaming""",2018-04-06T22:03:49Z,2018-04-16T21:53:57Z
+1606,Add implicit return type to flatMap async method,2018-04-07T08:57:32Z,2018-05-01T21:00:48Z
+1609,Failure of route auto content-decoding hangs infinitely ,2018-04-08T20:17:09Z,2018-04-27T01:28:10Z
+1610,FoundationClient not properly handling HTTPResponse types.,2018-04-08T20:20:49Z,2018-04-20T23:12:35Z
+1611,Adding fluent-postgresql causes hang.,2018-04-09T05:04:16Z,2018-04-09T05:27:00Z
+1612,"brew install vapor/tap/vapor ""Warning: Calling 'depends_on ... => :run' is deprecated!""",2018-04-09T06:50:10Z,2018-04-20T23:12:55Z
+1613,Discussion: Discourage State in RouteCollection,2018-04-09T15:44:08Z,2019-11-17T15:26:43Z
+1614,Can not install any 3.0.0 version that includes fluent/postgresql-provider,2018-04-10T06:30:16Z,2018-04-10T07:01:54Z
+1615,macOS Deployment Target keeps resetting to 10.10,2018-04-10T20:08:41Z,2018-04-11T19:34:18Z
+1616,Server hangs on response,2018-04-11T15:36:46Z,2019-01-31T07:49:06Z
+1617,HEAD request returns 404 on registered route,2018-04-11T20:49:26Z,2018-05-04T19:22:01Z
+1618,Vapor does not honor foreign key constraints when using SQLite,2018-04-12T20:55:22Z,2018-04-12T20:56:21Z
+1620,Missing project.pbxproj file after generating Xcode project,2018-04-12T23:00:50Z,2018-05-01T23:59:47Z
+1622,Can't generate xcode project after adding redis,2018-04-13T09:39:04Z,2018-04-20T22:43:14Z
+1623,No configured dataDecoder for multipart/form-data,2018-04-13T16:20:39Z,2018-04-20T22:44:27Z
+1624,Vapor 2 doesn't compile on Xcode 9.3 when gathering code coverage data,2018-04-13T16:35:05Z,2018-04-30T16:25:04Z
+1626,Bring back BCryptService,2018-04-15T12:16:43Z,2018-04-27T01:13:06Z
+1628,Crash in datemiddleware,2018-04-18T10:10:34Z,2018-04-27T01:05:46Z
+1629,Vapor 3 cannot load image and css from `Public images (images resources)` and `Public  styles (css resources)`,2018-04-18T14:26:02Z,2018-04-19T08:56:34Z
+1630,"Always waiting too long for Generating Xcode Project, and always [Failed] to generate",2018-04-18T16:11:57Z,2018-04-22T18:20:10Z
+1631,Server crashes on release build when encoding a Date as JSON,2018-04-18T18:33:28Z,2018-04-27T06:54:55Z
+1633,Discussion: error logging,2018-04-19T21:48:18Z,2018-05-01T23:59:10Z
+1636,rename Content.defaultMediaType to defaultContentType,2018-04-20T18:41:30Z,2018-04-25T23:52:29Z
+1637,restore `ViewRenderer`,2018-04-20T21:39:02Z,2018-04-26T02:40:24Z
+1639,Can’t run Hello (tutorial) project’s Run scheme,2018-04-21T01:45:42Z,2018-04-21T15:00:15Z
+1641,Vapor 3 docs wrong for leaf tags,2018-04-21T18:09:48Z,2018-05-01T23:58:26Z
+1642,Add command to start app without booting it,2018-04-23T18:15:25Z,2018-04-26T02:38:53Z
+1644,CSRF Support for Vapor 3,2018-04-24T16:43:47Z,2019-11-17T15:27:07Z
+1648,add ContentTag,2018-04-26T02:31:35Z,2018-05-01T23:54:38Z
+1649,Response with Body and 204 (No Content) Status Doesn't Return,2018-04-26T21:54:53Z,2018-08-21T21:04:22Z
+1650,support http/2,2018-04-27T01:14:06Z,2019-11-17T15:27:45Z
+1651,additional toolbox templates,2018-04-28T23:30:59Z,2019-11-17T15:28:11Z
+1652,[Doc] Incorrect behavior in req.session,2018-04-29T02:25:11Z,2018-05-01T23:47:15Z
+1653,Remove trailing whitespaces in circle.yml file,2018-05-01T14:08:44Z,2018-05-01T23:45:45Z
+1654,Add helper to set HTTP status without losing response body,2018-05-01T17:52:29Z,2018-05-01T23:44:42Z
+1655,Incorrect decoding when value url encoded value contains %26,2018-05-04T04:25:09Z,2018-05-04T19:20:48Z
+1658,Routing with path arrays,2018-05-05T16:47:44Z,2018-05-08T23:33:46Z
+1659,Vapor 2 and swift 4.1,2018-05-06T17:11:09Z,2019-01-30T20:53:43Z
+1661,SessionsMiddleware doesn't clear session from cache,2018-05-07T18:45:15Z,2018-07-31T20:37:46Z
+1662,"How long into Vapor Packages will start working with Vapor 3, or how do I make them work?",2018-05-07T23:54:55Z,2018-05-08T02:52:23Z
+1664,Vapor 3 Fluent provider for mongodb,2018-05-08T16:43:49Z,2018-05-08T23:34:55Z
+1669,Future Async call wait() crashed,2018-05-09T06:47:21Z,2018-05-09T08:06:02Z
+1670,Returning a Response directly from Client.get in Heroku throws an error,2018-05-09T15:43:55Z,2020-04-01T21:29:52Z
+1671,Deprecate makeResponse() in favour of response(),2018-05-09T17:51:16Z,2018-05-13T07:12:17Z
+1675,Harmonization of *[eE]qual and *[eE]quals in enum cases and static constants.,2018-05-11T20:14:21Z,2018-09-19T12:15:42Z
+1676,Using DB connection in models,2018-05-12T09:02:13Z,2018-05-13T07:11:35Z
+1677,Vapor 3 Auth docs,2018-05-12T10:59:47Z,2018-05-17T20:52:48Z
+1678,vapor 3 config document miss.,2018-05-12T12:34:21Z,2018-05-18T02:13:26Z
+1680,Incorrect documentation for Vapor router parameters,2018-05-13T00:02:40Z,2018-05-13T00:26:14Z
+1681,Fresh project does not compile,2018-05-13T04:57:01Z,2018-05-13T07:09:31Z
+1682,"Vapor Cloud: ""product dependency 'Vapor' not found""",2018-05-13T08:15:52Z,2018-05-15T22:38:04Z
+1683,Vapor Hello does not build,2018-05-16T01:37:40Z,2018-05-16T18:20:20Z
+1685,Failed to fetch `Redis` dependencies.,2018-05-17T10:04:34Z,2018-05-21T06:15:48Z
+1687,Request Query Strings Percent Encoded Twice,2018-05-18T03:53:41Z,2018-06-05T03:59:25Z
+1688,Update hangs,2018-05-18T04:01:33Z,2018-05-18T11:20:51Z
+1689,promise leak when trying to connect to WebSocket server where there is none,2018-05-18T18:21:18Z,2019-01-31T14:56:52Z
+1693,Request is returning failed operation: connection was cleanly shut down with a close_notify alert,2018-05-22T14:59:29Z,2019-11-17T15:28:45Z
+1694,Maximum concurrent Vapor WebSocket connections,2018-05-22T18:58:15Z,2019-01-30T21:03:07Z
+1695,Support for NIO client,2018-05-23T17:36:24Z,2018-09-11T20:12:20Z
+1696,How to use the timer in vapor 3 ? 🦄,2018-05-24T09:24:55Z,2018-07-30T01:30:22Z
+1698,How do you respond to an entity of the following structure,2018-05-28T02:43:32Z,2018-05-28T03:03:47Z
+1699,How to synchronize the vapor added field to the corresponding table in the local MySQL database?,2018-05-28T05:44:42Z,2018-05-28T14:14:20Z
+1700,Issue with large uploads and hosting videos,2018-05-28T08:17:02Z,2019-11-17T15:30:15Z
+1701,[Feature Request] Detecting vapor itself in build time and package resolving.,2018-05-28T09:27:14Z,2019-11-17T15:31:04Z
+1702,"How to count API access times, time, IP and other information to the database 🦄🦄🦄",2018-05-30T02:48:58Z,2018-05-30T07:11:33Z
+1703,Add Xcode Project template for starting Vapor 3 projects,2018-05-31T04:21:50Z,2018-09-17T12:02:55Z
+1707,Requests from vapor client corrupts SQLite database in vapor server,2018-06-02T12:53:18Z,2019-11-17T15:32:03Z
+1708,"vapor new ""project"" --web",2018-06-03T09:03:24Z,2018-09-11T19:59:46Z
+1709,[Feature request] Early Hints in Vapor,2018-06-03T16:09:38Z,2019-11-17T15:40:54Z
+1710,Timestampable models test fails in linux,2018-06-05T01:59:50Z,2019-11-17T15:41:20Z
+1711,thread-safe controllers,2018-06-05T02:25:47Z,2020-03-06T21:07:44Z
+1712,Can't build project,2018-06-06T09:53:55Z,2018-06-09T10:55:25Z
+1713,Codable default encoding/decoding strategy,2018-06-06T22:55:13Z,2018-09-17T12:17:42Z
+1714,request content Decoding help for JSON content,2018-06-06T23:21:12Z,2018-09-11T20:31:57Z
+1715,Replace Slack with Discord in the README,2018-06-07T13:34:48Z,2018-07-20T17:18:58Z
+1716,How to intercept 404 and customize return data? 🍦🍦🍦,2018-06-08T09:30:14Z,2018-06-14T12:24:38Z
+1717,vapor update always prints out error message.,2018-06-09T06:44:03Z,2018-09-11T20:31:01Z
+1719,How to effectively ignore the id field returned from the MySQL query result ? 🤔🤔🤔,2018-06-10T13:42:31Z,2018-06-11T14:21:44Z
+1720,Unable to decode optional numbers,2018-06-10T23:03:33Z,2018-09-11T20:20:05Z
+1721,Vapor update stucks at swift-nio-ssl-support,2018-06-11T11:57:15Z,2018-06-11T12:53:10Z
+1722,Can't connect to websocket with GET parameters,2018-06-12T12:05:46Z,2018-09-19T12:08:44Z
+1723,Unable to proxy requests when running on Linux,2018-06-12T14:05:37Z,2018-09-17T14:38:12Z
+1726,How to install it on Arch Linux?,2018-06-17T04:55:35Z,2018-09-19T11:22:17Z
+1727,Compilation error for Swift 4.1,2018-06-17T05:10:46Z,2018-06-21T20:21:16Z
+1728,Vapor Won't Build Or Update,2018-06-17T09:00:28Z,2018-06-17T17:49:29Z
+1729,Please provide a few CRUD examples using raw queries (not Fluent) in the Docs,2018-06-17T18:23:33Z,2018-07-31T20:35:04Z
+1730,how to regi a router with user del by id or ids?,2018-06-18T06:56:21Z,2018-09-19T11:19:42Z
+1731,Build failed: Because of Core 3.3.0/Async/Future+Flatten.swift ,2018-06-19T10:17:33Z,2018-06-19T22:50:03Z
+1733,PlaintextEncoder has a thread race condition ,2018-06-19T21:26:46Z,2018-06-21T15:39:23Z
+1734,Allow middlewares to find out the route that they’re “attached” to,2018-06-21T01:12:17Z,2018-06-21T11:57:45Z
+1735,FileMiddleware does not process symlinks correctly,2018-06-21T02:30:49Z,2020-04-01T21:09:17Z
+1736,Decoding error and crash retrieving a single entity with an enum field,2018-06-23T03:23:34Z,2018-07-17T05:47:00Z
+1738,Why deployed on the Ubuntu cloud server does not resolve the data ?,2018-06-27T11:52:42Z,2018-06-29T03:44:47Z
+1739,Extend Vapor `EventLoop`s with `ThreadSpecificVariable` dictionary,2018-06-27T22:58:53Z,2020-04-01T21:31:29Z
+1740,"""swift build -Xswiftc -I/usr/local/opt/openssl/include -Xlinker -L/usr/local/opt/openssl/lib"" in Jenkins, it was fail, error log was ---- Undefined symbols for architecture x86_64:",2018-06-28T03:37:57Z,2018-09-19T11:07:22Z
+1741,Type PathComponentsRepresentable does not conform to ExpressibleByStringLiteral,2018-06-28T16:28:38Z,2018-06-29T16:06:00Z
+1743,CRUD controller,2018-06-30T04:17:52Z,2018-09-11T19:16:03Z
+1744,Enhancement: Please allow parameter skipping.,2018-06-30T04:55:56Z,2018-09-11T19:39:54Z
+1745,MySQLModel longtext type,2018-07-04T09:04:53Z,2018-07-05T02:47:54Z
+1748,How to update database table?,2018-07-06T03:45:41Z,2018-07-07T03:28:47Z
+1749,log source,2018-07-06T18:47:17Z,2020-02-19T15:57:57Z
+1750,"How do I make all subclasses Model have the attributes of createdAt, updatedAt, and custom entity?",2018-07-07T13:21:47Z,2018-07-10T02:16:08Z
+1751,FoundationClient does not preserve the final URL of the response,2018-07-09T09:19:20Z,2018-09-11T19:50:46Z
+1752,The Client protocol encourages unnecessarily retaining the container property,2018-07-09T09:21:53Z,2020-04-01T21:34:00Z
+1753,Why nobody cant connect to Vapor site and servers from Russia?,2018-07-10T08:29:24Z,2018-07-31T20:31:34Z
+1756,runs slowly,2018-07-12T06:59:13Z,2018-09-19T10:45:55Z
+1758,"In Swift 4 (linux), how do I use a third-party library for Python 3 ?",2018-07-17T07:23:31Z,2018-07-18T01:38:04Z
+1759,Cannot add JSON dependency,2018-07-19T04:58:58Z,2018-07-19T12:05:58Z
+1760,vapor build fails,2018-07-19T16:00:36Z,2018-07-19T16:18:40Z
+1761,Enhancement: Support merge-patch RFC 7396,2018-07-19T16:37:40Z,2018-09-17T11:50:29Z
+1765,Vapor project won't build on Xcode 10 beta 4,2018-07-20T18:34:06Z,2018-07-21T16:45:57Z
+1767,SessionsMiddleware call twice addCookies,2018-07-21T10:37:08Z,2018-07-23T10:28:59Z
+1768,Can't use latest version of Vapor on mac with Xcode 9.4.1,2018-07-22T13:41:19Z,2018-09-11T20:14:26Z
+1769,Add ability to customize structure of error messages,2018-07-23T04:35:09Z,2019-02-19T17:20:38Z
+1770,Conform NotFound to AbortError,2018-07-23T17:58:39Z,2018-07-27T10:05:20Z
+1773,Right way coding,2018-07-24T20:06:17Z,2018-07-24T20:08:39Z
+1774,Send `Connection: close` header but the connection is not closed,2018-07-25T03:37:40Z,2018-09-19T10:30:42Z
+1775,The Future method cannot be executed in a for loop. ,2018-07-25T09:18:16Z,2018-07-26T01:56:41Z
+1776,"On Linux, how to convert UTF8 to GBK ?",2018-07-26T16:25:33Z,2018-07-30T01:29:54Z
+1778,Vapor tests should shut down the `MultiThreadedEventLoopGroup`s and `BlockingIOThreadPool`s,2018-07-31T14:44:19Z,2018-09-19T14:45:04Z
+1779,Missing documentation for CORS,2018-07-31T20:27:24Z,2018-08-31T10:52:25Z
+1780,Type Unknown when using Generics for a RouteCollection,2018-08-01T07:39:50Z,2018-09-17T11:49:46Z
+1781,intermittent test failure,2018-08-02T10:32:52Z,2020-04-01T21:35:43Z
+1782,"Invalid values cause crash on MySQL, via Fluent",2018-08-03T01:46:03Z,2018-08-21T21:29:53Z
+1783,Vapor Heroku only allows pushing master branch to heroku master,2018-08-07T22:17:50Z,2018-08-21T21:21:49Z
+1784,No global methods,2018-08-08T01:25:55Z,2018-08-08T05:29:34Z
+1786,"""no content type"" error is misleading",2018-08-15T18:40:46Z,2018-08-21T21:20:47Z
+1787,throwing HTTPResponseStatus.noContent does not close connection.,2018-08-15T20:32:46Z,2018-08-21T21:02:27Z
+1788,starting vapor calls .wait on an EventLoop,2018-08-16T16:56:08Z,2018-08-21T18:50:29Z
+1789,How to run multiple vapor 3 projects in Ubuntu ?,2018-08-17T04:29:15Z,2018-09-17T14:57:24Z
+1790,Could vapor run on CentOS?,2018-08-21T06:27:45Z,2018-09-11T20:27:13Z
+1791,Missing project.pbxproj file and cannot run project,2018-08-22T00:17:54Z,2018-09-19T10:34:50Z
+1792,Possible memory leak,2018-08-23T17:21:51Z,2018-08-24T05:44:02Z
+1793,Vapor rebuilds everything every time,2018-08-25T18:48:06Z,2018-09-11T18:51:41Z
+1795,Vapor Ubunutu APT: 'swift' --> 'swiftlang',2018-08-31T06:33:25Z,2018-12-17T23:38:49Z
+1796,log output should make file paths more concise,2018-08-31T16:13:20Z,2018-09-19T14:48:18Z
+1797,Removing routes at runtime,2018-09-01T16:16:01Z,2018-09-17T11:13:57Z
+1798,Add a WebFlux type functionality to do reactive behaviour over HTTP like SpringBoot,2018-09-02T21:05:50Z,2018-09-19T14:28:47Z
+1799,"""Default"" route",2018-09-03T02:21:34Z,2018-09-17T10:23:42Z
+1800,Possible to integrate a JavaScript engine into Vapor for server-side React/Vue rendering?,2018-09-05T22:36:32Z,2018-09-06T00:09:10Z
+1801,streamFile broken since http 3.1.2 behind a load balancer,2018-09-08T09:09:03Z,2018-09-08T14:30:50Z
+1802,Can't post the JSON data with multiple key values,2018-09-10T00:57:51Z,2018-09-11T18:50:08Z
+1804,Impossible to set Abort properties,2018-09-12T09:01:35Z,2020-04-01T21:38:39Z
+1805,Ambiguous reference to member 'post(_:at:use:)',2018-09-12T22:54:00Z,2018-09-13T04:57:55Z
+1806,Websocket keepalive,2018-09-15T07:52:07Z,2018-09-19T10:34:15Z
+1807,Web session cookie expired on login,2018-09-16T21:56:17Z,2018-09-17T09:17:11Z
+1808,"issue in vapor2 "" The request timed out.""",2018-09-17T17:38:47Z,2019-02-16T13:46:52Z
+1809,Why not encode computed variables on a model?,2018-09-18T01:09:33Z,2018-09-19T09:50:10Z
+1811,Ubuntu 18.04 Support,2018-09-18T17:44:45Z,2018-09-19T10:13:11Z
+1815,Vapor3 heroku error with @testable module,2018-09-19T23:29:31Z,2019-11-17T15:45:36Z
+1816,Path Resources/ is now Sources/,2018-09-20T11:36:20Z,2018-09-20T12:16:07Z
+1818,can't git push heroku master ,2018-09-21T00:15:27Z,2018-09-21T03:36:55Z
+1822,add `userInfo` to Request and Response,2018-09-27T13:03:48Z,2019-11-17T15:46:40Z
+1823,Vapor 2.4.5 doesn't compile with Swift 4.2 (Ubuntu),2018-09-28T13:55:15Z,2019-02-16T12:58:17Z
+1826,Cannot list organizations or cloud deploy,2018-10-02T23:04:53Z,2019-11-17T15:47:18Z
+1828,Hello World project crashes immediately,2018-10-07T22:02:11Z,2018-10-08T11:19:05Z
+1829,Segmentation fault when running Vapor 2.4.5 on linux in release configuration,2018-10-12T15:28:23Z,2019-02-16T13:45:58Z
+1830,"vapor xcode ,fetch,build  error, but vapor --help success ",2018-10-17T08:58:01Z,2019-11-17T15:48:47Z
+1831,Vapor 3: FoundationClient caching issue,2018-10-21T20:32:31Z,2018-10-31T19:57:59Z
+1832,Ubuntu 16.04 can not vapor run,2018-10-29T10:43:59Z,2018-10-31T19:58:19Z
+1835,Don't have a method called response(),2018-11-05T00:13:59Z,2018-11-05T00:15:11Z
+1838,merge Request and HTTPRequest,2018-11-09T18:38:58Z,2020-02-19T09:40:35Z
+1839,Handling not found error like others,2018-11-11T02:20:34Z,2019-02-06T20:25:30Z
+1841,Build Error,2018-11-18T22:30:52Z,2020-04-01T21:41:21Z
+1844,Multipart form error in post request,2018-11-20T19:59:29Z,2018-11-21T18:44:00Z
+1846,Package.swift warning,2018-11-29T03:27:27Z,2018-12-09T13:03:28Z
+1847,Vapor 3 SecTaskLoadEntitlements failed error on POST the HTTP form request,2018-12-02T04:06:39Z,2020-04-01T21:42:03Z
+1848,"Chapter 5: Building vapor (release) [Failed], swift-build: error: rootManifestFileNotFound",2018-12-02T19:09:59Z,2018-12-02T20:57:59Z
+1849,Slowness creating new project,2018-12-05T19:45:21Z,2018-12-05T19:54:44Z
+1850,Graphiti integration ?,2018-12-11T08:48:50Z,2020-04-01T21:42:14Z
+1853,[Feature] RethinkDB NIO Client Driver with fluent Support,2018-12-13T05:48:31Z,2019-06-30T12:33:39Z
+1854,Serve index.html from Public directory,2018-12-14T07:51:52Z,2018-12-26T12:52:55Z
+1855,Vapor Clean Template for New Projects,2018-12-14T10:31:07Z,2019-06-30T12:54:03Z
+1857,RFC: Changes to Vapor APT,2018-12-17T23:38:17Z,2020-04-01T21:42:21Z
+1858,no such module / could not build objective-c module,2018-12-21T15:01:51Z,2019-04-25T21:06:33Z
+1859,Unable to send authenticated POST to remote server,2018-12-24T04:22:01Z,2019-01-03T01:42:44Z
+1863,Impossible to inject Request.parameters,2019-01-04T15:06:11Z,2020-02-19T09:54:43Z
+1864,Impossible to access original request url,2019-01-04T22:24:48Z,2020-04-01T21:44:38Z
+1865,Is WebSocket.send thread safe?,2019-01-10T14:40:04Z,2019-01-10T15:32:00Z
+1867,`Set<String>` does not conform to `ReflectionDecodable`,2019-01-12T16:33:29Z,2019-01-21T06:47:10Z
+1869,Option to enable X-Powered-By: Vapor HTTP response headers.,2019-01-17T11:37:15Z,2019-06-30T12:32:28Z
+1870,Threads not closed on `deinit` / `shutdownGracefully`,2019-01-17T13:06:12Z,2020-04-01T21:45:30Z
+1877,Can't update vapor project,2019-01-23T07:22:26Z,2019-01-23T13:02:07Z
+1883,Fatal Error during benchmark,2019-02-08T05:22:52Z,2019-02-08T15:25:45Z
+1885,add .env (dotenv) support,2019-02-10T19:40:40Z,2019-02-15T22:50:12Z
+1886,[New Feature] Vaporlets?,2019-02-12T13:43:07Z,2020-04-01T21:48:01Z
+1889,graceful shutdown,2019-02-12T20:45:49Z,2020-02-18T22:10:45Z
+1892,vapor build failure,2019-02-14T09:17:33Z,2019-02-14T12:43:48Z
+1893,vapor build error : fetch  command is deprecated  and  use resolve instead,2019-02-14T13:20:43Z,2019-02-14T18:14:16Z
+1894,Regression in 3.2.0 causing crashes with FoundationClient,2019-02-14T14:15:01Z,2019-02-14T15:34:47Z
+1905,per-request client config,2019-02-16T15:31:42Z,2020-04-01T21:50:46Z
+1907,Add missing supportCompression parameter to NIOServerConfig object ,2019-02-17T10:15:16Z,2019-02-19T17:19:14Z
+1910,nserror messages,2019-02-20T16:26:15Z,2019-02-26T18:38:00Z
+1911,503 error when deploy app to Vapor Cloud ,2019-02-20T22:04:49Z,2019-02-25T18:55:27Z
+1915,Future<Response> improvement,2019-02-21T18:04:16Z,2019-03-31T14:44:23Z
+1918,Who can see my localhost mock of Vapor server ? ,2019-02-24T20:21:40Z,2020-01-06T08:39:36Z
+1924,Logger+LogError.swift: case is already handled by previous patterns,2019-03-04T18:18:49Z,2019-03-05T21:17:35Z
+1926," Vapor  initiates http request, how to get the content of the response",2019-03-06T05:57:45Z,2020-04-01T21:48:30Z
+1927,Generate OPTIONS Routes,2019-03-13T17:00:26Z,2020-02-19T12:56:16Z
+1929,Timeout in Promise: What's the best way to have a timeout in the promise?,2019-03-14T20:05:21Z,2019-03-15T11:19:45Z
+1930,"Error like ""Value required for key 'device_id'."" should not be returned in production environment",2019-03-15T17:58:44Z,2020-02-19T09:25:54Z
+1932,Cannot create siblings relation between same models,2019-03-17T18:04:19Z,2019-03-19T17:29:59Z
+1934,eventLoop.scheduleTask Limit,2019-03-23T21:18:34Z,2019-03-27T14:57:12Z
+1935,"Member 'psql' in 'DatabaseIdentifier<_>' produces result of type 'DatabaseIdentifier<PostgreSQLDatabase>', but context expects 'DatabaseIdentifier<_>'",2019-03-24T17:14:28Z,2019-03-24T22:22:09Z
+1936,Are there plans for a SwiftNIO 2 branch of Vapor/Fluent 3?,2019-03-25T09:47:20Z,2019-03-26T21:04:52Z
+1937,[Question] Swift 5 support?,2019-03-26T09:37:17Z,2019-03-26T09:47:37Z
+1938,"Getting ""TemplateKitError.tag:set: Unsupported key type"" after upgrading to Xcode 10.2",2019-03-28T00:37:06Z,2019-03-28T17:14:32Z
+1940,Support for macOS Cocoa app,2019-04-01T23:42:17Z,2020-04-01T21:52:30Z
+1941,"Vapor update -y produces Error ""no Entry""",2019-04-02T08:55:02Z,2020-04-01T21:52:42Z
+1942,Feature request: Add an extension that conforms `HTTP.HTTPClient` to `Vapor.Client`,2019-04-02T09:34:19Z,2019-04-03T21:49:05Z
+1946,No progress when vapor build ,2019-04-04T07:02:29Z,2019-04-08T09:36:54Z
+1948,I can't update vapor ,2019-04-04T17:24:31Z,2019-04-04T21:15:55Z
+1949,Swagger to Vapor 3 Server API Interface,2019-04-05T00:02:29Z,2019-04-24T21:37:26Z
+1950,How to add default data to the database,2019-04-07T09:32:13Z,2019-04-11T08:47:37Z
+1951,"Error: backgroundExecute(code: 1, error: ""The file *.xcodeproj does not exist.",2019-04-09T11:38:12Z,2019-04-10T01:26:22Z
+1952,vapor3 accept the client's json data,2019-04-10T12:52:03Z,2019-04-10T13:23:41Z
+1953,vapor 3 on Swift 5 crash in VaporTests.ApplicationTests testMultipartDecode,2019-04-10T15:00:34Z,2019-04-10T15:53:51Z
+1955,Vapor 3: ApplicationTests.testRetainCycles seems flaky,2019-04-11T17:13:25Z,2020-04-01T21:53:18Z
+1958,"vapor 3.1.10 swift 5.0 Setting procfile... Error: GeneralError(message: ""Unable to locate vapor dependency"")",2019-04-12T09:20:42Z,2019-04-16T01:46:37Z
+1960,vapor 4 compilation failure,2019-04-12T17:08:49Z,2019-04-12T19:27:47Z
+1961,How to install vapor 2 instead of vapor 3?,2019-04-14T18:02:15Z,2019-04-25T20:53:53Z
+1962,Sometimes vapor server does not accept requests.,2019-04-14T19:10:40Z,2020-04-01T21:53:38Z
+1963,High cpu usage and not accepted requests,2019-04-21T20:16:26Z,2019-12-10T01:29:45Z
+1964,`seekInputStream` not implemented when `try req.client().post()`,2019-04-24T20:15:55Z,2019-04-25T19:11:40Z
+1966,SSL certificate of the Ubuntu repository is expired,2019-04-26T16:09:58Z,2019-04-28T17:50:29Z
+1968,Vapor,2019-04-27T19:25:31Z,2019-04-27T20:42:53Z
+1972,Vapor does not allow big files to upload,2019-05-01T08:37:49Z,2020-01-13T10:35:17Z
+1973,"Vapor Toolbox: 3.1.10 Swift 5.0.1 Error: GeneralError(message: ""Unable to locate vapor dependency"")",2019-05-06T10:51:09Z,2020-04-01T21:58:36Z
+1974,"Escaped ""/"" in JSON response",2019-05-10T11:53:00Z,2019-05-10T14:57:37Z
+1975,Production :502 Bad Gateway,2019-05-12T06:34:16Z,2019-05-12T09:51:47Z
+1976,Could not build Objective-C module 'CNIOZlib',2019-05-13T09:52:06Z,2020-04-01T21:58:54Z
+1977,Information loss for Dates outside of the api,2019-05-15T08:15:46Z,2020-04-02T16:07:08Z
+1978,ubutun vapor build --release  error,2019-05-16T13:00:01Z,2020-04-02T16:10:34Z
+1980,Wrong ID on join,2019-05-22T08:42:08Z,2019-06-04T13:00:24Z
+1982,vapor xcode failed ,2019-05-28T02:52:57Z,2020-04-02T16:12:29Z
+1984,Request with no session key gets last session object,2019-05-31T15:48:27Z,2019-06-11T21:18:54Z
+1986,4.0 build failed,2019-06-01T14:59:20Z,2020-04-02T16:13:39Z
+1989,How to exclude property of instance which is extension of 'Content' protocol?,2019-06-04T13:52:30Z,2020-04-02T16:13:56Z
+1993,could not install vapor on macos mojave,2019-06-07T01:56:34Z,2020-04-02T16:14:17Z
+1994,Use Github's new feature for vapor templates.,2019-06-08T07:17:57Z,2019-06-08T14:32:12Z
+1996,Help with CoreLocation,2019-06-08T21:50:10Z,2019-06-11T22:44:03Z
+1997,WebSockets crash server on 404,2019-06-09T23:33:08Z,2019-06-11T23:15:30Z
+1998,requires a minimum Swift tools version of 5.0.0 (currently 4.2.0),2019-06-10T09:41:36Z,2019-06-11T23:15:59Z
+2001,Compilation error in Ubuntu,2019-06-12T03:48:50Z,2019-06-12T03:52:29Z
+2002,Client has no way to send POST|PUT|PATCH data,2019-06-13T13:57:31Z,2019-06-13T16:35:38Z
+2005,can not vapor build on the macos,2019-06-17T02:59:43Z,2019-06-19T17:35:46Z
+2006,Extracting file content for Environment variable,2019-06-15T12:06:10Z,2020-02-19T16:07:13Z
+2008,Date is being encoded as double,2019-06-22T11:19:07Z,2019-09-12T14:39:53Z
+2009,channel handler decode assertion with websockets,2019-06-24T23:55:24Z,2019-06-25T00:25:37Z
+2013,Database connection leakage,2019-07-03T09:19:13Z,2019-07-04T09:37:16Z
+2015,vapor How crash information is targeted to specific code,2019-07-08T03:33:53Z,2020-04-02T16:19:32Z
+2019,duplicate symbol when using library with grpc-swift,2019-07-10T12:28:17Z,2020-04-02T16:23:34Z
+2021,Your Xcode (10.1) is too outdated.,2019-07-12T02:27:49Z,2019-09-12T14:41:54Z
+2022,Vapor 3 LAN IP Crash on Mac,2019-07-17T13:35:08Z,2019-09-16T17:42:00Z
+2023,not able to run build from Xcode,2019-07-19T14:52:33Z,2019-07-19T14:56:39Z
+2025,About `Proxypool` in Vapor,2019-07-21T04:14:29Z,2019-08-21T07:54:17Z
+2027,test suite fails thread sanitizer,2019-07-22T16:21:34Z,2019-08-26T15:03:34Z
+2029,Fetch never ends when invalid tag in dependency,2019-07-30T10:02:53Z,2019-07-30T12:25:16Z
+2030,Wrong route being used,2019-07-30T14:29:07Z,2020-04-02T16:26:33Z
+2033,Compiler error trying to create a filter in a fluentMySQL query,2019-08-10T10:27:55Z,2019-08-23T19:51:35Z
+2034,the DataProtocol extension that creates an Array<UInt8> can be optimised,2019-08-12T22:17:01Z,2020-04-02T16:27:43Z
+2035,depend SwiftSMTP  vapor xcode failed,2019-08-13T09:11:55Z,2019-08-17T02:41:45Z
+2036,Upgrade SwiftNIO Http/2 due to security notice,2019-08-23T07:56:22Z,2020-04-02T16:28:26Z
+2038,vapor.sh cert expired,2019-08-27T02:04:04Z,2019-08-28T01:30:18Z
+2039,How long until the official 4.0.0 release ？💇🏻‍♂️,2019-08-27T12:44:12Z,2019-09-04T05:33:55Z
+2040,flaky test,2019-08-27T16:06:48Z,2019-08-27T20:42:18Z
+2046,Read Route/Request metadata in Middleware.,2019-09-03T14:47:14Z,2020-04-02T16:29:27Z
+2048,Vapor install on debian 9 failed,2019-09-06T07:39:34Z,2019-09-12T14:38:24Z
+2049,Container.shutdown() was not called before Container deinitialized,2019-09-08T09:46:59Z,2020-04-02T16:31:57Z
+2050,HTTPServerResponder is not thread safe.,2019-09-08T11:23:25Z,2020-04-02T16:34:05Z
+2054,Cannot build vapor 4 alpha on macos 10.15 Beta,2019-09-11T01:36:23Z,2019-09-14T05:00:53Z
+2055,configure(:) called twice on app start (Vapor 4),2019-09-14T05:09:52Z,2020-04-02T16:35:16Z
+2058,React-Vapor 'hybrid' app,2019-09-17T14:38:45Z,2020-02-19T09:57:48Z
+2060,Vapor Models should be cross-platform,2019-09-19T18:12:33Z,2020-04-02T16:36:33Z
+2064,"Swift 5.1 has been released, when will Vapor 4.0 be more?",2019-09-24T15:31:22Z,2019-09-28T07:35:41Z
+2065,Unable to parse JSON with invalid Content-type,2019-09-30T15:51:32Z,2020-04-02T16:39:14Z
+2066,consider enabling TSan on all repos,2019-10-01T07:42:57Z,2020-04-02T16:40:02Z
+2067,consider specifying platform in Package.swift,2019-10-01T07:57:34Z,2019-10-16T17:15:08Z
+2068,Reflection issue when using CodingsKeys,2019-10-02T09:25:42Z,2019-10-09T20:32:10Z
+2090,Variables defined in .env file are not available during configuration,2019-10-31T21:05:51Z,2020-04-02T16:44:32Z
+2092,"""todo"" object in new project not persisting with default config?",2019-11-04T19:45:10Z,2019-11-19T16:48:25Z
+2094,"What's new in vapor 4.0 , it's awesome or very niu b??",2019-11-09T06:15:57Z,2019-11-22T04:18:46Z
+2095,Expired cookie is not cleared,2019-11-16T08:26:52Z,2020-04-02T16:47:40Z
+2099,JSON POST request decoding can fail in Vapor 4,2019-11-19T01:15:49Z,2019-11-19T02:00:44Z
+2102,Unable to persist data on sqlite DB (fresh new setup),2019-11-21T16:08:24Z,2019-11-22T09:47:46Z
+2104,"Couldn't install vapor with homebrew ""libssl.1.0.0.dylib not loaded""",2019-11-24T00:19:21Z,2019-11-25T21:08:47Z
+2105,Vapor 4 BETA new project does not compile,2019-11-24T10:54:44Z,2020-04-02T16:48:17Z
+2106,Vapor is requiring Migrations,2019-11-27T05:47:21Z,2019-12-11T03:49:20Z
+2107,WebSocket timeout,2019-11-28T11:28:22Z,2020-02-26T20:39:58Z
+2112,Dockerfile doesn't work,2019-12-06T01:01:59Z,2019-12-10T02:11:12Z
+2113,TSan failure: VaporTests.ApplicationTests/testBoilerplateClient,2019-12-06T15:18:17Z,2019-12-06T17:17:59Z
+2114,TSan failure: VaporTests.ApplicationTests/testApplicationStop,2019-12-06T15:18:38Z,2019-12-06T17:17:40Z
+2115,The query of the request,2019-12-06T23:30:12Z,2019-12-10T02:18:23Z
+2116,Query failed temporarily 404,2019-12-08T03:42:26Z,2019-12-10T02:19:01Z
+2119,Enhancement: Make Parameters more extendable,2019-12-09T10:51:20Z,2020-04-02T16:48:48Z
+2128,"Application configuration, specify number of event loops in EventLoopGroup",2019-12-16T23:41:49Z,2020-01-19T18:37:26Z
+2130,RouteCollection does not register in latest beta ,2019-12-17T14:41:01Z,2020-04-02T16:52:20Z
+2131,Migrations not running on Vapor 4 beta template.,2019-12-18T17:02:19Z,2019-12-19T08:34:35Z
+2134,vapor new --auth login problem in docker ubuntu container,2019-12-19T12:10:48Z,2019-12-23T18:12:28Z
+2135,"when i vapor build in container, the error occur ""backgroundExecute(code: 1,....""",2019-12-20T05:41:38Z,2019-12-21T09:33:56Z
+2136,Unable to install vapor-beta,2019-12-25T23:45:33Z,2020-01-03T10:13:43Z
+2138,Decoding Arrays from Query,2019-12-26T20:42:22Z,2020-02-13T15:27:59Z
+2140,Heroku Push Failed -,2020-01-02T20:31:42Z,2020-01-04T14:18:14Z
+2142,Command `vapor xcode` hangs,2020-01-09T06:04:46Z,2020-01-13T08:27:46Z
+2145,General Vapor issue,2020-01-10T07:52:00Z,2020-01-10T08:03:36Z
+2146,Missing iOS check,2020-01-10T19:11:47Z,2020-04-02T16:56:02Z
+2147,[beta] Vapor 4 - RoutesBuilder .get is not overloaded for [PathComponent],2020-01-12T23:21:49Z,2020-02-26T08:32:27Z
+2149,vapor build failed with beta version,2020-01-15T15:11:54Z,2020-04-02T16:56:30Z
+2154,Vapor 4 Empty Validation for validating successful decoding,2020-01-21T21:43:34Z,2020-02-11T17:39:12Z
+2156,Environment based .env loading,2020-01-22T21:59:38Z,2020-01-24T02:11:23Z
+2160,Is there any good example/tutorial of how to use SwiftProtobuf with Vapor.,2020-01-25T11:59:58Z,2020-01-26T08:40:56Z
+2161,URL decoding for sequences,2020-01-27T20:27:12Z,2020-03-12T15:25:31Z
+2162,`Lock` not used anywhere in `Storage` class - missing thread-safety?,2020-01-28T16:26:45Z,2020-02-12T20:19:57Z
+2164,Unable to run migrations on Ubuntu 18.04 (Vapor 4 beta),2020-01-30T18:37:09Z,2020-01-30T20:22:23Z
+2167,Zoom in/out doesn't work WRF files are not rendered correctly on OS X ,2020-02-06T00:24:49Z,2020-02-06T02:48:06Z
+2176,Parsing Query Parameter as Array when malformed causes a crash,2020-02-11T23:09:09Z,2020-02-12T21:00:56Z
+2181,Feature Request: Allow Configuring Custom ApplicationResponder,2020-02-15T03:46:43Z,2020-02-15T19:20:55Z
+2186,Please provide the HTTP major and minor version in ClientResponse,2020-02-16T00:20:11Z,2020-02-17T18:23:46Z
+2187,func hexEncodedString() should be public,2020-02-17T08:49:32Z,2020-02-17T21:47:26Z
+2194,Allow WebSocket maxFrameSize to be configured,2020-02-23T17:48:04Z,2020-03-12T17:39:17Z
+2199,[Vapor 4] ErrorMiddleware should log the request path of a failed request,2020-02-26T09:43:24Z,2020-03-01T17:24:41Z
+2202,not work in xcode 11 and swift 5.2,2020-02-27T10:07:05Z,2020-03-04T23:39:06Z
+2207,Some cookies have quotes around them,2020-03-03T14:07:35Z,2020-03-11T15:38:37Z
+2208,Missing parameter in route,2020-03-03T18:44:00Z,2020-03-07T16:03:39Z
+2210,Vapor 4: Request.Body.drain is missing .end call in collected case.,2020-03-04T01:35:53Z,2020-03-06T17:23:14Z
+2212,FileMiddleware doesn't support %20 space encoding,2020-03-05T06:10:53Z,2020-03-06T17:44:30Z
+2213,Consider depending on Swift Metrics 2.x (whilst still allowing 1.x),2020-03-05T11:47:49Z,2020-03-06T17:58:09Z
+2220,Value of last .env file line is truncated,2020-03-06T10:57:42Z,2020-03-06T18:29:22Z
+2221,Add DateEncodingStrategy for url-encodedform,2020-03-03T23:25:15Z,2020-04-02T17:08:46Z
+2227,Memory will not be released,2020-03-08T14:03:14Z,2020-03-09T15:03:33Z
+2229,Crashed when calling Bcrypt.hash,2020-03-09T13:02:50Z,2020-03-11T12:37:17Z
+2230,Deprecated HTTPServer.Configuration initializer creates ambiguous compilation error for most cases,2020-03-09T14:14:17Z,2020-04-02T17:09:46Z
+2231,'Validator<T>' initializer is inaccessible due to internal protection level,2020-03-10T10:27:46Z,2020-03-12T16:47:04Z
+2234,Google OAuth2 token call fails with NIOSSLError error 12 (.uncleanShutdown),2020-03-11T08:39:30Z,2020-03-11T09:38:47Z
+2243,[Vapor 3] Websocket server connection when testing,2020-03-15T18:02:27Z,2020-04-02T17:11:19Z
+2244,Failure to parse x-www-form-urlencoded percent encoded ARRAY data,2020-03-16T03:47:37Z,2020-04-02T17:11:29Z
+2245,Leaking promise when providing a port higher than UInt16.max,2020-03-16T10:58:58Z,2020-04-02T17:16:37Z
+2247,Minimum macOS 10.15 deployment target?,2020-03-17T02:08:34Z,2020-03-17T20:43:01Z
+2248,Single thread mode?,2020-03-17T14:00:43Z,2020-03-17T20:51:21Z
+2251,SSL certificate problem: unable to get local issuer certificate,2020-03-18T14:58:57Z,2020-03-20T22:09:53Z
+2252,"when payload is too large, Vapor seems to close the connection without a `connection: close` header",2020-03-18T15:26:14Z,2020-03-20T19:28:57Z
+2253,memory leak when stream closes mid body,2020-03-18T15:45:35Z,2020-03-20T21:34:55Z
+2255,vapor build timeout,2020-03-20T13:53:08Z,2020-03-21T07:19:18Z
+2259,HTTPCookieValue SameSite=None,2020-03-19T10:55:23Z,2020-04-02T17:25:19Z
+2265,Bcrypt.verify() throws compiler error,2020-03-25T18:08:42Z,2020-04-02T17:26:29Z
+2269,Support overriding Application.Client,2020-03-27T16:01:48Z,2020-04-02T17:33:25Z
+2270,Support Vapor running inside of an iOS app,2020-03-27T16:56:23Z,2020-04-02T17:33:52Z
+2271,Swift,2020-03-28T23:53:31Z,2020-03-30T08:22:36Z
+2272,Add Ability to Define a Date Format for URLEncodedFormEncoder and URLEncodedFormDecoder,2020-03-29T04:53:43Z,2020-04-02T17:34:24Z
+2274,Module compiled with Swift 5.1.3 cannot be imported by the Swift 5.2 compiler,2020-03-29T15:55:16Z,2020-03-30T15:22:10Z
+2291,Reference to member 'psql' cannot be resolved without a contextual type,2020-04-04T16:53:12Z,2020-04-04T17:38:12Z
+2295,CORS headers not handled when error thrown.,2020-04-08T00:21:32Z,2020-04-08T19:56:10Z
+2297,Deploying Vapor via CI - php artisan package:discover is failing,2020-04-08T07:09:22Z,2020-04-08T07:14:59Z
+2298,How to use flatMapThrowing? This is not bug.,2020-04-09T02:29:39Z,2020-04-09T17:38:58Z
+2299,Filter query,2020-04-09T18:02:44Z,2020-04-09T18:18:07Z
+2301,Question for connecting MySQL,2020-04-10T01:03:21Z,2020-04-10T12:57:41Z
+2302,MySQL cannot save long strings (over 252 chars long),2020-04-10T01:26:04Z,2020-04-16T15:35:29Z
+2303,[Vapor 4] ErrorMiddleware: `CorsMiddleware` headers are not propagated if we throw an `Abort` error,2020-04-10T02:47:22Z,2020-04-10T04:49:17Z
+2306,Could not build Objective-C module 'CNIOAtomics',2020-04-10T23:56:24Z,2020-04-11T20:20:48Z
+2307,failed build vaoor app how to fix it,2020-04-11T02:34:08Z,2020-04-16T15:40:24Z
+2309,"Support for content type ""application/hal+json""",2020-04-13T14:51:15Z,2020-04-16T15:43:11Z
+2311,Unable to create Xcode Project,2020-04-14T10:33:07Z,2020-04-14T10:54:02Z
+2313,Vapor client GET Request not forwarding request and timing out,2020-04-14T16:51:27Z,2020-04-16T16:12:05Z
+2316,Cookie not being parsed correctly,2020-04-16T16:49:05Z,2020-04-16T17:41:01Z
+2320,Session cookies decoding error,2020-04-17T07:44:33Z,2020-04-17T16:36:24Z
+2321,Public Class User Vapor Beta 4,2020-04-17T13:05:39Z,2020-04-17T13:19:00Z
+2322,Vapor is catching and deleting Abort reason,2020-04-17T16:20:35Z,2020-04-21T14:01:32Z
+2323,Not possible to install vapor-beta,2020-04-18T09:54:40Z,2020-04-20T16:18:57Z
