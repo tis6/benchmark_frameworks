@@ -1,0 +1,842 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,TagId,Id,TagName,Count,ExcerptPostId,WikiPostId
+"49425012","1","49575230","","2018-03-22 09:32:42","","4","3510","<p>So I feel like I have come to the end of the rope here, but hoping someone knows more than I do here. I have some <code>Typescript</code> files, though that is mostly irrelevant as I am having this problem with all content files.</p>
+
+<p>I am able to generate a <code>nuget</code>, or more precisely <code>dotnet pack</code>, nuget package that includes my content files in the package by using this in the <code>.csproj</code> of my <code>parent</code> project:</p>
+
+<pre><code>&lt;ItemGroup&gt;
+  &lt;Content Include=""Scripts\Utility.ts""&gt;
+    &lt;Pack&gt;true&lt;/Pack&gt;
+    &lt;PackagePath&gt;contentFiles\Scripts\;content\Scripts&lt;/PackagePath&gt;
+  &lt;/Content&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+
+<p>I can browse the generated <code>.nupkg</code> and see that indeed the file was added to the package in both the <code>content\Scripts</code> and <code>contentFiles\Scripts</code> locations</p>
+
+<p>The problem is that whenver I consume this package in my 'child' progect, that <code>Typescript</code> never gets copied into any folder of the <code>child</code> project, though I can see it extracted in the <code>.nuget\packages\parent\...</code> folders.</p>
+
+<p>At first I thought it was something with my initial settings in the <code>parent</code> project, and it may be, but after trying what seems like everything in the book, that fails to copy the content files to the <code>child</code> project. I then tried going the dark path of trying to use <code>Init.ps1</code> in the <code>tools</code> folder of my package, and though it was impossible to debug, it also seemed to run sporatically (I completely unistalled and reinstalled the package and it still failed to run most of the time.) This could be the way but I don't know why I can't get it to output to the <code>Package Manager Console</code>... maybe there's still hope with <code>Init.ps1</code> but I can't seem to figure it out. Finally I see some potential with a <a href=""https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets"" rel=""nofollow noreferrer"">nuget <code>.targets</code> file</a> but I can's seem to grasp how to use it for my purpose either! I would love some feedback as to how to get this done.</p>
+","550975","","","","","2019-09-17 23:30:38","dotnet core nuget package copying content files on restore","<.net-core><nuget><dotnet-core-pack>","3","0","2","","","49425012","131867","131867","dotnet-core-pack","14","",""
+"49917144","1","49922944","","2018-04-19 09:12:48","","18","18624","<p>I have a test project written in dotnet core. This need to publish the results in an XML or HTML format. Is there a way I can publish the results to a particular directory using the same command?<br>
+<code>--result-directory</code> is not working for me</p>
+","1268668","","996946","","2020-02-19 11:32:43","2020-02-19 11:32:43","How to publish results using dotnet test command","<.net-core><command-line-arguments><dotnet-core-pack>","3","1","9","","","49917144","131867","131867","dotnet-core-pack","14","",""
+"51055506","1","","","2018-06-27 05:59:52","","3","464","<p>I have created a project using angular(6) cli now I want to convert it in dot net core project.</p>
+
+<p>I have copied all files from angular-cli->src->app to angular.net-core->ClientApp->app.</p>
+
+<p>I have installed all required packages including some :-</p>
+
+<pre><code>npm install -g @angular/cli
+npm install npm@latest -g
+npm i rxjs
+</code></pre>
+
+<p><strong>Visual Studio version : VS 2017(15.6.6).</strong></p>
+
+<p>When I run the project am getting error :</p>
+
+<blockquote>
+  <p>Error: Cannot find module ""./assets/img/ngx-bootstrap.svg"" at webpackMissingModule</p>
+</blockquote>
+
+<p>I am getting errors one by one and most of these belongs to packages, I am installing packages when i got any error, I may get next error if I resolve it.</p>
+
+<p>What should be the required changes to make it run in dot.net core.</p>
+
+<p><strong>Package.Json :</strong></p>
+
+<pre><code>{
+  ""name"": ""EFNgApp"",
+  ""private"": true,
+  ""version"": ""0.0.0"",
+  ""scripts"": {
+    ""test"": ""karma start ClientApp/test/karma.conf.js""
+  },
+  ""devDependencies"": {
+    ""@angular/animations"": ""4.2.5"",
+    ""@angular/common"": ""4.2.5"",
+    ""@angular/compiler"": ""4.2.5"",
+    ""@angular/compiler-cli"": ""4.2.5"",
+    ""@angular/core"": ""4.2.5"",
+    ""@angular/forms"": ""4.2.5"",
+    ""@angular/http"": ""4.2.5"",
+    ""@angular/platform-browser"": ""4.2.5"",
+    ""@angular/platform-browser-dynamic"": ""4.2.5"",
+    ""@angular/platform-server"": ""4.2.5"",
+    ""@angular/router"": ""4.2.5"",
+    ""@ngtools/webpack"": ""1.5.0"",
+    ""@types/chai"": ""4.0.1"",
+    ""@types/jasmine"": ""2.5.53"",
+    ""@types/webpack-env"": ""1.13.0"",
+    ""angular2-router-loader"": ""0.3.5"",
+    ""angular2-template-loader"": ""0.6.2"",
+    ""aspnet-prerendering"": ""^3.0.1"",
+    ""aspnet-webpack"": ""^2.0.1"",
+    ""awesome-typescript-loader"": ""3.2.1"",
+    ""bootstrap"": ""3.3.7"",
+    ""chai"": ""4.0.2"",
+    ""css"": ""2.2.1"",
+    ""css-loader"": ""0.28.4"",
+    ""es6-shim"": ""0.35.3"",
+    ""event-source-polyfill"": ""0.0.9"",
+    ""expose-loader"": ""0.7.3"",
+    ""extract-text-webpack-plugin"": ""2.1.2"",
+    ""file-loader"": ""0.11.2"",
+    ""html-loader"": ""0.4.5"",
+    ""isomorphic-fetch"": ""2.2.1"",
+    ""jasmine-core"": ""2.6.4"",
+    ""jquery"": ""3.2.1"",
+    ""json-loader"": ""0.5.4"",
+    ""karma"": ""1.7.0"",
+    ""karma-chai"": ""0.1.0"",
+    ""karma-chrome-launcher"": ""2.2.0"",
+    ""karma-cli"": ""1.0.1"",
+    ""karma-jasmine"": ""1.1.0"",
+    ""karma-webpack"": ""2.0.3"",
+    ""preboot"": ""4.5.2"",
+    ""raw-loader"": ""0.5.1"",
+    ""reflect-metadata"": ""0.1.10"",
+    ""rxjs"": ""5.4.2"",
+    ""style-loader"": ""0.18.2"",
+    ""to-string-loader"": ""1.1.5"",
+    ""typescript"": ""2.4.1"",
+    ""url-loader"": ""0.5.9"",
+    ""webpack"": ""2.5.1"",
+    ""webpack-hot-middleware"": ""2.18.2"",
+    ""webpack-merge"": ""4.1.0"",
+    ""zone.js"": ""0.8.12""
+  },
+  ""dependencies"": {
+    ""ngx-loading"": ""^1.0.14""
+  }
+}
+</code></pre>
+
+<p><strong>Note :</strong> When I build the application I am getting below message in output window.</p>
+
+<blockquote>
+  <p>You are working with a preview version of the .NET Core SDK. You can
+  define the SDK version via a global.json file in the current project.
+  More at <a href=""https://go.microsoft.com/fwlink/?linkid=869452"" rel=""nofollow noreferrer"">https://go.microsoft.com/fwlink/?linkid=869452</a></p>
+</blockquote>
+","9870625","","9870625","","2018-06-27 06:27:38","2018-08-15 07:11:37","How to convert an angular cli project to a dot net core project","<angular><.net-core><angular-cli><dotnet-core-pack>","0","5","","","","51055506","131867","131867","dotnet-core-pack","14","",""
+"59463239","1","59463318","","2019-12-24 02:43:29","","0","60","<p>Is it possible to run a pre-release version of the DotNetCoreCLI task when writing an Azure Pipelines yaml script? I would like to use 3.0.1xx if possible to take advantage of <a href=""https://github.com/dotnet/cli/pull/10205"" rel=""nofollow noreferrer""><code>dotnet tool update</code> installing the tool rather than throwing an error if not installed</a>.</p>
+
+<p>If it is possible, what would the syntax be to make a call like this use a prerelease version rather than version 2:</p>
+
+<pre><code>- task: DotNetCoreCLI@2
+  continueOnError: true
+  inputs:
+    command: custom
+    custom: tool
+    arguments: install -g coverlet.console
+  displayName: Install Coverlet tool. This task will continue on error if coverlet is already installed.
+</code></pre>
+","1926027","","","","","2019-12-24 02:55:12","Run a prerelease version of DotNetCoreCLI in Azure Pipelines","<azure-devops><yaml><version><azure-pipelines><dotnetcorecli>","1","2","","","","59463239","141909","141909","dotnetcorecli","12","",""
+"59722952","1","","","2020-01-13 19:26:52","","0","302","<p>I want to add <strong>Globalization and localization in dotnet core web api,</strong> although I tried with the following link. 
+<a href=""https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-3.1"" rel=""nofollow noreferrer"">https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-3.1</a></p>
+
+<p>, however, I didn't succeed. </p>
+
+<p>Here is my Startup.cs code...</p>
+
+<pre><code>services.AddLocalization(options =&gt; options.ResourcesPath = ""Resources/Localization"");
+services.AddControllers() 
+.AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, options =&gt; { options.ResourcesPath = ""Resources/Localization""; })
+.AddDataAnnotationsLocalization();
+
+ services.Configure&lt;RequestLocalizationOptions&gt;(options =&gt; 
+ {
+     var cultures = new []
+     {
+         new CultureInfo(""en""),
+         new CultureInfo(""fa"")
+     };
+     options.DefaultRequestCulture = new RequestCulture(""en"");
+     options.SupportedCultures = cultures;
+     options.SupportedUICultures = cultures;
+ });
+</code></pre>
+
+<p>Configure method contains the following</p>
+
+<pre><code>public void Configure(IApplicationBuilder app, IWebHostEnvironment env, Seed seeder)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        } 
+
+        // app.UseHttpsRedirection();
+        app.UseRouting();
+        //ADDING LOCATIONLIZATION
+        app.UseRequestLocalization(app.ApplicationServices.GetRequiredService&lt;IOptions&lt;RequestLocalizationOptions&gt;&gt;().Value);
+
+        app.UseAuthorization();
+
+        app.UseEndpoints(endpoints =&gt;
+        {
+            endpoints.MapControllers();
+        });
+    }
+</code></pre>
+
+<p>Here is the Resources/Localization folder structure with .resx files.</p>
+
+<p><a href=""https://i.stack.imgur.com/YIzL8.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/YIzL8.png"" alt=""enter image description here""></a></p>
+
+<p>Finally, when I build the dotnet api with the <strong>dotnet build</strong> command it provides the following error in <strong><em>Visual Studio Code</em></strong> Terminal.</p>
+
+<blockquote>
+  <p>/Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.en.resx
+  : error MSB3103: Invalid Resx file. System.NullReferenceException:
+  Object reference not set to an instance of an object.
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.en.resx
+  : error MSB3103:    at
+  Microsoft.Build.Tasks.ResourceHandling.MSBuildResXReader.ReadResources(Stream
+  s, String filename, Boolean pathsRelativeToBasePath)
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.fa.resx
+  : error MSB3103: Invalid Resx file. System.NullReferenceException:
+  Object reference not set to an instance of an object.
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.fa.resx
+  : error MSB3103:    at
+  Microsoft.Build.Tasks.ResourceHandling.MSBuildResXReader.ReadResources(Stream
+  s, String filename, Boolean pathsRelativeToBasePath)
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]</p>
+  
+  <p>Build FAILED.</p>
+  
+  <p>/Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.en.resx
+  : error MSB3103: Invalid Resx file. System.NullReferenceException:
+  Object reference not set to an instance of an object.
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.en.resx
+  : error MSB3103:    at
+  Microsoft.Build.Tasks.ResourceHandling.MSBuildResXReader.ReadResources(Stream
+  s, String filename, Boolean pathsRelativeToBasePath)
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.fa.resx
+  : error MSB3103: Invalid Resx file. System.NullReferenceException:
+  Object reference not set to an instance of an object.
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+  /Users/naimdahee/Desktop/ERPEra/ERPEra.API/Resources/Localization/ERPEra.fa.resx
+  : error MSB3103:    at
+  Microsoft.Build.Tasks.ResourceHandling.MSBuildResXReader.ReadResources(Stream
+  s, String filename, Boolean pathsRelativeToBasePath)
+  [/Users/naimdahee/Desktop/ERPEra/ERPEra.API/ERPEra.API.csproj]
+      0 Warning(s)
+      2 Error(s)</p>
+</blockquote>
+","5493449","","","","","2020-01-13 19:26:52","Globalization and localization in dotnet core web api 3.1 using VSCode","<c#><.net><asp.net-core><.net-core><dotnetcorecli>","0","4","","","","59722952","141909","141909","dotnetcorecli","12","",""
+"59790994","1","","","2020-01-17 16:09:48","","1","176","<p>I installed <code>dotnet ef</code> tool in order to generate migrations for a dotnet core project am working on using the command. <code>dotnet tool install -g dotnet-ef</code>. The installation was successfull. In order to us <code>dotnet ef</code> i have installed the nuget packages below</p>
+
+<ol>
+<li>Microsoft.EntityFrameworkCore.SqlServer</li>
+<li>Microsoft.EntityFrameworkCore</li>
+<li>Microsoft.AspNetCore.Identity.EntityFrameworkCore</li>
+<li>Microsoft.EntityFrameworkCore.Tools</li>
+</ol>
+
+<p>When trying to generate migrations using the command <code>dotnet ef migrations add IdentityandCategory</code> i get the output below.</p>
+
+<pre><code>It was not possible to find any compatible framework version
+The framework 'Microsoft.NETCore.App', version '3.1.1' was not found.
+  - The following frameworks were found:
+      2.1.14 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+      2.2.8 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+      3.1.0 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+You can resolve the problem by installing the specified framework and/or SDK.
+
+The specified framework can be found at:
+  - https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&amp;framework_version=3.1.1&amp;arch=x64&amp;rid=ubuntu.19.10-x64
+</code></pre>
+
+<p>I reinstall dotnet 3.1.1 but this trouble continues. <code>dotnet info</code> seem to detect the version
+when i run <code>donet --info</code></p>
+
+<pre><code>.NET Core SDK (reflecting any global.json):
+ Version:   3.1.100
+ Commit:    cd82f021f4
+
+Runtime Environment:
+ OS Name:     ubuntu
+ OS Version:  19.10
+ OS Platform: Linux
+ RID:         ubuntu.19.10-x64
+ Base Path:   /usr/share/dotnet/sdk/3.1.100/
+
+Host (useful for support):
+  Version: 3.1.0
+  Commit:  157910edee
+
+.NET Core SDKs installed:
+  2.1.802 [/usr/share/dotnet/sdk]
+  2.2.402 [/usr/share/dotnet/sdk]
+  3.1.100 [/usr/share/dotnet/sdk]
+
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.14 [/usr/share/dotnet/shared/Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.All 2.2.8 [/usr/share/dotnet/shared/Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.14 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 2.2.8 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.0 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 2.1.14 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.2.8 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.0 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download
+</code></pre>
+
+<p>How can i solve this issues?  Thank in advance for your help</p>
+","7425067","","47589","","2020-01-17 16:12:01","2020-01-17 20:13:53","dotnet ef migrations issue in Ubuntu 19.10. Dotnet sdk 3.1.1","<c#><asp.net-core><.net-core><dotnetcorecli>","1","0","","","","59790994","141909","141909","dotnetcorecli","12","",""
+"52101180","1","","","2018-08-30 15:57:54","","2","117","<p>First time posting.</p>
+
+<p>I'm fairly new to programming and I'm trying to create a website to house the web apps I build. I currently have a model, view, and controller to project the contents of my Apps table. These apps are hosted elsewhere, so the tiles that appear in the screenshot below simply link out to other locations. I'd like to include a way to display recently used apps in a drawer, (the code housed in the _Layout). </p>
+
+<p><em>_Layout Drawer:</em></p>
+
+<p><a href=""https://i.stack.imgur.com/6qNeh.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/6qNeh.png"" alt=""_Layout Drawer""></a></p>
+
+<p>I'd like to start by displaying ANY model data in the _Layout drawer. If I simply throw my Apps View code into the _Layout, like so:</p>
+
+<pre><code>@_Layout, located beneath navbar code and above RenderBody()@
+@model IEnumerable&lt;Apps&gt;
+&lt;div id=""footerSlideContainer""&gt;
+    &lt;div id=""footerSlideButton""&gt;&lt;/div&gt;
+    &lt;div id=""footerSlideContent""&gt;
+        &lt;div id=""footerSlideText""&gt;
+
+            &lt;div class=""parenttile""&gt;
+
+                @foreach (var Apps in Model)
+                {
+                    &lt;a href=""http://@Apps.AppLink"" target=""_blank""&gt;
+                        &lt;div class=""tile""&gt;
+                            &lt;div&gt;&lt;/div&gt;
+                            &lt;div class=""tilemid""&gt;
+                                &lt;div&gt;&lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;img class=""tileimage"" src=""@Apps.AppImage"" alt=""@Apps.AppName"" /&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=""tilebot""&gt;
+                                @Apps.AppName
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+                }
+            &lt;/div&gt;
+            &lt;h3&gt;Recently Used Apps&lt;/h3&gt;
+            &lt;p&gt;This section will store all of your most recently used apps. It stays on the screen until you click the drawer icon.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>...I get the following error in Debug on the @foreach line: NullReferenceException: Object reference not set to an instance of an object. .net core. I researched that error here: <a href=""https://stackoverflow.com/questions/4660142/what-is-a-nullreferenceexception-and-how-do-i-fix-it"">What is a NullException error and how do I fix it?</a></p>
+
+<ol>
+<li>I understand the action method comes before the model displays. If I
+were to use the above code, I would presume that I need to inject
+the model into the action method - but, does the _layout have a
+controller?</li>
+<li>I researched here: <a href=""https://stackoverflow.com/a/29369637/10295594"">ASP MVC Razor Pass model to view </a>. This
+looks like the closest solution, but would appreciate someone
+walking me through it.</li>
+<li>Finally, I noticed that I could use a ViewComponent <a href=""https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1"" rel=""nofollow noreferrer"">ViewComponent
+in ASP.NET Core</a>. I could use some help implementing this solution.</li>
+</ol>
+
+<p>Which of these solutions would work/work best?</p>
+
+<p>Then there's the issue of creating the favorites. I think that's a bit more straightforward, as this <a href=""https://stackoverflow.com/questions/34121235/display-recently-viewed-items"">Display recently viewed items</a> contains all the info I think I need.</p>
+
+<p>Thanks for any help - I'm including my model and controller code below:</p>
+
+<p>Model: </p>
+
+<pre><code>    public class Apps
+{
+
+    public int AppID { get; set; }
+    public string AppName { get; set; }
+    public string AdGroup { get; set; }
+    public string AppDescription { get; set; }
+    public string AppLink { get; set; }
+    public string AppImage { get; set; }
+
+}
+</code></pre>
+
+<p>Controller (using hard coded, dummy data for now, before I move to db)</p>
+
+<pre><code>public class AppsController : Controller
+{
+    private List&lt;Apps&gt; _apps;
+
+    public AppsController()
+    {
+        _apps = new List&lt;Apps&gt;();
+
+        //creating test Apps model 
+        _apps.Add(new Apps
+        {
+            AppID = 1,
+            AppName = ""Test App 1"",
+            AdGroup = ""Group 1"",
+            AppDescription = ""First test app."",
+            AppLink = ""www.google.com"",
+            AppImage = ""/images/image1.png""
+
+        }); //et al
+    }
+
+
+    public IActionResult Index()
+    {
+        return View(_apps);
+    }
+}
+</code></pre>
+","10295594","","10295594","","2018-08-30 19:11:42","2018-08-30 19:11:42","Displaying Model in _Layout and Creating a Favorites List in .NET Core 2+","<c#><.net><.net-core><asp.net-core-2.0><dotnet-core-pack>","0","0","","","","52101180","131867","131867","dotnet-core-pack","14","",""
+"52121294","1","","","2018-08-31 18:54:15","","0","20","<p>Using dotcore pack with msbuild, is there a Property that can instruct packaging logic to include ALL files in the output folder?</p>
+
+<p>The below documentation does not readily suggest what I'm looking for:
+<a href=""https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets"" rel=""nofollow noreferrer"">https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets</a></p>
+
+<p>Is there another msbuild property that I can specify?</p>
+
+<p>Something like <code>IncludeAllFilesFromBuildOutputInPackage</code></p>
+
+<p>That could be declared in the property group like below:</p>
+
+<pre><code> &lt;Project Sdk=""Microsoft.NET.Sdk""&gt;
+  ...
+  &lt;PropertyGroup&gt;
+    &lt;IncludeAllFilesFromBuildOutputInPackage&gt;true&lt;/IncludeAllFilesFromBuildOutputInPackage&gt;
+  &lt;/PropertyGroup&gt;
+  ...
+&lt;/Project&gt;
+</code></pre>
+","1350566","","","","","2018-09-01 06:46:01","Create a deployment nuget package with `dotnetcore pack`","<msbuild><csproj><dotnet-core-pack>","1","1","","","","52121294","131867","131867","dotnet-core-pack","14","",""
+"52854335","1","","","2018-10-17 11:55:43","","1","303","<p>I am struggling to get dotnet pack to generate a nuget package from a .NetCore2.1 project.</p>
+
+<p>When I run dotnet pack from the cmd line the project is restored but then it goes no further. </p>
+
+<p>Is this a limitation? I am struggling to find anything valuable online.</p>
+
+<p>I am using AspNetCore.Mvc so moving to standard is not an option...</p>
+
+<p>Thanks.</p>
+","1287520","","","","","2018-10-17 18:20:48","Create a nuget package from a NetCore2.1 project","<asp.net><.net-core><nuget><dotnet-core-pack>","1","2","","","","52854335","131867","131867","dotnet-core-pack","14","",""
+"53485362","1","","","2018-11-26 16:32:01","","1","800","<p>When using dotnet pack, how do I pass a variable to my nuspec file?</p>
+
+<p>I am trying to pass the version.  Here is the nuspec:</p>
+
+<pre><code>&lt;package xmlns=""http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd""&gt;
+    &lt;metadata&gt;
+        &lt;!-- Required elements--&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;version&gt;$PackageVersion$&lt;/version&gt;
+        &lt;description&gt;1&lt;/description&gt;
+        &lt;authors&gt;1&lt;/authors&gt;
+    &lt;/metadata&gt;
+&lt;/package&gt;
+</code></pre>
+
+<p>And here is my command:</p>
+
+<blockquote>
+  <p>dotnet.exe pack  /p:NuspecFile=./App.Nuspec
+  /p:PackageVersion=9.7.28170</p>
+</blockquote>
+
+<p>I get the error:
+<em>Value cannot be null or an empty string.</em> </p>
+
+<p>Interestingly, if I change the variable to be the description:</p>
+
+<pre><code>&lt;version&gt;1.1.0&lt;/version&gt;
+&lt;description&gt;$PackageVersion$&lt;/description&gt;
+</code></pre>
+
+<p>I get the error: <em>Description is required.</em></p>
+
+<p>When the tag is description the tag name is in the error message.  However, when the tag is version there is no tag name in the error message - only the term value.  Both are required fields.</p>
+
+<p>I am doing this with the command line on my local machine, but the TFS build gives the same error.  Here is the TFS tooltip for the Additional build properties for that step.
+<em>Specifies a list of token = value pairs, separated by semicolons, where each occurrence of $token$ in the .nuspec file will be replaced with the given value. Values can be strings in quotation marks.</em></p>
+
+<p>It sounds like I am following those rules.  And here is what TFS generates:</p>
+
+<blockquote>
+  <p>""C:\Program Files\dotnet\dotnet.exe"" pack
+  D:\Agent_work\5\s\MyProject\MyProject.csproj --output
+  D:\Agent_work\5\a /p:NuspecFile=App.nuspec
+  /p:PackageVersion=9.7.28170 --verbosity Normal</p>
+</blockquote>
+
+<p>Same as my command.</p>
+
+<p>What am I doing wrong?</p>
+","1617407","","","","","2018-11-26 17:10:59","Pass variable to nuspec with dotnet pack","<tfsbuild><nuspec><dotnet-core-pack>","1","0","","","","53485362","131867","131867","dotnet-core-pack","14","",""
+"59803602","1","","","2020-01-18 18:25:47","","0","135","<p>I am new to dotnet core and I have tried to view the help of dotnet cli but does not seem to find an answer. How do we add a new class file to a dotnet core console app from dotnet CLI ?</p>
+","2693576","","","","","2020-04-11 18:28:35","Adding classes with dotnet CLI in VSCode","<dotnet-cli><dotnetcorecli>","2","2","","","","59803602","141909","141909","dotnetcorecli","12","",""
+"59971037","1","59973236","","2020-01-29 16:03:51","","1","43","<p>I have .NET Core 2.2 application and wanted to use <a href=""https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters"" rel=""nofollow noreferrer"">dotnet-counters</a> to get some data about GC. Unfortunately dotnet-counters doesn't see my app (.NET core process) for some reason. When I run </p>
+
+<pre><code>dotnet-counters ps
+</code></pre>
+
+<p>It returns nothing (my .NET core application is running of course). I use .NET Core version 2.2.8 and dotnet-counters version 3.1.57502. I tried both standalone and Framework dependend version of application.</p>
+","369274","","","","","2020-01-29 18:16:29","dotnet-counters ps doesn't show any processes","<c#><.net-core><dotnetcorecli>","1","0","","","","59971037","141909","141909","dotnetcorecli","12","",""
+"60247164","1","","","2020-02-16 09:38:37","","1","33","<p>I've been trying to find a way to use the <code>PublishSingleFile</code> publish option with .NET Core 3.1 and still be able to override the <code>App.config</code> file. It gets bundled up into the single executable, but it would be very useful to be able to override it to change settings.</p>
+
+<p>My publish command is simple:</p>
+
+<pre><code>dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true
+</code></pre>
+
+<p>I've look through the docs, and tried having <code>App.Config</code> and <code>Project.config</code> files along side it to see if they work, but no luck.</p>
+
+<p>Does anyone know of a way to do this? </p>
+","11710371","","10216583","","2020-02-16 11:13:43","2020-02-16 11:13:43","Override App.config in .NET Core 3.1 when using PublishSingleFile","<.net><.net-core><dotnetcorecli>","0","0","","","","60247164","141909","141909","dotnetcorecli","12","",""
+"60268603","1","60268987","","2020-02-17 18:39:34","","1","30","<p>Im using the formula described here (<a href=""https://docs.microsoft.com/en-us/dotnet/core/versions/remove-runtime-sdk-versions?tabs=macos"" rel=""nofollow noreferrer"">https://docs.microsoft.com/en-us/dotnet/core/versions/remove-runtime-sdk-versions?tabs=macos</a>) to uninstall dotnet core sdk from macos. I followed the steps and after finishing and verifying there is not an sdk nor a runtime, the command dotnet is still valid in the terminal and is referring that is valid at hosting. Any ideas around how to remove all the sdk, cli from my laptop? </p>
+","3170675","","","","","2020-02-17 19:09:42","How to uninstall dotnetcli from command line","<asp.net-core><.net-core><macos-catalina><dotnetcorecli>","1","0","","","","60268603","141909","141909","dotnetcorecli","12","",""
+"60571811","1","61142290","","2020-03-06 21:23:26","","0","44","<p>I have a local docker image with the dotnet core 3.1 installed on the Jenkins/Jenkins:lts base image.  </p>
+
+<p>Running a shell script for a build configuration - I am getting an error on </p>
+
+<pre><code>&gt; dotnet restore *.sln
+</code></pre>
+
+<blockquote>
+  <p>/usr/share/dotnet/sdk/3.1.102/NuGet.targets(123,5): error : The file '/var/jenkins_home/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.9.10/microsoft.visualstudio.azure.containers.tools.targets.nuspec' already exists.</p>
+</blockquote>
+
+<p>Looking at the mount - it indeed does exist.  What do I do to fix this?</p>
+","2166657","","","","","2020-04-10 14:21:49","dotnet restore failing with docker Jenkins container","<docker><jenkins><dotnetcorecli>","1","0","","","","60571811","141909","141909","dotnetcorecli","12","",""
+"60665801","1","","","2020-03-13 06:28:05","","0","14","<p>Can PInvokes or Sendkeys be used to send input to other process's spawned by my application, say for example I wanted to send the Enter key would {ENTER} using sendkeys still work or the equivalent method of using a PInvoke to send such input work?</p>
+","6868407","","","","","2020-03-13 06:28:05","dotnet core and sendkeys or pinvokes can it be used?","<c#><process><dotnetcorecli>","0","0","","","","60665801","141909","141909","dotnetcorecli","12","",""
+"56018033","1","","","2019-05-07 08:00:10","","0","73","<p>I used Visual Studio 2017 to make a solution with docker-compose support. When I try to pack a nuget package (during a CI process) using <code>dotnet pack MySolution.sln</code> I getting the error MSB4057 saying that it cannot pack the docker-compose.dcproj project. So I tried to use <code>&lt;IsPackable&gt;false&lt;/IsPackable&gt;</code> inside my docker-compose.dcproj with no success.
+So I have to pack my projects one by one or use different solutions for CI and for debugging process - both solutions looks ugly to me.</p>
+
+<p>Does anyone have an idea how to exclude .dcproj file from trying to been packed by <code>dotnet pack</code>?</p>
+","8047689","","","","","2019-11-06 08:59:29","Can't exclude *.dcproj from dotnet pack","<docker-compose><dotnet-core-pack>","2","1","","","","56018033","131867","131867","dotnet-core-pack","14","",""
+"57316542","1","","","2019-08-01 20:26:22","","0","622","<p>We recently updated the logging framework for our ASP.NET Core Web API project from log4net to NLog and when we do performance testing request/second rate served NLog is way less when compared it to NLog. Below is my NLog configuration file.</p>
+
+<p>Please suggest any ideas on our performance issue using NLog.</p>
+
+<pre class=""lang-xml prettyprint-override""><code>&lt;?xml version=""1.0"" encoding=""utf-8"" ?&gt;
+&lt;nlog xmlns=""http://www.nlog-project.org/schemas/NLog.xsd""
+      xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
+      autoReload=""true""
+      internalLogLevel=""info""
+      internalLogFile=""C:\temp\internal-nlog.txt""&gt;
+
+  &lt;!-- enable asp.net core layout renderers --&gt;
+  &lt;extensions&gt;
+    &lt;add assembly=""NLog.Web.AspNetCore""/&gt;
+    &lt;add assembly=""SumoLogic.Logging.NLog""/&gt;
+  &lt;/extensions&gt;
+
+  &lt;!-- the targets to write to --&gt;
+  &lt;targets&gt;
+    &lt;!-- write logs to console --&gt;
+    &lt;target xsi:type=""ColoredConsole"" name=""allConsole"" formatMessage=""false"" layout=""${longdate}|${level:uppercase=true}|${message}"" /&gt;
+
+    &lt;target name=""sumoLogic"" type=""SumoLogicTarget"" formatMessage=""false"" layout=""${date:format=yyyy-MM-dd HH\:mm\:ss.fff} ${level}, ${message}${exception:format=tostring}${newline}""&gt;
+      &lt;Url&gt;#{Logging__SumoLogic__EndpointUrl}&lt;/Url&gt;
+      &lt;ConnectionTimeout&gt;30000&lt;/ConnectionTimeout&gt;
+      &lt;SourceName&gt;#{Logging__SumoLogic__SourceName}&lt;/SourceName&gt;
+      &lt;SourceCategory&gt;#{Logging__SumoLogic__SourceCategory}&lt;/SourceCategory&gt;
+      &lt;UseConsoleLog&gt;true&lt;/UseConsoleLog&gt;
+    &lt;/target&gt;
+
+    &lt;target name=""bufferedSumoLogic"" type=""BufferedSumoLogicTarget"" formatMessage=""false"" layout=""${date:format=yyyy-MM-dd HH\:mm\:ss.fff} ${level}, ${message}${exception:format=tostring}${newline}""&gt;
+      &lt;Url&gt;#{Logging__SumoLogic__EndpointUrl}&lt;/Url&gt;
+      &lt;SourceName&gt;#{Logging__SumoLogic__SourceName}&lt;/SourceName&gt;
+      &lt;SourceCategory&gt;#{Logging__SumoLogic__SourceCategory}&lt;/SourceCategory&gt;
+      &lt;ConnectionTimeout&gt;30000&lt;/ConnectionTimeout&gt;
+      &lt;RetryInterval&gt;5000&lt;/RetryInterval&gt;
+      &lt;MessagesPerRequest&gt;10&lt;/MessagesPerRequest&gt;
+      &lt;MaxFlushInterval&gt;10000&lt;/MaxFlushInterval&gt;
+      &lt;FlushingAccuracy&gt;250&lt;/FlushingAccuracy&gt;
+      &lt;MaxQueueSizeBytes&gt;500000&lt;/MaxQueueSizeBytes&gt;
+      &lt;UseConsoleLog&gt;true&lt;/UseConsoleLog&gt;
+    &lt;/target&gt;
+  &lt;/targets&gt;
+
+  &lt;!-- rules to map from logger name to target --&gt;
+  &lt;rules&gt;
+    &lt;!-- Skip non-critical Microsoft logs and so log only own logs --&gt;
+    &lt;logger name=""Microsoft.*"" maxLevel=""Info"" final=""true"" /&gt;
+
+    &lt;!-- Write all debug messages to console --&gt;
+    &lt;logger name=""*"" minlevel=""#{Logging__ConsoleLog__LevelMin}"" writeTo=""allConsole"" /&gt;
+
+    &lt;!-- Write to sumo buffered log --&gt;
+    &lt;logger name=""*"" minlevel=""#{Logging__BufferedLog__LevelMin}"" maxlevel=""#{Logging__BufferedLog__LevelMax}"" writeTo=""bufferedSumoLogic"" /&gt;
+
+    &lt;!-- Write to sumo instant log --&gt;
+    &lt;logger name=""*"" minlevel=""#{Logging__InstantLog__LevelMin}"" maxlevel=""#{Logging__InstantLog__LevelMax}"" writeTo=""sumoLogic"" /&gt;
+  &lt;/rules&gt;
+&lt;/nlog&gt;
+</code></pre>
+","11735621","","11912","","2020-04-08 13:01:32","2020-04-08 13:01:32","Slow performance using Nlog when compared to log4net","<.net-core><log4net><nlog><dotnet-core-pack>","1","4","1","","","57316542","131867","131867","dotnet-core-pack","14","",""
+"57971490","1","","","2019-09-17 09:38:20","","0","26","<p>dotnet pack with paket fails with <strong>The licenseUrl and license elements cannot be used together</strong></p>
+
+<p>This error is due to changes in dotnetCore SDKs between versions 2.1 and 2.2</p>
+
+<p>Unfortunately, on my Jenkins agents there is only core 2.1 - I started nagging tools people to install 2.2 on them, but in the mean time, is there a way to make it work on 2.1?</p>
+
+<p>I have to use Directory.build.propsas below, because it is part of a template for repositories on our new Jenkins infrastructure and it is overriden on checkout to set the versions</p>
+
+<pre><code>&lt;Project&gt;
+    &lt;PropertyGroup&gt;
+        &lt;!-- NuGet --&gt;
+        &lt;IsPackable&gt;True&lt;/IsPackable&gt;
+        &lt;PackageVersion&gt;0.1.5-local&lt;/PackageVersion&gt;
+        &lt;NuspecProperties&gt;version=$(PackageVersion);licensePath=$(MSBuildThisFileDirectory)LICENSE.txt&lt;/NuspecProperties&gt;
+        &lt;PackageOutputPath&gt;$(MSBuildThisFileDirectory)Artifacts\NuGet\&lt;/PackageOutputPath&gt;
+        &lt;PackageLicenseFile&gt;LICENSE.txt&lt;/PackageLicenseFile&gt;
+        &lt;!-- Build standards --&gt;
+        &lt;OutputPath&gt;bin\&lt;/OutputPath&gt;
+        &lt;!-- Assembly information --&gt;
+        &lt;FileVersion&gt;0.1.5&lt;/FileVersion&gt;
+        &lt;InformationalVersion&gt;local build&lt;/InformationalVersion&gt;
+        &lt;AssemblyVersion&gt;0.1.5&lt;/AssemblyVersion&gt;
+        &lt;Copyright&gt;Some company&lt;/Copyright&gt;
+        &lt;Company&gt;Some company&lt;/Company&gt;
+    &lt;/PropertyGroup&gt;
+    &lt;ItemGroup&gt;
+        &lt;None Include=""$(MSBuildThisFileDirectory)LICENSE.txt"" Pack=""true"" PackagePath=""$(PackageLicenseFile)""/&gt;
+    &lt;/ItemGroup&gt;
+&lt;/Project&gt;
+</code></pre>
+
+<p>I made a repro repo that shows the issue. I cannot edit Directory.Build.prop, only the csproj.</p>
+
+<p>Is there a flag or maybe even older paket version that would work here?</p>
+
+<p><a href=""https://github.com/qrzychu/paket_repro"" rel=""nofollow noreferrer"">https://github.com/qrzychu/paket_repro</a></p>
+
+<p><a href=""https://github.com/fsprojects/Paket/issues/3657"" rel=""nofollow noreferrer"">https://github.com/fsprojects/Paket/issues/3657</a></p>
+","3512524","","3512524","","2019-09-17 13:35:04","2019-09-17 13:36:15","dotnet pack with paket fails on core 2.1 - The licenseUrl and license elements cannot be used together","<c#><.net-core><paket><dotnet-core-pack>","1","0","","","","57971490","131867","131867","dotnet-core-pack","14","",""
+"58337878","1","","","2019-10-11 09:09:20","","1","166","<p>Background on my issue. I am trying to build a docker image for a dotnet core api that has a library attached to the solution referenced inside the api.When i run the docker build command I get the warning below and then build errors because it cannot reference the library.</p>
+
+<blockquote>
+  <p>Skipping project ""/MyDotnetCoreLib/MyDotnetCoreLib.csproj"" because it was not found.</p>
+</blockquote>
+
+<p>My Dockerfile </p>
+
+<pre><code>FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
+WORKDIR /app
+
+COPY *.csproj ./
+RUN dotnet restore
+
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT [""dotnet"", ""MyAPI.dll""]
+</code></pre>
+
+<p>My file structure is as below:</p>
+
+<p><img src=""https://i.stack.imgur.com/9gvog.png"" alt=""screenshot of the file structure""></p>
+
+<p>--Edit 
+<img src=""https://i.stack.imgur.com/1bp9c.png"" alt=""screenshot of the file structure""></p>
+
+<p>Error: </p>
+
+<pre><code>Sending build context to Docker daemon  1.426MB
+Step 1/10 : FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
+ ---&gt; bf77a711b92c
+Step 2/10 : WORKDIR /app
+ ---&gt; Using cache
+ ---&gt; ae6b78cbf588
+Step 3/10 : COPY src/Accounts.NT/Accounts.NT.csproj ./
+COPY failed: stat /var/lib/docker/tmp/docker-builder190366239/src/Accounts.NT/Accounts.NT.csproj: no such file or directory
+PS C:\Git\Personal\Accounts.NT\src\Accounts.NT&gt; docker build -t vumanimdabe/accounts-nt:v1.0 .
+Sending build context to Docker daemon  1.426MB
+Step 1/10 : FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
+ ---&gt; bf77a711b92c
+Step 2/10 : WORKDIR /app
+ ---&gt; Using cache
+ ---&gt; ae6b78cbf588
+Step 3/10 : COPY Accounts.NT.csproj ./
+ ---&gt; Using cache
+ ---&gt; b360913be4a4
+Step 4/10 : RUN dotnet restore
+ ---&gt; Using cache
+ ---&gt; e9bf7172e851
+Step 5/10 : COPY . ./
+ ---&gt; d4f088d6d737
+Step 6/10 : RUN dotnet publish -c Release -o out
+ ---&gt; Running in fb8fad58131c
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Skipping project ""/Accounts.Data/Accounts.Data.csproj"" because it was not found.
+  Skipping project ""/Accounts.Data/Accounts.Data.csproj"" because it was not found.
+  Restore completed in 879.4 ms for /app/Accounts.NT.csproj.
+/usr/share/dotnet/sdk/2.1.802/Microsoft.Common.CurrentVersion.targets(1875,5): warning : The referenced project '../Accounts.Data/Accounts.Data.csproj' does not exist. [/app/Accounts.NT.csproj]
+Controllers/AccountsController.cs(7,16): error CS0234: The type or namespace name 'Data' does not exist in the namespace 'Accounts' (are you missing an assembly reference?) [/app/Accounts.NT.csproj]
+Startup.cs(6,16): error CS0234: The type or namespace name 'Data' does not exist in the namespace 'Accounts' (are you missing an assembly reference?) [/app/Accounts.NT.csproj]
+Startup.cs(7,16): error CS0234: The type or namespace name 'Data' does not exist in the namespace 'Accounts' (are you missing an assembly reference?) [/app/Accounts.NT.csproj]
+Controllers/AccountsController.cs(38,57): error CS0246: The type or namespace name 'AccountCreate' could not be found (are you missing a using directive or an assembly reference?) [/app/Accounts.NT.csproj]
+Controllers/AccountsController.cs(19,26): error CS0246: The type or namespace name 'IAccountRepository' could not be found (are you missing a using directive or an assembly reference?) [/app/Accounts.NT.csproj]
+Controllers/AccountsController.cs(21,35): error CS0246: The type or namespace name 'IAccountRepository' could not be found (are you missing a using directive or an assembly reference?) [/app/Accounts.NT.csproj]
+The command '/bin/sh -c dotnet publish -c Release -o out' returned a non-zero code: 1
+</code></pre>
+","4527400","","4527400","","2019-10-11 15:15:30","2019-10-11 15:15:30","Docker Build Error for dotnetcore api: Skipping project ""/MyDotnetCoreLib/MyDotnetCoreLib.csproj"" because it was not found","<c#><docker><.net-core><dotnet-core-pack>","1","0","","","","58337878","131867","131867","dotnet-core-pack","14","",""
+"60728392","1","","","2020-03-17 18:38:08","","0","20","<p>I am not certain if it is limited to MacOS, I can only speak for it. </p>
+
+<p>After developing for about half a day or so, starting up either <code>dotnet run</code> or <code>dotnet watch run</code> will sit and sit. It will take anywhere from 30 seconds to three minutes to finally start up my ASP.NET Web API application. Hitting Ctrl+c has it then sit and sit on exiting. Force stopping with a second Ctrl+c doesn't do anything.</p>
+
+<p>A reboot typically resolves this problem for awhile. I looked and there aren't any rogue instances of <code>dotnet</code> running. Has anyone run into this problem?</p>
+
+<p>Thanks in advance.</p>
+","375808","","","","","2020-03-17 18:38:08","dotnet run and dotnet watch run sometimes takes over a minute to start on MacOS","<.net-core><dotnetcorecli>","0","2","","","","60728392","141909","141909","dotnetcorecli","12","",""
+"60813870","1","60824634","","2020-03-23 12:48:15","","0","50","<p>I am trying to replicate the following Azure pipeline using the CLI dotnet command:</p>
+
+<pre><code>- task: DotNetCoreCLI@2
+  inputs:
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+</code></pre>
+
+<p>So far, I can make the project build, but getting a zip file out of it seems problematic - passing the inputs zipAfterPublish etc appears impossible to pass, although, there is some scattered documentation suggesting these can be passed with -p:""optiona=x;optionb=y"" or /p:""optiona=x;optionb=y"". I can find no definitive documentation on this.</p>
+
+<p>This is what I have - the build part works, the $PWD/out directory is populated with many files but nothing is zipped:</p>
+
+<pre><code>dotnet publish --configuration Release --output $PWD/out /p:""zipAfterPublish=true;publishWebProjects=true""
+</code></pre>
+
+<p>I'm guessing this is around how to pass the inputs ( <a href=""https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops"" rel=""nofollow noreferrer"">https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops</a> ) correctly to the command.</p>
+","1018542","","","","","2020-03-24 06:04:58","How to pass azure pipelines dotnet inputs to the linux dotnet binary","<linux><azure><azure-devops><dotnetcorecli>","1","3","","","","60813870","141909","141909","dotnetcorecli","12","",""
+"61306564","1","61316692","","2020-04-19 15:05:27","","0","41","<p>I setup an azure build pipeline with the following Yaml</p>
+
+<p><a href=""https://i.stack.imgur.com/v0Yz5.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/v0Yz5.png"" alt=""enter image description here""></a></p>
+
+<p>This project is a simple hello world console application, written in c# .net core 3.1</p>
+
+<p>When I build or publish this project locally I get the following output:</p>
+
+<ul>
+<li>146 appsettings.deploy.json</li>
+<li>186 appsettings.json</li>
+<li>416 TestYaml.deps.json</li>
+<li>4.608 TestYaml.dll</li>
+<li>171.520 TestYaml.exe</li>
+<li>656 TestYaml.pdb</li>
+<li>154 TestYaml.runtimeconfig.json</li>
+</ul>
+
+<p>However, the published Artifacts through the build pipeline gives me these files:</p>
+
+<ul>
+<li>140 appsettings.deploy.json</li>
+<li>179 appsettings.json</li>
+<li>394 TestYaml.deps.json</li>
+<li>4.608 TestYaml.dll</li>
+<li>86.424 TestYaml</li>
+<li>632 TestYaml.pdb</li>
+<li>146 TestYaml.runtimeconfig.json</li>
+</ul>
+
+<p>So here, the file sizes are smaller, and more importantly the TestYaml.exe is missing and is replaced by a TestYaml file.</p>
+
+<p>This should be rather straightforward, but I don't see what's missing.</p>
+
+<p>Thanks in advance for the help!</p>
+","3094668","","","","","2020-04-20 08:36:02","Azure Devops build pipeline doesn't build executables","<azure-devops><build-pipeline><dotnetcorecli>","2","0","","","","61306564","141909","141909","dotnetcorecli","12","",""
+"59299211","1","","","2019-12-12 06:54:54","","0","61","<p>The develop language is dotnet core 3.0.
+I dont't have idea.Help Me!Thanks a lot.</p>
+
+<p>The function like below :</p>
+
+<pre><code>function test(){
+       BackgroundJob.Schedule&lt;TradeCenterService&gt;((s) =&gt; s.HandleSettlementJob(recordId), TimeSpan.FromSeconds(60));
+}
+</code></pre>
+
+<p>I have config the hanfire in test class,like this</p>
+
+<pre><code>[DependsOn(typeof (AbpHangfireModule))]
+public class MyProjectWebModule : AbpModule
+{
+    public override void PreInitialize()
+    {
+        Configuration.BackgroundJobs.UseHangfire();
+
+    }
+
+    //...
+}
+</code></pre>
+
+<p>Now the test result error message is :</p>
+
+<pre><code> System.InvalidOperationException : JobStorage.Current property value has not been initialized. You must set it before using Hangfire Client or Server API.
+  堆栈跟踪: 
+    JobStorage.get_Current()
+    BackgroundJobClient.ctor()
+    &lt;.cctor&gt;b__45_0()
+    Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer)
+    Lazy`1.CreateValue()
+    Lazy`1.get_Value()
+</code></pre>
+","8493409","","1256062","","2019-12-12 09:22:37","2019-12-12 09:22:37","How to use xunit to unit test contains the function of hangfire","<c#><xunit><hangfire><dotnet-core-pack>","1","1","","","","59299211","131867","131867","dotnet-core-pack","14","",""
+"61097531","1","","","2020-04-08 09:32:50","","0","6","<p>The normal DotNetCore framework behavior is for the preview version to be removed when We install the release version. 
+I want to know how to get the 2 versions installed alongside each other(.NET Core 3.0 runtime &amp; .NET Core 3 Preview 7 runtime).</p>
+","13257597","","","","","2020-04-08 09:32:50","How to get the 2 versions installed alongside each other?","<dotnet-core-pack>","0","0","","","","61097531","131867","131867","dotnet-core-pack","14","",""
+"61492828","1","","","2020-04-29 01:42:37","","0","17","<p>I am using Docker for Windows (2.2.0.5) on my Windows 10 Pro system.
+I have created and build the docker image for my dotnet core app (SDK 3.1).
+This app is connecting with external MySQL server to fetch data.
+The app inside docker container is able to connect with database with hardcoded connection string. But not able to connect with arguments passed using -e flag. Upon investigation i figured out the environment variables are not getting created inside docker container.</p>
+
+<p>Below is my docker run command - </p>
+
+<pre><code>docker run -d -p 5003:80 --name price-cat pricingcatalog:latest -e DB_HOST=165.202.xx.xx -e DB_DATABASE=pricing_catalog -e DB_USER=my-username -e DB_PASS=my-password
+</code></pre>
+
+<p>I am printing all environment variables created with container using C# code - </p>
+
+<pre><code>Console.WriteLine(""All environment variables....Process"");
+            foreach(DictionaryEntry envVar in Environment.GetEnvironmentVariables(EnvironmentVariableTarget.Process)){
+                Console.WriteLine(""key={0}, value={1}"", envVar.Key, envVar.Value);
+            }
+            Console.WriteLine(""============================"");
+
+            Console.WriteLine(""All environment variables....User"");
+            foreach(DictionaryEntry envVar in Environment.GetEnvironmentVariables(EnvironmentVariableTarget.User)){
+                Console.WriteLine(""key={0}, value={1}"", envVar.Key, envVar.Value);
+            }
+            Console.WriteLine(""============================"");
+
+            Console.WriteLine(""All environment variables....Machine"");
+            foreach(DictionaryEntry envVar in Environment.GetEnvironmentVariables(EnvironmentVariableTarget.Machine)){
+                Console.WriteLine(""key={0}, value={1}"", envVar.Key, envVar.Value);
+            }
+            Console.WriteLine(""============================"");
+</code></pre>
+
+<p>Below is what i am getting - 
+<a href=""https://i.stack.imgur.com/aDOp1.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/aDOp1.png"" alt=""Environment variables issue""></a> 
+<a href=""https://i.stack.imgur.com/xOXpH.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/xOXpH.png"" alt=""Docker version""></a>
+Is there anything i am missing out here.</p>
+","123514","","123514","","2020-04-29 01:50:03","2020-04-29 02:39:53","Environment variables are not getting created inside docker container","<docker><.net-core><docker-for-windows><dotnet-core-pack>","1","2","","","","61492828","131867","131867","dotnet-core-pack","14","",""
