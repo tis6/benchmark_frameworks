@@ -1,0 +1,11 @@
+owner,name,created_at,merged_pull_requests,total_releases,total_closed_issues
+playframework,playframework,2011-09-07T09:24:08Z,5516,41,2993
+django,django,2012-04-28T02:47:18Z,5468,0,0
+ktorio,ktor,2015-08-03T16:49:36Z,300,27,804
+rails,rails,2008-04-11T02:19:47Z,16733,18,13286
+spring-projects,spring-framework,2010-12-08T04:04:45Z,542,175,18555
+laravel,laravel,2011-06-08T03:06:08Z,1227,36,0
+expressjs,express,2009-06-26T18:56:01Z,200,141,3177
+gin-gonic,gin,2014-06-16T23:57:25Z,614,12,1155
+vapor,vapor,2016-01-18T22:37:52Z,860,309,1205
+dotnet,core,2014-11-18T00:44:57Z,980,97,2944
