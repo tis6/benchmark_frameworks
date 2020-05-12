@@ -56,3 +56,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 .env
 .idea
+
+# Jupyter
+metrics/graphs/.ipynb_checkpoints
