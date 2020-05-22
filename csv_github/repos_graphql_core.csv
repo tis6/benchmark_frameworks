@@ -1,2 +1,2 @@
-owner,name,created_at,merged_pull_requests,total_releases,total_closed_issues
-dotnet,core,2014-11-18T00:44:57Z,980,97,2944
+owner,name,created_at,total_pull_requests,merged_pull_requests,total_releases,total_closed_issues
+dotnet,core,2014-11-18T00:44:57Z,1111,998,98,3008

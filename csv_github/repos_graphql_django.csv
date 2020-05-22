@@ -1,2 +1,2 @@
-owner,name,created_at,merged_pull_requests,total_releases,total_closed_issues
-django,django,2012-04-28T02:47:18Z,5468,0,0
+owner,name,created_at,total_pull_requests,merged_pull_requests,total_releases,total_closed_issues
+django,django,2012-04-28T02:47:18Z,12927,5552,0,0

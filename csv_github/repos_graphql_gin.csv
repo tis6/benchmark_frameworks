@@ -1,2 +1,2 @@
-owner,name,created_at,merged_pull_requests,total_releases,total_closed_issues
-gin-gonic,gin,2014-06-16T23:57:25Z,614,12,1155
+owner,name,created_at,total_pull_requests,merged_pull_requests,total_releases,total_closed_issues
+gin-gonic,gin,2014-06-16T23:57:25Z,991,628,13,1167

@@ -1,2 +1,2 @@
-owner,name,created_at,merged_pull_requests,total_releases,total_closed_issues
-rails,rails,2008-04-11T02:19:47Z,16733,18,13286
+owner,name,created_at,total_pull_requests,merged_pull_requests,total_releases,total_closed_issues
+rails,rails,2008-04-11T02:19:47Z,25430,16863,19,13381

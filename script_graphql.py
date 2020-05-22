@@ -6,9 +6,10 @@ headers = {"Authorization": "token ###"}
 
 
 class Repository:
-    def __init__(self, owner, name, merged_pull_requests, created_at, total_releases, total_closed_issues, closed_issues):
+    def __init__(self, owner, name, total_pull_requests, merged_pull_requests, created_at, total_releases, total_closed_issues, closed_issues):
         self.owner = owner
         self.name = name
+        self.total_pull_requests = total_pull_requests
         self.merged_pull_requests = merged_pull_requests
         self.created_at = created_at
         self.total_releases = total_releases
@@ -42,10 +43,12 @@ def run_query(query):
 
 def mine(owner, name):
     # 1) Buscar os dados base que não precisam de loop
-    # TODO - Mudar pra pegar independente de repos
     queryBase = """
     {
     repository(owner: "%s", name: "%s") {
+        totalPullRequests: pullRequests {
+        totalCount
+        }
         mergedPullRequests: pullRequests(states: MERGED) {
         totalCount
         }
@@ -60,14 +63,15 @@ def mine(owner, name):
     }""" % (owner, name)
 
     queryResultBase = run_query(queryBase)
-
+    
+    total_pull_requests = queryResultBase['data']['repository']['totalPullRequests']['totalCount']
     total_merged_pull_requests = queryResultBase['data']['repository']['mergedPullRequests']['totalCount']
     created_at = queryResultBase['data']['repository']['createdAt']
     total_releases = queryResultBase['data']['repository']['releases']['totalCount']
     # TODAS AS ISSUES FECHADAS
     total_closed_issues = queryResultBase['data']['repository']['totalIssuesFechada']['totalCount']
 
-    repo = Repository(owner, name, total_merged_pull_requests,
+    repo = Repository(owner, name, total_pull_requests, total_merged_pull_requests,
                       created_at, total_releases, total_closed_issues, [])
 
     # 2) Buscar as issues do repository (loop)
@@ -140,6 +144,7 @@ def writeCsv(repo, name):
             'owner',
             'name',
             'created_at',
+            'total_pull_requests',
             'merged_pull_requests',
             'total_releases',
             'total_closed_issues']
@@ -151,6 +156,7 @@ def writeCsv(repo, name):
                 'owner': repo.owner,
                 'name': repo.name,
                 'created_at': repo.created_at,
+                'total_pull_requests': repo.total_pull_requests,
                 'merged_pull_requests': repo.merged_pull_requests,
                 'total_releases': repo.total_releases,
                 'total_closed_issues': repo.total_closed_issues
