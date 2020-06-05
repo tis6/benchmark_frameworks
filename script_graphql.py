@@ -274,10 +274,12 @@ def writeCsv(repo, name):
 
 
 
-owners = ['angular', 'expressjs',  'dotnet', 'vuejs',
-           'angular', 'pallets', 'rails', 'symfony', 'gatsbyjs', 'django']
-names = ['angular', 'express',  'aspnetcore', 'vue',
-          'angular.js', 'flask', 'rails', 'symfony', 'gatsby', 'django']
+# owners = ['angular', 'expressjs',  'dotnet', 'vuejs', 'angular', 'django', 'pallets', 'laravel', 'rails', 'symfony', 'gatsbyjs']
+# names = ['angular', 'express',  'aspnetcore', 'vue','angular.js', 'django', 'flask', 'laravel', 'rails', 'symfony', 'gatsby']
+
+
+owners = ['laravel']
+names = ['laravel']
 
 for x in range(len(owners)):
     repo = mine(owners[x], names[x])
