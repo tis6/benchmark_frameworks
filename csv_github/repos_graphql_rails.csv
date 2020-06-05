@@ -1,2 +1,2 @@
-owner,name,created_at,total_pull_requests,merged_pull_requests,total_releases,total_closed_issues
-rails,rails,2008-04-11T02:19:47Z,25430,16863,19,13381
+owner,name,assignable_users,created_at,fork_count,has_issues_enabled,url,homepage_url,is_private,total_issues,total_closed_issues,languages,primary_language,total_pull_requests,merged_pull_requests,total_releases,stargazers,updated_at,vulnerability_alerts,watchers
+rails,rails,49,2008-04-11T02:19:47Z,18468,True,https://github.com/rails/rails,https://rubyonrails.org,False,13811,13423,7,Ruby,25537,16935,19,45736,2020-06-05T01:29:27Z,0,2537

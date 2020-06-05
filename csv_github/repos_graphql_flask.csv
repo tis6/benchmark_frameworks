@@ -1,2 +1,2 @@
 owner,name,assignable_users,created_at,fork_count,has_issues_enabled,url,homepage_url,is_private,total_issues,total_closed_issues,languages,primary_language,total_pull_requests,merged_pull_requests,total_releases,stargazers,updated_at,vulnerability_alerts,watchers
-django,django,42,2012-04-28T02:47:18Z,21627,False,https://github.com/django/django,https://www.djangoproject.com/,False,0,0,7,Python,13000,5607,0,49791,2020-06-05T02:07:13Z,0,2262
+pallets,flask,6,2010-04-06T11:11:59Z,13532,True,https://github.com/pallets/flask,https://palletsprojects.com/p/flask/,False,1950,1925,3,Python,1666,1024,10,50638,2020-06-05T01:39:41Z,0,2283

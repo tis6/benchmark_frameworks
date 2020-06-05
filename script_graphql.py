@@ -6,15 +6,32 @@ headers = {"Authorization": "token ###"}
 
 
 class Repository:
-    def __init__(self, owner, name, total_pull_requests, merged_pull_requests, created_at, total_releases, total_closed_issues, closed_issues):
+    def __init__(self, owner, name, assignable_users, created_at, forkCount,
+                 hasIssuesEnabled, url, homepageUrl, isPrivate,
+                 total_issues, total_closed_issues, closed_issues,
+                 languages, primaryLanguage, total_pull_requests, merged_pull_requests,
+                 releases, stargazers, updated_at, vulnerability_alerts, watchers):
         self.owner = owner
         self.name = name
-        self.total_pull_requests = total_pull_requests
-        self.merged_pull_requests = merged_pull_requests
+        self.assignable_users = assignable_users
         self.created_at = created_at
-        self.total_releases = total_releases
+        self.forkCount = forkCount
+        self.hasIssuesEnabled = hasIssuesEnabled
+        self.url = url
+        self.homepageUrl = homepageUrl
+        self.isPrivate = isPrivate
+        self.total_issues = total_issues
         self.total_closed_issues = total_closed_issues
         self.closed_issues = closed_issues
+        self.languages = languages
+        self.primaryLanguage = primaryLanguage
+        self.total_pull_requests = total_pull_requests
+        self.merged_pull_requests = merged_pull_requests
+        self.releases = releases
+        self.stargazers = stargazers
+        self.updated_at = updated_at
+        self.vulnerability_alerts = vulnerability_alerts
+        self.watchers = watchers
 
 
 class Issue:
@@ -46,33 +63,75 @@ def mine(owner, name):
     queryBase = """
     {
     repository(owner: "%s", name: "%s") {
-        totalPullRequests: pullRequests {
-        totalCount
-        }
-        mergedPullRequests: pullRequests(states: MERGED) {
+        assignableUsers {
         totalCount
         }
         createdAt
+        forkCount
+        hasIssuesEnabled
+        url
+        homepageUrl
+        isPrivate
+        issues_totais: issues {
+        totalCount
+        }
+        issues_fechadas: issues(states: CLOSED) {
+        totalCount
+        }
+        languages {
+        totalCount
+        }
+        primaryLanguage {
+        name
+        }
+        total_pull_requests: pullRequests {
+        totalCount
+        }
+        merged_pull_requests: pullRequests(states: MERGED) {
+        totalCount
+        }
         releases {
         totalCount
         }
-        totalIssuesFechada: issues(states:CLOSED){
-            totalCount
+        stargazers {
+        totalCount
         }
+        updatedAt
+        vulnerabilityAlerts {
+        totalCount
+        }
+        watchers {
+        totalCount
+        }       
      }
     }""" % (owner, name)
 
     queryResultBase = run_query(queryBase)
-    
-    total_pull_requests = queryResultBase['data']['repository']['totalPullRequests']['totalCount']
-    total_merged_pull_requests = queryResultBase['data']['repository']['mergedPullRequests']['totalCount']
-    created_at = queryResultBase['data']['repository']['createdAt']
-    total_releases = queryResultBase['data']['repository']['releases']['totalCount']
-    # TODAS AS ISSUES FECHADAS
-    total_closed_issues = queryResultBase['data']['repository']['totalIssuesFechada']['totalCount']
 
-    repo = Repository(owner, name, total_pull_requests, total_merged_pull_requests,
-                      created_at, total_releases, total_closed_issues, [])
+    assignable_users = queryResultBase['data']['repository']['assignableUsers']['totalCount']
+    created_at = queryResultBase['data']['repository']['createdAt']
+    fork_count = queryResultBase['data']['repository']['forkCount']
+    hasIssuesEnabled = queryResultBase['data']['repository']['hasIssuesEnabled']
+    url = queryResultBase['data']['repository']['url']
+    homepageUrl = queryResultBase['data']['repository']['homepageUrl']
+    isPrivate = queryResultBase['data']['repository']['isPrivate']
+    total_issues = queryResultBase['data']['repository']['issues_totais']['totalCount']
+    total_closed_issues = queryResultBase['data']['repository']['issues_fechadas']['totalCount']
+    languages = queryResultBase['data']['repository']['languages']['totalCount']
+    primaryLanguage = queryResultBase['data']['repository']['primaryLanguage']['name']
+    total_pull_requests = queryResultBase['data']['repository']['total_pull_requests']['totalCount']
+    total_merged_pull_requests = queryResultBase['data']['repository']['merged_pull_requests']['totalCount']
+    total_releases = queryResultBase['data']['repository']['releases']['totalCount']
+    stargazers = queryResultBase['data']['repository']['stargazers']['totalCount']
+    updatedAt = queryResultBase['data']['repository']['updatedAt']
+    vulnerabilityAlerts = queryResultBase['data']['repository']['vulnerabilityAlerts']['totalCount']
+    watchers = queryResultBase['data']['repository']['watchers']['totalCount']
+
+    repo = Repository(owner, name, assignable_users,
+                      created_at, fork_count, hasIssuesEnabled, url,
+                      homepageUrl, isPrivate, total_issues, total_closed_issues, [],
+                      languages, primaryLanguage, total_pull_requests, total_merged_pull_requests, total_releases,
+                      stargazers, updatedAt, vulnerabilityAlerts, watchers)
 
     # 2) Buscar as issues do repository (loop)
 
@@ -143,11 +202,25 @@ def writeCsv(repo, name):
         fnames = [
             'owner',
             'name',
+            'assignable_users',
             'created_at',
+            'fork_count',
+            'has_issues_enabled',
+            'url',
+            'homepage_url',
+            'is_private',
+            'total_issues',
+            'total_closed_issues',
+            'languages',
+            'primary_language',
             'total_pull_requests',
             'merged_pull_requests',
             'total_releases',
-            'total_closed_issues']
+            'stargazers',
+            'updated_at',
+            'vulnerability_alerts',
+            'watchers'
+        ]
 
         csv_writer = csv.DictWriter(new_file_info, fieldnames=fnames)
         csv_writer.writeheader()
@@ -155,11 +228,25 @@ def writeCsv(repo, name):
             {
                 'owner': repo.owner,
                 'name': repo.name,
+                'assignable_users': repo.assignable_users,
                 'created_at': repo.created_at,
+                'fork_count': repo.forkCount,
+                'has_issues_enabled': repo.hasIssuesEnabled,
+                'url': repo.url,
+                'homepage_url': repo.homepageUrl,
+                'is_private': repo.isPrivate,
+                'total_issues': repo.total_issues,
+                'total_closed_issues': repo.total_closed_issues,
+                'languages': repo.languages,
+                'primary_language': repo.primaryLanguage,
                 'total_pull_requests': repo.total_pull_requests,
                 'merged_pull_requests': repo.merged_pull_requests,
-                'total_releases': repo.total_releases,
-                'total_closed_issues': repo.total_closed_issues
+                'total_releases': repo.releases,
+                'stargazers': repo.stargazers,
+                'updated_at': repo.updated_at,
+                'vulnerability_alerts': repo.vulnerability_alerts,
+                'watchers': repo.watchers,
+
             })
 
         print('Arquivo csv infos gerado com sucesso!')
@@ -169,7 +256,6 @@ def writeCsv(repo, name):
     with open(file_issues, 'w', encoding="utf-8") as new_file_issues:
         fnames = [
             'number',
-            'title',
             'created_at',
             'closed_at']
 
@@ -180,7 +266,6 @@ def writeCsv(repo, name):
             csv_writer.writerow(
                 {
                     'number': issue.number,
-                    'title': issue.title,
                     'created_at': issue.created_at,
                     'closed_at': issue.closed_at,
                 })
@@ -188,12 +273,12 @@ def writeCsv(repo, name):
         print('Arquivo csv issues gerado com sucesso!')
 
 
-owners = ['expressjs', 'gin-gonic', 'django', 'rails', 'playframework',
-          'ktorio', 'dotnet', 'spring-projects', 'vapor', 'laravel']
-names = ['express', 'gin', 'django', 'rails', 'playframework',
-         'ktor', 'core', 'spring-framework', 'vapor', 'laravel']
 
+owners = ['angular', 'expressjs',  'dotnet', 'vuejs',
+           'angular', 'pallets', 'rails', 'symfony', 'gatsbyjs', 'django']
+names = ['angular', 'express',  'aspnetcore', 'vue',
+          'angular.js', 'flask', 'rails', 'symfony', 'gatsby', 'django']
 
-for x in range(10):
+for x in range(len(owners)):
     repo = mine(owners[x], names[x])
     writeCsv(repo, names[x])

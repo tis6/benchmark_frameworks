@@ -1,2 +1,2 @@
 owner,name,assignable_users,created_at,fork_count,has_issues_enabled,url,homepage_url,is_private,total_issues,total_closed_issues,languages,primary_language,total_pull_requests,merged_pull_requests,total_releases,stargazers,updated_at,vulnerability_alerts,watchers
-django,django,42,2012-04-28T02:47:18Z,21627,False,https://github.com/django/django,https://www.djangoproject.com/,False,0,0,7,Python,13000,5607,0,49791,2020-06-05T02:07:13Z,0,2262
+angular,angular,48,2014-09-18T16:12:01Z,16793,True,https://github.com/angular/angular,https://angular.io,False,20898,18214,10,TypeScript,16213,2911,0,61803,2020-06-05T01:11:35Z,0,3171
