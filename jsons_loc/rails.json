@@ -1,0 +1,106 @@
+[
+   {
+      "language": "Ruby",
+      "files": "2836",
+      "lines": "400074",
+      "blanks": "65984",
+      "comments": "51737",
+      "linesOfCode": "282353"
+   },
+   {
+      "language": "Markdown",
+      "files": "85",
+      "lines": "58587",
+      "blanks": "16743",
+      "comments": "0",
+      "linesOfCode": "41844"
+   },
+   {
+      "language": "JavaScript",
+      "files": "88",
+      "lines": "18200",
+      "blanks": "2875",
+      "comments": "2310",
+      "linesOfCode": "13015"
+   },
+   {
+      "language": "YAML",
+      "files": "156",
+      "lines": "3531",
+      "blanks": "305",
+      "comments": "341",
+      "linesOfCode": "2885"
+   },
+   {
+      "language": "CSS",
+      "files": "29",
+      "lines": "2404",
+      "blanks": "362",
+      "comments": "183",
+      "linesOfCode": "1859"
+   },
+   {
+      "language": "HTML",
+      "files": "39",
+      "lines": "827",
+      "blanks": "60",
+      "comments": "12",
+      "linesOfCode": "755"
+   },
+   {
+      "language": "CoffeeScript",
+      "files": "12",
+      "lines": "635",
+      "blanks": "97",
+      "comments": "125",
+      "linesOfCode": "413"
+   },
+   {
+      "language": "JSON",
+      "files": "10",
+      "lines": "343",
+      "blanks": "1",
+      "comments": "0",
+      "linesOfCode": "342"
+   },
+   {
+      "language": "Yacc",
+      "files": "1",
+      "lines": "50",
+      "blanks": "4",
+      "comments": "0",
+      "linesOfCode": "46"
+   },
+   {
+      "language": "SQL",
+      "files": "1",
+      "lines": "49",
+      "blanks": "6",
+      "comments": "0",
+      "linesOfCode": "43"
+   },
+   {
+      "language": "Sass",
+      "files": "1",
+      "lines": "36",
+      "blanks": "3",
+      "comments": "9",
+      "linesOfCode": "24"
+   },
+   {
+      "language": "Plain Text",
+      "files": "7",
+      "lines": "6",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "6"
+   },
+   {
+      "language": "Total",
+      "files": "3265",
+      "lines": "484742",
+      "blanks": "86440",
+      "comments": "54717",
+      "linesOfCode": "343585"
+   }
+]

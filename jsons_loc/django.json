@@ -1,0 +1,122 @@
+[
+   {
+      "language": "Python",
+      "files": "2640",
+      "lines": "357358",
+      "blanks": "55048",
+      "comments": "20272",
+      "linesOfCode": "282038"
+   },
+   {
+      "language": "Plain Text",
+      "files": "525",
+      "lines": "139098",
+      "blanks": "38144",
+      "comments": "0",
+      "linesOfCode": "100954"
+   },
+   {
+      "language": "JavaScript",
+      "files": "101",
+      "lines": "25961",
+      "blanks": "3956",
+      "comments": "3969",
+      "linesOfCode": "18036"
+   },
+   {
+      "language": "HTML",
+      "files": "315",
+      "lines": "5203",
+      "blanks": "529",
+      "comments": "11",
+      "linesOfCode": "4663"
+   },
+   {
+      "language": "CSS",
+      "files": "38",
+      "lines": "5110",
+      "blanks": "928",
+      "comments": "125",
+      "linesOfCode": "4057"
+   },
+   {
+      "language": "JSON",
+      "files": "51",
+      "lines": "1575",
+      "blanks": "3",
+      "comments": "0",
+      "linesOfCode": "1572"
+   },
+   {
+      "language": "XML",
+      "files": "14",
+      "lines": "209",
+      "blanks": "0",
+      "comments": "2",
+      "linesOfCode": "207"
+   },
+   {
+      "language": "Batch",
+      "files": "1",
+      "lines": "189",
+      "blanks": "23",
+      "comments": "1",
+      "linesOfCode": "165"
+   },
+   {
+      "language": "Makefile",
+      "files": "2",
+      "lines": "171",
+      "blanks": "30",
+      "comments": "7",
+      "linesOfCode": "134"
+   },
+   {
+      "language": "reStructuredText",
+      "files": "4",
+      "lines": "107",
+      "blanks": "33",
+      "comments": "0",
+      "linesOfCode": "74"
+   },
+   {
+      "language": "INI",
+      "files": "1",
+      "lines": "67",
+      "blanks": "7",
+      "comments": "0",
+      "linesOfCode": "60"
+   },
+   {
+      "language": "Markdown",
+      "files": "3",
+      "lines": "49",
+      "blanks": "11",
+      "comments": "0",
+      "linesOfCode": "38"
+   },
+   {
+      "language": "Autoconf",
+      "files": "1",
+      "lines": "16",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "16"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "1",
+      "lines": "28",
+      "blanks": "4",
+      "comments": "8",
+      "linesOfCode": "16"
+   },
+   {
+      "language": "Total",
+      "files": "3697",
+      "lines": "535141",
+      "blanks": "98716",
+      "comments": "24395",
+      "linesOfCode": "412030"
+   }
+]

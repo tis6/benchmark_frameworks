@@ -1,0 +1,106 @@
+[
+   {
+      "language": "Python",
+      "files": "70",
+      "lines": "16128",
+      "blanks": "3599",
+      "comments": "812",
+      "linesOfCode": "11717"
+   },
+   {
+      "language": "reStructuredText",
+      "files": "83",
+      "lines": "14588",
+      "blanks": "3754",
+      "comments": "0",
+      "linesOfCode": "10834"
+   },
+   {
+      "language": "HTML",
+      "files": "19",
+      "lines": "256",
+      "blanks": "23",
+      "comments": "0",
+      "linesOfCode": "233"
+   },
+   {
+      "language": "Plain Text",
+      "files": "9",
+      "lines": "126",
+      "blanks": "2",
+      "comments": "0",
+      "linesOfCode": "124"
+   },
+   {
+      "language": "CSS",
+      "files": "2",
+      "lines": "135",
+      "blanks": "25",
+      "comments": "1",
+      "linesOfCode": "109"
+   },
+   {
+      "language": "Markdown",
+      "files": "1",
+      "lines": "76",
+      "blanks": "19",
+      "comments": "0",
+      "linesOfCode": "57"
+   },
+   {
+      "language": "Autoconf",
+      "files": "6",
+      "lines": "35",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "35"
+   },
+   {
+      "language": "INI",
+      "files": "1",
+      "lines": "37",
+      "blanks": "7",
+      "comments": "0",
+      "linesOfCode": "30"
+   },
+   {
+      "language": "Batch",
+      "files": "1",
+      "lines": "35",
+      "blanks": "8",
+      "comments": "1",
+      "linesOfCode": "26"
+   },
+   {
+      "language": "SQL",
+      "files": "2",
+      "lines": "28",
+      "blanks": "4",
+      "comments": "2",
+      "linesOfCode": "22"
+   },
+   {
+      "language": "Makefile",
+      "files": "1",
+      "lines": "20",
+      "blanks": "4",
+      "comments": "7",
+      "linesOfCode": "9"
+   },
+   {
+      "language": "JSON",
+      "files": "1",
+      "lines": "4",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "4"
+   },
+   {
+      "language": "Total",
+      "files": "196",
+      "lines": "31468",
+      "blanks": "7445",
+      "comments": "823",
+      "linesOfCode": "23200"
+   }
+]

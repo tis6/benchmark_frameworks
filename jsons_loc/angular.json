@@ -1,0 +1,106 @@
+[
+   {
+      "language": "TypeScript",
+      "files": "5273",
+      "lines": "665248",
+      "blanks": "82887",
+      "comments": "110825",
+      "linesOfCode": "471536"
+   },
+   {
+      "language": "JavaScript",
+      "files": "1011",
+      "lines": "71160",
+      "blanks": "4249",
+      "comments": "10428",
+      "linesOfCode": "56483"
+   },
+   {
+      "language": "Markdown",
+      "files": "289",
+      "lines": "71005",
+      "blanks": "24423",
+      "comments": "0",
+      "linesOfCode": "46582"
+   },
+   {
+      "language": "JSON",
+      "files": "472",
+      "lines": "21163",
+      "blanks": "73",
+      "comments": "0",
+      "linesOfCode": "21090"
+   },
+   {
+      "language": "HTML",
+      "files": "499",
+      "lines": "14959",
+      "blanks": "1924",
+      "comments": "1459",
+      "linesOfCode": "11576"
+   },
+   {
+      "language": "CSS",
+      "files": "212",
+      "lines": "7525",
+      "blanks": "1071",
+      "comments": "190",
+      "linesOfCode": "6264"
+   },
+   {
+      "language": "Sass",
+      "files": "49",
+      "lines": "4646",
+      "blanks": "738",
+      "comments": "133",
+      "linesOfCode": "3775"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "49",
+      "lines": "2407",
+      "blanks": "428",
+      "comments": "386",
+      "linesOfCode": "1593"
+   },
+   {
+      "language": "Plain Text",
+      "files": "12",
+      "lines": "450",
+      "blanks": "35",
+      "comments": "0",
+      "linesOfCode": "415"
+   },
+   {
+      "language": "XML",
+      "files": "2",
+      "lines": "16",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "16"
+   },
+   {
+      "language": "Protobuf",
+      "files": "1",
+      "lines": "51",
+      "blanks": "9",
+      "comments": "27",
+      "linesOfCode": "15"
+   },
+   {
+      "language": "Less",
+      "files": "2",
+      "lines": "1",
+      "blanks": "0",
+      "comments": "1",
+      "linesOfCode": "0"
+   },
+   {
+      "language": "Total",
+      "files": "7871",
+      "lines": "858631",
+      "blanks": "115837",
+      "comments": "123449",
+      "linesOfCode": "619345"
+   }
+]

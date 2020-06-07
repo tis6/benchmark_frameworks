@@ -1,0 +1,106 @@
+[
+   {
+      "language": "PHP",
+      "files": "5199",
+      "lines": "593101",
+      "blanks": "91779",
+      "comments": "115101",
+      "linesOfCode": "386221"
+   },
+   {
+      "language": "JSON",
+      "files": "1389",
+      "lines": "349185",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "349185"
+   },
+   {
+      "language": "Markdown",
+      "files": "240",
+      "lines": "17695",
+      "blanks": "2449",
+      "comments": "0",
+      "linesOfCode": "15246"
+   },
+   {
+      "language": "XML",
+      "files": "358",
+      "lines": "8590",
+      "blanks": "1056",
+      "comments": "89",
+      "linesOfCode": "7445"
+   },
+   {
+      "language": "YAML",
+      "files": "422",
+      "lines": "7677",
+      "blanks": "477",
+      "comments": "161",
+      "linesOfCode": "7039"
+   },
+   {
+      "language": "Plain Text",
+      "files": "150",
+      "lines": "3364",
+      "blanks": "670",
+      "comments": "0",
+      "linesOfCode": "2694"
+   },
+   {
+      "language": "CSS",
+      "files": "8",
+      "lines": "2198",
+      "blanks": "259",
+      "comments": "10",
+      "linesOfCode": "1929"
+   },
+   {
+      "language": "JavaScript",
+      "files": "3",
+      "lines": "745",
+      "blanks": "148",
+      "comments": "36",
+      "linesOfCode": "561"
+   },
+   {
+      "language": "HTML",
+      "files": "3",
+      "lines": "356",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "356"
+   },
+   {
+      "language": "INI",
+      "files": "10",
+      "lines": "45",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "45"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "2",
+      "lines": "69",
+      "blanks": "20",
+      "comments": "5",
+      "linesOfCode": "44"
+   },
+   {
+      "language": "TypeScript",
+      "files": "1",
+      "lines": "21",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "21"
+   },
+   {
+      "language": "Total",
+      "files": "7785",
+      "lines": "983046",
+      "blanks": "96858",
+      "comments": "115402",
+      "linesOfCode": "770786"
+   }
+]

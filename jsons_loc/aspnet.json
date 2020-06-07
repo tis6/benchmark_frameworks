@@ -1,0 +1,98 @@
+[
+   {
+      "language": "C#",
+      "files": "2912",
+      "lines": "417619",
+      "blanks": "60149",
+      "comments": "49451",
+      "linesOfCode": "308019"
+   },
+   {
+      "language": "Razor",
+      "files": "80",
+      "lines": "3214",
+      "blanks": "374",
+      "comments": "341",
+      "linesOfCode": "2499"
+   },
+   {
+      "language": "HTML",
+      "files": "1",
+      "lines": "2002",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "2002"
+   },
+   {
+      "language": "CSS",
+      "files": "3",
+      "lines": "857",
+      "blanks": "152",
+      "comments": "61",
+      "linesOfCode": "644"
+   },
+   {
+      "language": "JavaScript",
+      "files": "2",
+      "lines": "583",
+      "blanks": "75",
+      "comments": "76",
+      "linesOfCode": "432"
+   },
+   {
+      "language": "XML",
+      "files": "3",
+      "lines": "205",
+      "blanks": "4",
+      "comments": "5",
+      "linesOfCode": "196"
+   },
+   {
+      "language": "ASP.NET",
+      "files": "17",
+      "lines": "189",
+      "blanks": "6",
+      "comments": "0",
+      "linesOfCode": "183"
+   },
+   {
+      "language": "Markdown",
+      "files": "3",
+      "lines": "99",
+      "blanks": "30",
+      "comments": "0",
+      "linesOfCode": "69"
+   },
+   {
+      "language": "Batch",
+      "files": "1",
+      "lines": "62",
+      "blanks": "9",
+      "comments": "4",
+      "linesOfCode": "49"
+   },
+   {
+      "language": "Plain Text",
+      "files": "2",
+      "lines": "72",
+      "blanks": "24",
+      "comments": "0",
+      "linesOfCode": "48"
+   },
+   {
+      "language": "JSON",
+      "files": "2",
+      "lines": "9",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "9"
+   },
+   {
+      "language": "Total",
+      "files": "3026",
+      "lines": "424911",
+      "blanks": "60823",
+      "comments": "49938",
+      "linesOfCode": "314150"
+   }
+]

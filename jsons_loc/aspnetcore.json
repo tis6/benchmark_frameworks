@@ -1,0 +1,218 @@
+[
+   {
+      "language": "C#",
+      "files": "10379",
+      "lines": "1395184",
+      "blanks": "186657",
+      "comments": "164158",
+      "linesOfCode": "1044369"
+   },
+   {
+      "language": "JavaScript",
+      "files": "307",
+      "lines": "321216",
+      "blanks": "57008",
+      "comments": "51752",
+      "linesOfCode": "212456"
+   },
+   {
+      "language": "CSS",
+      "files": "139",
+      "lines": "140270",
+      "blanks": "7837",
+      "comments": "596",
+      "linesOfCode": "131837"
+   },
+   {
+      "language": "JSON",
+      "files": "304",
+      "lines": "88609",
+      "blanks": "19",
+      "comments": "0",
+      "linesOfCode": "88590"
+   },
+   {
+      "language": "Plain Text",
+      "files": "4112",
+      "lines": "88830",
+      "blanks": "1985",
+      "comments": "0",
+      "linesOfCode": "86845"
+   },
+   {
+      "language": "C++",
+      "files": "121",
+      "lines": "50036",
+      "blanks": "8821",
+      "comments": "5926",
+      "linesOfCode": "35289"
+   },
+   {
+      "language": "C/C++ Header",
+      "files": "174",
+      "lines": "33099",
+      "blanks": "5784",
+      "comments": "5917",
+      "linesOfCode": "21398"
+   },
+   {
+      "language": "Razor",
+      "files": "1036",
+      "lines": "22316",
+      "blanks": "2280",
+      "comments": "291",
+      "linesOfCode": "19745"
+   },
+   {
+      "language": "TypeScript",
+      "files": "175",
+      "lines": "21549",
+      "blanks": "3283",
+      "comments": "2294",
+      "linesOfCode": "15972"
+   },
+   {
+      "language": "Markdown",
+      "files": "154",
+      "lines": "10572",
+      "blanks": "3233",
+      "comments": "0",
+      "linesOfCode": "7339"
+   },
+   {
+      "language": "HTML",
+      "files": "194",
+      "lines": "8329",
+      "blanks": "1326",
+      "comments": "171",
+      "linesOfCode": "6832"
+   },
+   {
+      "language": "Java",
+      "files": "69",
+      "lines": "7153",
+      "blanks": "1257",
+      "comments": "673",
+      "linesOfCode": "5223"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "60",
+      "lines": "4763",
+      "blanks": "750",
+      "comments": "440",
+      "linesOfCode": "3573"
+   },
+   {
+      "language": "YAML",
+      "files": "24",
+      "lines": "2432",
+      "blanks": "246",
+      "comments": "152",
+      "linesOfCode": "2034"
+   },
+   {
+      "language": "XML",
+      "files": "34",
+      "lines": "1584",
+      "blanks": "31",
+      "comments": "40",
+      "linesOfCode": "1513"
+   },
+   {
+      "language": "Autoconf",
+      "files": "26",
+      "lines": "674",
+      "blanks": "96",
+      "comments": "0",
+      "linesOfCode": "578"
+   },
+   {
+      "language": "Batch",
+      "files": "64",
+      "lines": "508",
+      "blanks": "90",
+      "comments": "9",
+      "linesOfCode": "409"
+   },
+   {
+      "language": "Python",
+      "files": "3",
+      "lines": "634",
+      "blanks": "189",
+      "comments": "43",
+      "linesOfCode": "402"
+   },
+   {
+      "language": "C",
+      "files": "4",
+      "lines": "933",
+      "blanks": "274",
+      "comments": "300",
+      "linesOfCode": "359"
+   },
+   {
+      "language": "F#",
+      "files": "12",
+      "lines": "310",
+      "blanks": "58",
+      "comments": "10",
+      "linesOfCode": "242"
+   },
+   {
+      "language": "Typescript JSX",
+      "files": "8",
+      "lines": "265",
+      "blanks": "31",
+      "comments": "5",
+      "linesOfCode": "229"
+   },
+   {
+      "language": "Lua",
+      "files": "4",
+      "lines": "196",
+      "blanks": "37",
+      "comments": "15",
+      "linesOfCode": "144"
+   },
+   {
+      "language": "Protobuf",
+      "files": "6",
+      "lines": "315",
+      "blanks": "59",
+      "comments": "139",
+      "linesOfCode": "117"
+   },
+   {
+      "language": "INI",
+      "files": "5",
+      "lines": "61",
+      "blanks": "15",
+      "comments": "0",
+      "linesOfCode": "46"
+   },
+   {
+      "language": "Sass",
+      "files": "1",
+      "lines": "2",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "2"
+   },
+   {
+      "language": "Less",
+      "files": "1",
+      "lines": "2",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "2"
+   },
+   {
+      "language": "Total",
+      "files": "17416",
+      "lines": "2199842",
+      "blanks": "281366",
+      "comments": "232931",
+      "linesOfCode": "1685545"
+   }
+]

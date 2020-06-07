@@ -1,0 +1,130 @@
+[
+   {
+      "language": "JSON",
+      "files": "386",
+      "lines": "311204",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "311204"
+   },
+   {
+      "language": "JavaScript",
+      "files": "2210",
+      "lines": "185878",
+      "blanks": "17620",
+      "comments": "11539",
+      "linesOfCode": "156719"
+   },
+   {
+      "language": "Markdown",
+      "files": "1139",
+      "lines": "159266",
+      "blanks": "52648",
+      "comments": "0",
+      "linesOfCode": "106618"
+   },
+   {
+      "language": "TypeScript",
+      "files": "267",
+      "lines": "29010",
+      "blanks": "3209",
+      "comments": "3239",
+      "linesOfCode": "22562"
+   },
+   {
+      "language": "YAML",
+      "files": "21",
+      "lines": "20203",
+      "blanks": "10",
+      "comments": "14",
+      "linesOfCode": "20179"
+   },
+   {
+      "language": "CSS",
+      "files": "71",
+      "lines": "18377",
+      "blanks": "793",
+      "comments": "145",
+      "linesOfCode": "17439"
+   },
+   {
+      "language": "HTML",
+      "files": "12",
+      "lines": "1274",
+      "blanks": "101",
+      "comments": "17",
+      "linesOfCode": "1156"
+   },
+   {
+      "language": "Typescript JSX",
+      "files": "23",
+      "lines": "1176",
+      "blanks": "125",
+      "comments": "44",
+      "linesOfCode": "1007"
+   },
+   {
+      "language": "Sass",
+      "files": "6",
+      "lines": "158",
+      "blanks": "8",
+      "comments": "2",
+      "linesOfCode": "148"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "13",
+      "lines": "223",
+      "blanks": "46",
+      "comments": "35",
+      "linesOfCode": "142"
+   },
+   {
+      "language": "Stylus",
+      "files": "2",
+      "lines": "144",
+      "blanks": "39",
+      "comments": "4",
+      "linesOfCode": "101"
+   },
+   {
+      "language": "Handlebars",
+      "files": "6",
+      "lines": "67",
+      "blanks": "5",
+      "comments": "0",
+      "linesOfCode": "62"
+   },
+   {
+      "language": "Plain Text",
+      "files": "5",
+      "lines": "65",
+      "blanks": "19",
+      "comments": "0",
+      "linesOfCode": "46"
+   },
+   {
+      "language": "XML",
+      "files": "1",
+      "lines": "9",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "9"
+   },
+   {
+      "language": "Toml",
+      "files": "1",
+      "lines": "19",
+      "blanks": "3",
+      "comments": "8",
+      "linesOfCode": "8"
+   },
+   {
+      "language": "Total",
+      "files": "4163",
+      "lines": "727073",
+      "blanks": "74626",
+      "comments": "15047",
+      "linesOfCode": "637400"
+   }
+]

@@ -1,0 +1,66 @@
+[
+   {
+      "language": "JavaScript",
+      "files": "412",
+      "lines": "82003",
+      "blanks": "7215",
+      "comments": "6189",
+      "linesOfCode": "68599"
+   },
+   {
+      "language": "TypeScript",
+      "files": "19",
+      "lines": "1836",
+      "blanks": "221",
+      "comments": "76",
+      "linesOfCode": "1539"
+   },
+   {
+      "language": "HTML",
+      "files": "18",
+      "lines": "1402",
+      "blanks": "83",
+      "comments": "39",
+      "linesOfCode": "1280"
+   },
+   {
+      "language": "Markdown",
+      "files": "9",
+      "lines": "1089",
+      "blanks": "193",
+      "comments": "0",
+      "linesOfCode": "896"
+   },
+   {
+      "language": "CSS",
+      "files": "10",
+      "lines": "855",
+      "blanks": "130",
+      "comments": "8",
+      "linesOfCode": "717"
+   },
+   {
+      "language": "JSON",
+      "files": "10",
+      "lines": "324",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "324"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "2",
+      "lines": "118",
+      "blanks": "16",
+      "comments": "19",
+      "linesOfCode": "83"
+   },
+   {
+      "language": "Total",
+      "files": "480",
+      "lines": "87627",
+      "blanks": "7858",
+      "comments": "6331",
+      "linesOfCode": "73438"
+   }
+]

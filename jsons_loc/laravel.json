@@ -1,0 +1,74 @@
+[
+   {
+      "language": "PHP",
+      "files": "1395",
+      "lines": "229878",
+      "blanks": "34432",
+      "comments": "65566",
+      "linesOfCode": "129880"
+   },
+   {
+      "language": "Markdown",
+      "files": "35",
+      "lines": "2096",
+      "blanks": "556",
+      "comments": "0",
+      "linesOfCode": "1540"
+   },
+   {
+      "language": "JSON",
+      "files": "33",
+      "lines": "1419",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "1419"
+   },
+   {
+      "language": "CSS",
+      "files": "1",
+      "lines": "289",
+      "blanks": "49",
+      "comments": "12",
+      "linesOfCode": "228"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "3",
+      "lines": "178",
+      "blanks": "29",
+      "comments": "11",
+      "linesOfCode": "138"
+   },
+   {
+      "language": "YAML",
+      "files": "1",
+      "lines": "21",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "21"
+   },
+   {
+      "language": "Plain Text",
+      "files": "1",
+      "lines": "1",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "1"
+   },
+   {
+      "language": "JavaScript",
+      "files": "1",
+      "lines": "0",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "0"
+   },
+   {
+      "language": "Total",
+      "files": "1470",
+      "lines": "233882",
+      "blanks": "35066",
+      "comments": "65589",
+      "linesOfCode": "133227"
+   }
+]

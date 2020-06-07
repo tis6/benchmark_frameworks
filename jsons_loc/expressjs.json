@@ -1,0 +1,82 @@
+[
+   {
+      "language": "JavaScript",
+      "files": "152",
+      "lines": "20620",
+      "blanks": "3778",
+      "comments": "2820",
+      "linesOfCode": "14022"
+   },
+   {
+      "language": "Markdown",
+      "files": "11",
+      "lines": "4451",
+      "blanks": "831",
+      "comments": "0",
+      "linesOfCode": "3620"
+   },
+   {
+      "language": "JSON",
+      "files": "1",
+      "lines": "99",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "99"
+   },
+   {
+      "language": "Handlebars",
+      "files": "3",
+      "lines": "76",
+      "blanks": "5",
+      "comments": "0",
+      "linesOfCode": "71"
+   },
+   {
+      "language": "YAML",
+      "files": "1",
+      "lines": "73",
+      "blanks": "0",
+      "comments": "19",
+      "linesOfCode": "54"
+   },
+   {
+      "language": "HTML",
+      "files": "8",
+      "lines": "46",
+      "blanks": "2",
+      "comments": "0",
+      "linesOfCode": "44"
+   },
+   {
+      "language": "CSS",
+      "files": "4",
+      "lines": "45",
+      "blanks": "1",
+      "comments": "0",
+      "linesOfCode": "44"
+   },
+   {
+      "language": "Makefile",
+      "files": "1",
+      "lines": "13",
+      "blanks": "2",
+      "comments": "0",
+      "linesOfCode": "11"
+   },
+   {
+      "language": "Plain Text",
+      "files": "10",
+      "lines": "10",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "10"
+   },
+   {
+      "language": "Total",
+      "files": "191",
+      "lines": "25433",
+      "blanks": "4619",
+      "comments": "2839",
+      "linesOfCode": "17975"
+   }
+]

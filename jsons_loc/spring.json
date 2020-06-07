@@ -1,0 +1,138 @@
+[
+   {
+      "language": "Java",
+      "files": "7237",
+      "lines": "1184304",
+      "blanks": "177212",
+      "comments": "353433",
+      "linesOfCode": "653659"
+   },
+   {
+      "language": "XML",
+      "files": "605",
+      "lines": "17267",
+      "blanks": "3145",
+      "comments": "555",
+      "linesOfCode": "13567"
+   },
+   {
+      "language": "Kotlin",
+      "files": "87",
+      "lines": "11484",
+      "blanks": "1378",
+      "comments": "4625",
+      "linesOfCode": "5481"
+   },
+   {
+      "language": "SQL",
+      "files": "57",
+      "lines": "2472",
+      "blanks": "58",
+      "comments": "60",
+      "linesOfCode": "2354"
+   },
+   {
+      "language": "Plain Text",
+      "files": "31",
+      "lines": "3582",
+      "blanks": "1611",
+      "comments": "0",
+      "linesOfCode": "1971"
+   },
+   {
+      "language": "CSS",
+      "files": "21",
+      "lines": "673",
+      "blanks": "28",
+      "comments": "34",
+      "linesOfCode": "611"
+   },
+   {
+      "language": "YAML",
+      "files": "6",
+      "lines": "460",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "460"
+   },
+   {
+      "language": "Markdown",
+      "files": "6",
+      "lines": "308",
+      "blanks": "88",
+      "comments": "0",
+      "linesOfCode": "220"
+   },
+   {
+      "language": "Bourne Shell",
+      "files": "7",
+      "lines": "134",
+      "blanks": "28",
+      "comments": "15",
+      "linesOfCode": "91"
+   },
+   {
+      "language": "Batch",
+      "files": "1",
+      "lines": "104",
+      "blanks": "26",
+      "comments": "0",
+      "linesOfCode": "78"
+   },
+   {
+      "language": "HTML",
+      "files": "12",
+      "lines": "37",
+      "blanks": "2",
+      "comments": "0",
+      "linesOfCode": "35"
+   },
+   {
+      "language": "Ruby",
+      "files": "2",
+      "lines": "40",
+      "blanks": "6",
+      "comments": "2",
+      "linesOfCode": "32"
+   },
+   {
+      "language": "Protobuf",
+      "files": "3",
+      "lines": "36",
+      "blanks": "6",
+      "comments": "0",
+      "linesOfCode": "30"
+   },
+   {
+      "language": "JavaScript",
+      "files": "13",
+      "lines": "55",
+      "blanks": "2",
+      "comments": "30",
+      "linesOfCode": "23"
+   },
+   {
+      "language": "Python",
+      "files": "2",
+      "lines": "10",
+      "blanks": "2",
+      "comments": "0",
+      "linesOfCode": "8"
+   },
+   {
+      "language": "JSON",
+      "files": "1",
+      "lines": "5",
+      "blanks": "0",
+      "comments": "0",
+      "linesOfCode": "5"
+   },
+   {
+      "language": "Total",
+      "files": "8091",
+      "lines": "1220971",
+      "blanks": "183592",
+      "comments": "358754",
+      "linesOfCode": "678625"
+   }
+]
