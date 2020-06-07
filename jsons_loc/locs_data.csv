@@ -1,10 +1,8 @@
 repo/framework;files;lines;blanks;comments;linesOfCode;
 angular/angular;7871;858631;115837;123449;619345;
-aspnet/AspNetWebStack;3026;424911;60823;49938;314150;
 expressjs/express;191;25433;4619;2839;17975;
 dotnet/aspnetcore;17416;2199842;281366;232931;1685545;
 vuejs/vue;480;87627;7858;6331;73438;
-spring-projects/spring-framework;8091;1220971;183592;358754;678625;
 angular/angular.js;1232;326488;37266;37050;252172;
 django/django;3697;535141;98716;24395;412030;
 pallets/flask;196;31468;7445;823;23200;
