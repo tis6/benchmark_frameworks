@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 _repos_csv = []
 _issues_csv = []
 
-CSV_FPATH = Path('/home/lucas.rotsen/Git_Repos/benchmark_frameworks/csv_github')
+CSV_FPATH = Path('/home/lucas.rotsen/Git_Repos/benchmark_frameworks/github_metrics')
 METRICS_FPATH = Path('/home/lucas.rotsen/Git_Repos/benchmark_frameworks/metrics/raw')
 
 

@@ -196,7 +196,7 @@ def mine(owner, name):
 
 
 def writeCsv(repo, name):
-    file_infos = "/Users/Rafael/Desktop/benchmark_frameworks/csv_github/repos_graphql_%s.csv" % name
+    file_infos = "/Users/Rafael/Desktop/benchmark_frameworks/github_metrics/repos_graphql_%s.csv" % name
     with open(file_infos, 'w', encoding="utf-8") as new_file_info:
 
         fnames = [
@@ -252,7 +252,7 @@ def writeCsv(repo, name):
         print('Arquivo csv infos gerado com sucesso!')
 
     print('Iniciando geração do csv de issues')
-    file_issues = "/Users/Rafael/Desktop/benchmark_frameworks/csv_github/repos_graphql_%s_issues.csv" % name
+    file_issues = "/Users/Rafael/Desktop/benchmark_frameworks/github_metrics/repos_graphql_%s_issues.csv" % name
     with open(file_issues, 'w', encoding="utf-8") as new_file_issues:
         fnames = [
             'number',
